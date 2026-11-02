@@ -1,0 +1,23 @@
+[
+  {
+    "cle": "blois", "nom": "Blois", "dep": "41", "titre": "La yourte de Blois",
+    "texte": "Une yourte traditionnelle de 40 m², quartier calme, terrasse : un cocon pour pratiquer en petit groupe.",
+    "adresse": "51 rue de Villiersfins, 41000 Blois", "proche": "Proche d'Orléans et de Tours",
+    "acces": "Stationnement facile et gratuit à proximité immédiate", "groupe": "8 personnes au plus",
+    "image": "site/yourte-table", "cadrage": "58% 60%", "lat": 47.586, "lon": 1.335
+  },
+  {
+    "cle": "sete", "nom": "Sète", "dep": "34", "titre": "L'espace face à la mer",
+    "texte": "Un espace lumineux avec vue sur la mer, à 50 m de la plage, pour se former au rythme des vagues.",
+    "adresse": "Résidence Mer & Soleil, avenue Jean Monnet, 34200 Sète", "proche": "Proche de Montpellier",
+    "acces": "Parkings disponibles, transports en commun", "groupe": "4 personnes au plus",
+    "image": "site/sete-terrasse", "cadrage": "50% 22%", "cadrageMobile": "50% 4%", "lat": 43.403, "lon": 3.693
+  },
+  {
+    "cle": "briord", "nom": "Briord", "dep": "01", "titre": "L'espace nature de Briord",
+    "texte": "Un lieu atypique et préservé, en pleine nature, pour les retraites et ateliers immersifs. Ouverture prochaine, dates en 2027.",
+    "adresse": "01470 Briord", "proche": "Proche de Lyon",
+    "acces": "Parking gratuit et gîte sur place", "groupe": "à compléter",
+    "image": null, "lat": 45.777, "lon": 5.457, "bientot": true
+  }
+]

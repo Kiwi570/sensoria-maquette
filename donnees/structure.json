@@ -1,0 +1,22 @@
+{
+  "@context": "https://schema.org",
+  "@type": "EducationalOrganization",
+  "name": "SENSORIA",
+  "alternateName": "Sensoria Sagesse de Femme",
+  "description": "École et espace de soins holistiques fondés en 2012 par Sandrine Sansano : formations professionnelles en massages bien-être, magnétisme et énergétique, naturopathie, ateliers et séances à Blois, Sète et Briord.",
+  "url": "https://sensoria-maquette.vercel.app/",
+  "telephone": "+33673418005",
+  "email": "contact@formations-sensoria.fr",
+  "foundingDate": "2012",
+  "founder": { "@type": "Person", "name": "Sandrine Sansano" },
+  "address": { "@type": "PostalAddress", "streetAddress": "51 rue de Villiersfins", "postalCode": "41000", "addressLocality": "Blois", "addressCountry": "FR" },
+  "location": [
+    { "@type": "Place", "name": "Yourte de Blois", "address": { "@type": "PostalAddress", "streetAddress": "51 rue de Villiersfins", "postalCode": "41000", "addressLocality": "Blois", "addressCountry": "FR" } },
+    { "@type": "Place", "name": "Espace de Sète", "address": { "@type": "PostalAddress", "streetAddress": "Résidence Mer & Soleil, avenue Jean Monnet", "postalCode": "34200", "addressLocality": "Sète", "addressCountry": "FR" } }
+  ],
+  "sameAs": [
+    "https://www.instagram.com/sandrine.sansano/",
+    "https://www.facebook.com/profile.php?id=100063701431885",
+    "https://www.youtube.com/channel/UC6HB26bQ2tlzkfV79rf0G0g/videos"
+  ]
+}

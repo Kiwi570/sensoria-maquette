@@ -1,0 +1,185 @@
+{
+  "ecole.racines.frise": [
+    {
+      "annee": "Enfance",
+      "texte": "Un héritage familial de magnétiseurs, côté paternel et maternel."
+    },
+    {
+      "annee": "1996",
+      "texte": "Diplômée d’État dans les métiers du bien-être."
+    },
+    {
+      "annee": "2012",
+      "texte": "Création de l’espace d’accompagnement et du centre de formations."
+    },
+    {
+      "annee": "2017",
+      "texte": "Enseignements chamaniques auprès de chamans de différentes traditions."
+    },
+    {
+      "annee": "Aujourd’hui",
+      "texte": "Plus de 30 ans d’expérience et trois lieux : Blois, Sète, Briord."
+    }
+  ],
+  "ecole.cursus.liste": [
+    "Praticienne ACT® (approche chamanique) avec l’école Nature Conscience Chamanisme",
+    "Magnétiseuse issue de deux lignées de magnétiseurs, formée auprès de Pascal Diez (Amplitude formation), membre de l’Association des Guérisseurs de France",
+    "Naturopathe, formée et qualifiée au CNFDI",
+    "Facilitatrice en constellations du vivant avec l’école Nature Conscience Chamanisme",
+    "Accompagnante par le son et les vibrations avec l’école l’Art du son",
+    "Soins énergétiques, formée auprès du Dr Luc Bodin",
+    "Professeure de yoga et praticienne en hypnoméditation avec l’école et la fédération Green Yoga",
+    "Esthéticienne diplômée d’État (BTS esthétique cosmétique, lycée Camille Claudel de Fréjus)",
+    "Socio-esthéticienne diplômée (CODES, hôpital Bretonneau de Tours)",
+    "Animatrice professionnelle diplômée d’État (BEATEP)",
+    "Formation en harmonisation globale du Dr Thérèse Quillé",
+    "Retraite méditative et enseignements du bouddhisme tibétain au temple de Lerab Ling"
+  ],
+  "formations.faq.liste": [
+    {
+      "q": "Faut-il des connaissances préalables ?",
+      "r": "Non : les formations sont accessibles à tous. Un entretien préalable avec Sandrine permet de valider votre projet."
+    },
+    {
+      "q": "Combien de temps ai-je pour me former ?",
+      "r": "Il n’y a pas de limite de temps : la plateforme est accessible en illimité, et vous choisissez la date du présentiel quand vous êtes prêt."
+    },
+    {
+      "q": "Puis-je revenir réviser ?",
+      "r": "Oui : vous pouvez revenir participer gratuitement aux sessions pratiques en présentiel, autant de fois que nécessaire."
+    },
+    {
+      "q": "Que reçoit-on à la fin ?",
+      "r": "Une attestation de fin de formation professionnelle et un certificat d’école Sensoria. Ce n’est pas un diplôme d’État."
+    },
+    {
+      "q": "Le matériel est-il fourni ?",
+      "r": "Oui : huiles végétales et essentielles bio, tables de massage, plaids, peignoirs, serviettes, centrale pour pierres chaudes, supports de cours."
+    },
+    {
+      "q": "Peut-on déjeuner sur place ?",
+      "r": "Oui : vaisselle fournie et réchauffage possible, thé, tisanes et café bio offerts."
+    }
+  ],
+  "quantique.modalites.liste": [
+    {
+      "titre": "Présentiel intensif",
+      "texte": "135 heures de transmission dans la yourte de Blois, face à la mer à Sète ou en pleine nature à Briord."
+    },
+    {
+      "titre": "Supervision incluse",
+      "texte": "Un accompagnement personnalisé tout au long du parcours pour ancrer votre posture."
+    },
+    {
+      "titre": "E-learning illimité",
+      "texte": "La plateforme pour étudier le corps humain et réviser à votre rythme (même programme de biologie que les naturopathes)."
+    },
+    {
+      "titre": "Pratique personnelle",
+      "texte": "20 heures minimum, suivies dans votre carnet de bord (à confirmer : 40 h sur une fiche externe)."
+    },
+    {
+      "titre": "Révisions libres",
+      "texte": "Revenez gratuitement aux sessions autant de fois que nécessaire."
+    },
+    {
+      "titre": "Évaluation finale",
+      "texte": "Une étude de cas pratique, puis un entretien de fin de parcours."
+    }
+  ],
+  "quantique.programme.modules": [
+    {
+      "n": "1",
+      "titre": "Les bases du magnétisme & de l’énergétique",
+      "points": [
+        "Courants énergétiques, chakras, nadis, bases de l’ayurvéda",
+        "Les méridiens et les points d’ancrage traditionnels",
+        "Développer son ressenti : pierres, symboles, bols, couleurs",
+        "Ancrage et protection du praticien"
+      ]
+    },
+    {
+      "n": "2",
+      "titre": "Le praticien & son espace d’accompagnement",
+      "points": [
+        "Posture et éthique d’une pratique saine",
+        "Nettoyage énergétique du lieu de travail",
+        "Méditation, respiration, sourire intérieur, circulation du Qi",
+        "Connexion aux cinq éléments"
+      ]
+    },
+    {
+      "n": "3",
+      "titre": "La radiesthésie",
+      "points": [
+        "Histoire et maniement pas à pas du pendule",
+        "Utilisation des planches de radiesthésie",
+        "Le pendule comme outil d’équilibrage face aux surcharges émotionnelles"
+      ]
+    },
+    {
+      "n": "4",
+      "titre": "Le bain sonore aux bols chantants",
+      "points": [
+        "Histoire et traditions des bols chantants",
+        "Gestion des résonances, protocole complet de relaxation sonore",
+        "Pratique et démonstration du bain sonore"
+      ]
+    },
+    {
+      "n": "5",
+      "titre": "Techniques globales & soin ORIÂ®",
+      "points": [
+        "Le protocole exclusif ORIÂ® (reconnexion aux mémoires originelles)",
+        "Harmonisation par les couleurs, rééquilibrage des chakras",
+        "Le magnétisme appliqué au végétal et aux animaux"
+      ]
+    }
+  ],
+  "quantique.competences.liste": [
+    {
+      "titre": "Qualité d’accueil",
+      "texte": "Installer un accueil chaleureux, sécurisant et bienveillant, dans le respect des règles d’hygiène."
+    },
+    {
+      "titre": "Adaptabilité",
+      "texte": "Ajuster les techniques et leur intensité à la sensibilité et à la demande de chaque personne."
+    },
+    {
+      "titre": "Maîtrise technique",
+      "texte": "Appliquer avec précision les protocoles de magnétisme, de radiesthésie et d’intégration sonore."
+    },
+    {
+      "titre": "Pédagogie du bien-être",
+      "texte": "Transmettre des conseils d’harmonisation au quotidien."
+    },
+    {
+      "titre": "Vigilance & déontologie",
+      "texte": "Connaître les limites de la pratique et les précautions indispensables."
+    },
+    {
+      "titre": "Ateliers",
+      "texte": "Concevoir et animer des ateliers collectifs ou individuels (respiration, relaxation)."
+    }
+  ],
+  "infos.surplace.liste": [
+    {
+      "titre": "Matériel fourni",
+      "texte": "Huiles végétales et essentielles bio, tables de massage, plaids, peignoirs, serviettes, centrale pour pierres chaudes. À Sète : fascicules reliés, vidéos, paperboard, planches plastifiées."
+    },
+    {
+      "titre": "Repas",
+      "texte": "Repas possibles sur place : vaisselle fournie, réchauffage possible. Thé, tisanes et café bio."
+    },
+    {
+      "titre": "Horaires des cours",
+      "texte": "De 8 h à 18 h ou de 9 h à 17 h selon les cours ; stages de 9 h à 18 h ou 19 h."
+    }
+  ],
+  "infos.conditions.liste": [
+    "Délai de rétractation de 10 jours francs après la signature de la convention de formation.",
+    "Aucune annulation possible une fois le premier cours commencé.",
+    "Report d’une formation avec présentiel : par courrier recommandé ; l’acompte devient un avoir valable 12 mois.",
+    "Mineurs : attestation sur l’honneur du ou des tuteurs légaux."
+  ]
+}

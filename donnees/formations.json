@@ -1,0 +1,323 @@
+{
+  "domaines": [
+    {
+      "cle": "corporel",
+      "titre": "Techniques corporelles & réflexologies",
+      "court": "Corps & réflexologies",
+      "themes": [
+        "Shiatsu",
+        "Tuina",
+        "Réflexologies",
+        "Amma assis",
+        "Do In"
+      ],
+      "appel": "dès 99 €",
+      "detail": "Modules de 350 €, 35 h minimum chacun",
+      "image": "grok/domaine-corporel",
+      "cadrage": "50% 45%"
+    },
+    {
+      "cle": "massages",
+      "titre": "Massages bien-être",
+      "court": "Massages bien-être",
+      "themes": [
+        "10 massages du monde",
+        "Toucher conscient",
+        "Publics spécifiques",
+        "Pierres chaudes, bols, pochons"
+      ],
+      "appel": "dès 99 €",
+      "detail": "Cursus complet : 2 990 €, 270 h",
+      "image": "grok/domaine-massage",
+      "cadrage": "50% 55%"
+    },
+    {
+      "cle": "energetique",
+      "titre": "Énergétique, magnétisme & quantique",
+      "court": "Énergétique & magnétisme",
+      "themes": [
+        "Magnétisme",
+        "Énergétique",
+        "Radiesthésie",
+        "Bols chantants"
+      ],
+      "appel": "dès 99 €",
+      "detail": "Cursus complet : 1 950 €, 135 h de présentiel",
+      "image": "grok/domaine-energetique",
+      "cadrage": "50% 45%"
+    },
+    {
+      "cle": "memoires",
+      "titre": "Libération des mémoires",
+      "court": "Libération des mémoires",
+      "themes": [
+        "Méthode LHOVE®",
+        "Méthode ESCALE®",
+        "Soin ORIÂ®"
+      ],
+      "appel": "dès 450 €",
+      "detail": "Trois méthodes signatures créées par Sandrine",
+      "image": "grok/domaine-memoires",
+      "cadrage": "50% 50%"
+    },
+    {
+      "cle": "naturo",
+      "titre": "Naturopathie holistique",
+      "court": "Naturopathie",
+      "themes": [
+        "Naturopathie",
+        "Phyto-aromatologie",
+        "Gestion du stress"
+      ],
+      "appel": "dès 99 €",
+      "detail": "Cursus complet : 3 990 €, 18 à 36 mois",
+      "image": "grok/domaine-naturopathie",
+      "cadrage": "55% 45%"
+    }
+  ],
+  "liste": [
+    {
+      "cle": "quantique",
+      "domaine": "energetique",
+      "titre": "Praticien en techniques quantiques",
+      "sousTitre": "Magnétisme, énergétique, radiesthésie & bols chantants",
+      "prix": 1950,
+      "prixTexte": "1 950 €",
+      "paiement": "en 1 à 4 fois sans frais",
+      "duree": "135 h de présentiel en 5 modules",
+      "format": "Présentiel + e-learning",
+      "lieux": [
+        "Blois",
+        "Sète",
+        "Briord"
+      ],
+      "resume": "Ressentir, canaliser et harmoniser l'énergie : magnétisme traditionnel, radiesthésie, bain sonore aux bols et soin signature ORIÂ®.",
+      "image": "grok/fiche-quantique",
+      "page": "quantique",
+      "phare": true
+    },
+    {
+      "cle": "massages",
+      "domaine": "massages",
+      "titre": "Praticien en massages bien-être",
+      "sousTitre": "Cursus complet, 10 massages issus de traditions variées",
+      "prix": 2990,
+      "prixTexte": "2 990 €",
+      "paiement": "en 1 à 4 fois sans frais",
+      "duree": "270 h sur 6 à 10 mois (160 h de présentiel)",
+      "format": "Présentiel + e-learning",
+      "lieux": [
+        "Blois"
+      ],
+      "resume": "L'art du toucher conscient, enveloppant et relaxant, avec une posture professionnelle respectueuse. Sète et Briord sur demande.",
+      "image": "grok/fiche-massages",
+      "phare": true
+    },
+    {
+      "cle": "massages-carte",
+      "domaine": "massages",
+      "titre": "Massages à la carte",
+      "sousTitre": "Suédois, abhyanga, pierres chaudes, pochons, bols chantants…",
+      "prix": 350,
+      "prixTexte": "350 € le module",
+      "paiement": "en 1 à 2 fois sans frais",
+      "duree": "35 h minimum par module, dont 2 jours de présentiel",
+      "format": "Présentiel + e-learning",
+      "lieux": [
+        "Blois"
+      ],
+      "resume": "Un module à la fois, pour enrichir sa pratique : grands classiques, massages avec outils, publics spécifiques (maternité, seniors, sportifs).",
+      "image": "grok/fiche-massages-carte"
+    },
+    {
+      "cle": "reflexologie",
+      "domaine": "corporel",
+      "titre": "Réflexologie plantaire, palmaire & faciale",
+      "sousTitre": "Trois formations de relaxation, à suivre séparément",
+      "prix": 350,
+      "prixTexte": "350 € la formation",
+      "paiement": "en 1 à 2 fois sans frais",
+      "duree": "35 h minimum, dont 2 jours de présentiel",
+      "format": "Présentiel + e-learning",
+      "lieux": [
+        "Blois"
+      ],
+      "resume": "Pieds, mains, visage et crâne : des protocoles de détente précis, adaptés des bébés aux adultes pour la réflexologie plantaire.",
+      "image": "grok/fiche-reflexologie"
+    },
+    {
+      "cle": "amma",
+      "domaine": "corporel",
+      "titre": "Amma, shiatsu assis sur chaise",
+      "sousTitre": "Shiatsu assis sur chaise ergonomique",
+      "prix": 350,
+      "prixTexte": "350 €",
+      "paiement": "en 1 à 2 fois sans frais",
+      "duree": "35 h minimum, dont 2 jours de présentiel",
+      "format": "Présentiel + e-learning",
+      "lieux": [
+        "Blois"
+      ],
+      "resume": "Un cursus de praticien pour maîtriser un protocole d'Amma assis, issu des traditions d'Asie.",
+      "image": "grok/fiche-amma"
+    },
+    {
+      "cle": "tuina",
+      "domaine": "corporel",
+      "titre": "Tuina, massage traditionnel chinois",
+      "sousTitre": "Massage chinois de relaxation",
+      "prix": 350,
+      "prixTexte": "350 €",
+      "paiement": "en 1 à 2 fois sans frais",
+      "duree": "35 h minimum, dont 2 jours de présentiel",
+      "format": "Présentiel + e-learning",
+      "lieux": [
+        "Blois"
+      ],
+      "resume": "Une pratique issue de la tradition chinoise, enseignée comme un massage de relaxation, avec une posture professionnelle respectueuse.",
+      "image": "grok/fiche-tuina"
+    },
+    {
+      "cle": "do-in",
+      "domaine": "corporel",
+      "titre": "Animateur en Do In & auto-rééquilibrage",
+      "sousTitre": "L'auto-massage traditionnel, pour soi ou en atelier",
+      "prix": 99,
+      "prixTexte": "99 €",
+      "paiement": "",
+      "duree": "Une journée",
+      "format": "En ligne ou présentiel",
+      "lieux": [
+        "Blois"
+      ],
+      "resume": "Pratiquer le Do In de manière fluide et structurée, et apprendre à animer ses propres ateliers collectifs.",
+      "image": "grok/fiche-do-in"
+    },
+    {
+      "cle": "lhove",
+      "domaine": "memoires",
+      "titre": "Méthode LHOVE®",
+      "sousTitre": "Libération holistique des organes du ventre & des émotions liées",
+      "prix": 450,
+      "prixTexte": "450 €",
+      "paiement": "en 1 à 2 fois sans frais (à confirmer : 3 fois sur la fiche actuelle)",
+      "duree": "2 jours de présentiel",
+      "format": "Présentiel",
+      "lieux": [
+        "Blois"
+      ],
+      "resume": "Un protocole exclusif, créé par Sandrine, qui allie le toucher de la sphère abdominale au rééquilibrage énergétique, tout en douceur.",
+      "image": "grok/fiche-lhove"
+    },
+    {
+      "cle": "escale",
+      "domaine": "memoires",
+      "titre": "Méthode ESCALE®",
+      "sousTitre": "Éveil des sens par la créativité",
+      "prix": 1990,
+      "prixTexte": "1 990 €",
+      "paiement": "en 1 à 4 fois sans frais (prix à confirmer : 990 € sur la boutique actuelle)",
+      "duree": "Durée à compléter",
+      "format": "Présentiel",
+      "lieux": [
+        "Blois",
+        "Sète"
+      ],
+      "resume": "Pour les praticiens : associer l'expression artistique et sensorielle à des techniques d'auto-hypnose, dans un cadre structuré et éthique.",
+      "image": "grok/fiche-escale"
+    },
+    {
+      "cle": "naturopathe",
+      "domaine": "naturo",
+      "titre": "Naturopathe holistique",
+      "sousTitre": "Hygiène de vie, alimentation vivante, phytologie, respiration",
+      "prix": 3990,
+      "prixTexte": "3 990 €",
+      "paiement": "en 1 à 4 fois sans frais",
+      "duree": "18 à 36 mois à votre rythme (environ 10 h par semaine)",
+      "format": "En ligne + pratique à Blois",
+      "lieux": [
+        "Blois"
+      ],
+      "resume": "Toutes les clés pour accompagner vers une vitalité globale, avec un bilan de vitalité non médical et des cures saisonnières.",
+      "image": "grok/fiche-naturopathe",
+      "phare": true
+    },
+    {
+      "cle": "phyto",
+      "domaine": "naturo",
+      "titre": "Conseiller en phyto-aromatologie familiale",
+      "sousTitre": "Huiles essentielles et plantes, en toute sécurité",
+      "prix": 595,
+      "prixTexte": "595 €",
+      "paiement": "en 1 à 3 fois sans frais",
+      "duree": "Durée à compléter",
+      "format": "En ligne (bientôt aussi en présentiel)",
+      "lieux": [
+        "En ligne"
+      ],
+      "resume": "Propriétés des huiles essentielles, formes d'utilisation des plantes, fleurs de Bach : conseiller au quotidien, au sein du foyer.",
+      "image": "grok/fiche-phyto-aroma"
+    },
+    {
+      "cle": "stress",
+      "domaine": "naturo",
+      "titre": "Coach en mieux-être, gestion du stress",
+      "sousTitre": "Des outils concrets pour accompagner les périodes de surcharge",
+      "prix": 595,
+      "prixTexte": "595 €",
+      "paiement": "en 1 ou 3 fois sans frais",
+      "duree": "Durée à compléter",
+      "format": "En ligne (bientôt aussi en présentiel)",
+      "lieux": [
+        "En ligne"
+      ],
+      "resume": "Accompagner le bien-être mental, physique et émotionnel, avec une approche structurée et profondément humaine.",
+      "image": "grok/fiche-stress"
+    },
+    {
+      "cle": "sonotherapie",
+      "domaine": "energetique",
+      "titre": "Praticien en sonothérapie & relaxation sonore",
+      "sousTitre": "Bols chantants, bols de cristal, gongs, instruments de l'eau",
+      "prix": null,
+      "prixTexte": "Tarif à venir",
+      "paiement": "",
+      "duree": "Bientôt",
+      "format": "Présentiel",
+      "lieux": [
+        "Blois",
+        "Sète"
+      ],
+      "resume": "Structurer un bain sonore collectif ou une séance d'harmonisation individuelle. Nouveauté, ouverture prochaine.",
+      "image": "grok/fiche-sonotherapie",
+      "bientot": true
+    }
+  ],
+  "etapes": [
+    {
+      "titre": "Entretien préalable",
+      "texte": "Un échange avec Sandrine pour valider votre projet, sans aucun prérequis de connaissances."
+    },
+    {
+      "titre": "E-learning illimité",
+      "texte": "Vidéos, fiches et supports audio en accès 24 h sur 24, avant et après le présentiel."
+    },
+    {
+      "titre": "Présentiel en petit groupe",
+      "texte": "8 personnes au plus dans la yourte de Blois, 4 face à la mer à Sète."
+    },
+    {
+      "titre": "Pratique personnelle",
+      "texte": "Des heures de pratique suivies dans votre carnet de bord, avec supervision."
+    },
+    {
+      "titre": "Évaluation finale",
+      "texte": "Une étude de cas pratique, puis un entretien de fin de parcours."
+    },
+    {
+      "titre": "Attestation & certificat d'école",
+      "texte": "Une attestation de fin de formation et un certificat d'école Sensoria."
+    }
+  ]
+}

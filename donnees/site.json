@@ -1,0 +1,48 @@
+{
+  "nom": "SENSORIA",
+  "adresse": "https://sensoria-maquette.vercel.app",
+  "siteActuel": "www.formations-sensoria.fr",
+  "version": 1,
+  "langues": [
+    "fr"
+  ],
+  "fuseau": "Europe/Paris",
+  "navigation": [
+    "accueil",
+    "ecole",
+    "formations",
+    "agenda",
+    "infos-pratiques",
+    "temoignages",
+    "contact"
+  ],
+  "actionEntete": {
+    "page": "contact",
+    "params": "sujet=entretien"
+  },
+  "couleurs": {
+    "fond": "#F4EDE3",
+    "texte": "#2B1D16",
+    "voile": "#2B1D16",
+    "ouverture": "#2B1D16",
+    "menu": "#2B1D16",
+    "theme": "#F4EDE3"
+  },
+  "contact": {
+    "telephone": "06 73 41 80 05",
+    "telephoneLien": "+33673418005",
+    "email": "contact@formations-sensoria.fr",
+    "adresse": "51 rue de Villiersfins, 41000 Blois"
+  },
+  "reseaux": {
+    "instagram": "https://www.instagram.com/sandrine.sansano/",
+    "facebook": "https://www.facebook.com/profile.php?id=100063701431885",
+    "youtube": "https://www.youtube.com/channel/UC6HB26bQ2tlzkfV79rf0G0g/videos"
+  },
+  "polices": [
+    "/assets/polices/fraunces.woff2",
+    "/assets/polices/figtree.woff2"
+  ],
+  "imagePartage": "site/yourte-1280.webp",
+  "curseur": true
+}

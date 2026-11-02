@@ -1,0 +1,20 @@
+[
+  {"source": "recu/harmonise/lieux/blois-yourte.jpg", "nom": "site/yourte", "cadrage": [48, 40], "mobile": true},
+  {"source": "recu/harmonise/lieux/blois-yourte-table.jpg", "nom": "site/yourte-table", "cadrage": [58, 60], "mobile": true},
+  {"source": "recu/harmonise/lieux/blois-yourte-groupe-1.jpg", "nom": "site/yourte-groupe", "cadrage": [60, 50]},
+  {"source": "recu/harmonise/lieux/blois-yourte-video-1.jpg", "nom": "site/yourte-sandrine-debout", "cadrage": [50, 55]},
+  {"source": "recu/harmonise/lieux/blois-yourte-video-2.jpg", "nom": "site/yourte-sandrine-assise", "cadrage": [47, 55], "mobile": true},
+  {"source": "recu/harmonise/lieux/bain-sonore.jpg", "nom": "site/bain-sonore", "cadrage": [62, 58], "mobile": true},
+  {"source": "recu/harmonise/lieux/sete-vue-mer.jpg", "nom": "site/sete-terrasse", "cadrage": [50, 35], "mobile": true},
+  {"source": "recu/harmonise/sandrine/plage-meditation-1.jpg", "nom": "site/sandrine-meditation", "cadrage": [58, 55], "mobile": true},
+  {"source": "recu/harmonise/sandrine/duo-misther-1.jpg", "nom": "site/duo-misther", "cadrage": [52, 35]},
+  {"source": "recu/harmonise/sandrine/tambour-mer-1.jpg", "nom": "site/sandrine-tambour-1", "cadrage": [45, 40]},
+  {"source": "recu/harmonise/sandrine/tambour-mer-2.jpg", "nom": "site/sandrine-tambour-2", "cadrage": [55, 50]},
+  {"source": "recu/harmonise/sandrine/tambour-mer-3.jpg", "nom": "site/sandrine-tambour-3", "cadrage": [42, 45]},
+  {"source": "recu/harmonise/sandrine/tambour-mer-4.jpg", "nom": "site/sandrine-tambour-4", "cadrage": [55, 45]},
+  {"source": "recu/harmonise/sandrine/tambour-interieur.jpg", "nom": "site/sandrine-tambour-interieur", "cadrage": [40, 40]},
+  {"source": "recu/harmonise/sandrine/tambour-plage.jpg", "nom": "site/sandrine-tambour-plage", "cadrage": [50, 40]},
+  {"source": "recu/harmonise/tambours/tambours-ciel.jpg", "nom": "site/tambours-ciel", "cadrage": [50, 55]},
+  {"source": "recu/harmonise/tambours/tambour-sable-1.jpg", "nom": "site/tambour-sable-1", "cadrage": [50, 45]},
+  {"source": "recu/harmonise/tambours/tambour-sable-3.jpg", "nom": "site/tambour-sable-3", "cadrage": [56, 55]}
+]

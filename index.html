@@ -1,0 +1,552 @@
+<!doctype html>
+<html lang="fr" data-v="1" data-curseur data-page="accueil">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>SENSORIA : formations, soins &amp; ateliers holistiques à Blois, Sète et Briord</title>
+<meta name="description" content="École fondée en 2012 par Sandrine Sansano : massages bien-être, magnétisme et énergétique, naturopathie, méthodes de libération des mémoires. Petits groupes, paiement en plusieurs fois.">
+<meta name="robots" content="noindex, nofollow">
+<link rel="canonical" href="https://sensoria-maquette.vercel.app/">
+<style>:root{--fond:#F4EDE3;--texte:#2B1D16;--voile-fond:#2B1D16;--ouverture-fond:#2B1D16;--menu-fond:#2B1D16}:root { --entete-h: 72px; --barres-h: 0px; } html { background: var(--fond); color: var(--texte); scrollbar-gutter: stable; } body { margin: 0; background: var(--fond); } html.js:not(.calme):not(.secours):not([data-arrivee="retour"]) [data-anime] { opacity: 0; } html.js:not(.calme):not(.secours):not([data-arrivee="retour"]) [data-anime].vu { opacity: 1; } [data-voile] { position: fixed; inset: 0; z-index: 900; background: var(--voile-fond); transform: translateY(100%); visibility: hidden; pointer-events: none; } html[data-arrivee="voile"]:not(.voile-leve):not(.calme):not(.secours) [data-voile] { transform: none; visibility: visible; } html.calme [data-voile], html.secours [data-voile] { visibility: hidden !important; } .ouverture-panneau { position: fixed; inset: 0; z-index: 850; display: none; place-content: center; justify-items: center; background: var(--ouverture-fond, var(--voile-fond)); color: var(--fond); text-align: center; } html.js[data-arrivee="intro"]:not(.calme):not(.secours):not(.intro-finie) .ouverture-panneau { display: grid; } html.defilement-bloque, html.defilement-bloque body, html.js[data-arrivee="intro"]:not(.calme):not(.secours):not(.intro-finie), html.js[data-arrivee="intro"]:not(.calme):not(.secours):not(.intro-finie) body, html[data-arrivee="voile"]:not(.voile-leve):not(.calme):not(.secours), html[data-arrivee="voile"]:not(.voile-leve):not(.calme):not(.secours) body { overflow: hidden; } html.js[data-arrivee="intro"]:not(.calme):not(.secours):not(.intro-finie) { background-color: var(--ouverture-fond, var(--voile-fond)); } html[data-arrivee="voile"]:not(.voile-leve):not(.calme):not(.secours) { background-color: var(--voile-fond); }</style>
+<script>(function () {
+var d = document.documentElement, ss = null, ls = null;
+try { ss = window.sessionStorage; ls = window.localStorage; } catch (e) {}
+d.classList.add('js');
+var calme = false;
+try { calme = !!ls && ls.getItem('socle:calme') === 'oui'; } catch (e) {}
+if (!calme && window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches) calme = true;
+if (calme) d.classList.add('calme');
+var nav = performance.getEntriesByType ? performance.getEntriesByType('navigation')[0] : null;
+var type = nav ? nav.type : 'navigate';
+var depart = null;
+try { depart = JSON.parse(ss.getItem('socle:depart') || 'null'); ss.removeItem('socle:depart'); } catch (e) {}
+if (depart && !(Date.now() - depart.t < 15000)) depart = null;
+var retourSection = false;
+try { retourSection = !!ss.getItem('socle:calme-retour'); } catch (e) {}
+var mode = type === 'back_forward' || retourSection ? 'retour' : type === 'reload' ? 'intro' : depart ? 'voile' : 'intro';
+d.setAttribute('data-arrivee', mode);
+if (mode === 'voile' && depart.couleur) d.style.setProperty('--voile-fond', depart.couleur);
+if (type === 'reload' && 'scrollRestoration' in history) {
+if (!retourSection) history.scrollRestoration = 'manual';
+}
+try {
+var choisie = ls && ls.getItem('socle:langue');
+var langue = (d.lang || '').slice(0, 2);
+if (choisie && choisie !== langue && type === 'navigate' && !depart) {
+var alt = document.querySelector('link[rel="alternate"][hreflang="' + choisie + '"]');
+if (alt) location.replace(new URL(alt.href).pathname + location.search + location.hash);
+}
+} catch (e) {}
+setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('secours'); }, 2000);
+})();</script>
+<link rel="preload" href="/assets/polices/fraunces.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/polices/figtree.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/css/socle.css?v=1">
+<link rel="stylesheet" href="/assets/css/site.css?v=1">
+<link rel="modulepreload" href="/assets/js/site.js?v=1">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=1">
+<script src="/assets/vendor/gsap.min.js" defer></script>
+<script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
+<script src="/assets/vendor/SplitText.min.js" defer></script>
+<script type="module" src="/assets/js/site.js?v=1"></script>
+<meta name="theme-color" content="#F4EDE3">
+<link rel="icon" href="/assets/images/favicon-32.png" type="image/png" sizes="32x32">
+<link rel="icon" href="/assets/images/favicon-48.png" type="image/png" sizes="48x48">
+<link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="SENSORIA">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:title" content="SENSORIA : formations, soins &amp; ateliers holistiques à Blois, Sète et Briord">
+<meta property="og:description" content="École fondée en 2012 par Sandrine Sansano : massages bien-être, magnétisme et énergétique, naturopathie, méthodes de libération des mémoires. Petits groupes, paiement en plusieurs fois.">
+<meta property="og:url" content="https://sensoria-maquette.vercel.app/">
+<meta property="og:image" content="https://sensoria-maquette.vercel.app/assets/partage/accueil-fr.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="La yourte de Sensoria à Blois, avec le logo et l’accroche de l’école">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"EducationalOrganization","name":"SENSORIA","alternateName":"Sensoria Sagesse de Femme","description":"École et espace de soins holistiques fondés en 2012 par Sandrine Sansano : formations professionnelles en massages bien-être, magnétisme et énergétique, naturopathie, ateliers et séances à Blois, Sète et Briord.","url":"https://sensoria-maquette.vercel.app/","telephone":"+33673418005","email":"contact@formations-sensoria.fr","foundingDate":"2012","founder":{"@type":"Person","name":"Sandrine Sansano"},"address":{"@type":"PostalAddress","streetAddress":"51 rue de Villiersfins","postalCode":"41000","addressLocality":"Blois","addressCountry":"FR"},"location":[{"@type":"Place","name":"Yourte de Blois","address":{"@type":"PostalAddress","streetAddress":"51 rue de Villiersfins","postalCode":"41000","addressLocality":"Blois","addressCountry":"FR"}},{"@type":"Place","name":"Espace de Sète","address":{"@type":"PostalAddress","streetAddress":"Résidence Mer & Soleil, avenue Jean Monnet","postalCode":"34200","addressLocality":"Sète","addressCountry":"FR"}}],"sameAs":["https://www.instagram.com/sandrine.sansano/","https://www.facebook.com/profile.php?id=100063701431885","https://www.youtube.com/channel/UC6HB26bQ2tlzkfV79rf0G0g/videos"]}</script>
+</head>
+<body id="haut">
+<div data-voile aria-hidden="true"><svg class="couronne voile-couronne" viewBox="0 0 200 200" aria-hidden="true" focusable="false">
+<g class="couronne-tourne"><circle class="couronne-anneau" cx="100" cy="100" r="15"/><circle class="couronne-anneau" cx="100" cy="100" r="19"/><line class="couronne-rayon" x1="119.00" y1="100.00" x2="196.00" y2="100.00"/><line class="couronne-rayon" x1="118.63" y1="103.71" x2="194.16" y2="118.73"/><line class="couronne-rayon" x1="117.55" y1="107.27" x2="188.69" y2="136.74"/><line class="couronne-rayon" x1="115.80" y1="110.56" x2="179.82" y2="153.33"/><line class="couronne-rayon" x1="113.44" y1="113.44" x2="167.88" y2="167.88"/><line class="couronne-rayon" x1="110.56" y1="115.80" x2="153.33" y2="179.82"/><line class="couronne-rayon" x1="107.27" y1="117.55" x2="136.74" y2="188.69"/><line class="couronne-rayon" x1="103.71" y1="118.63" x2="118.73" y2="194.16"/><line class="couronne-rayon" x1="100.00" y1="119.00" x2="100.00" y2="196.00"/><line class="couronne-rayon" x1="96.29" y1="118.63" x2="81.27" y2="194.16"/><line class="couronne-rayon" x1="92.73" y1="117.55" x2="63.26" y2="188.69"/><line class="couronne-rayon" x1="89.44" y1="115.80" x2="46.67" y2="179.82"/><line class="couronne-rayon" x1="86.56" y1="113.44" x2="32.12" y2="167.88"/><line class="couronne-rayon" x1="84.20" y1="110.56" x2="20.18" y2="153.33"/><line class="couronne-rayon" x1="82.45" y1="107.27" x2="11.31" y2="136.74"/><line class="couronne-rayon" x1="81.37" y1="103.71" x2="5.84" y2="118.73"/><line class="couronne-rayon" x1="81.00" y1="100.00" x2="4.00" y2="100.00"/><line class="couronne-rayon" x1="81.37" y1="96.29" x2="5.84" y2="81.27"/><line class="couronne-rayon" x1="82.45" y1="92.73" x2="11.31" y2="63.26"/><line class="couronne-rayon" x1="84.20" y1="89.44" x2="20.18" y2="46.67"/><line class="couronne-rayon" x1="86.56" y1="86.56" x2="32.12" y2="32.12"/><line class="couronne-rayon" x1="89.44" y1="84.20" x2="46.67" y2="20.18"/><line class="couronne-rayon" x1="92.73" y1="82.45" x2="63.26" y2="11.31"/><line class="couronne-rayon" x1="96.29" y1="81.37" x2="81.27" y2="5.84"/><line class="couronne-rayon" x1="100.00" y1="81.00" x2="100.00" y2="4.00"/><line class="couronne-rayon" x1="103.71" y1="81.37" x2="118.73" y2="5.84"/><line class="couronne-rayon" x1="107.27" y1="82.45" x2="136.74" y2="11.31"/><line class="couronne-rayon" x1="110.56" y1="84.20" x2="153.33" y2="20.18"/><line class="couronne-rayon" x1="113.44" y1="86.56" x2="167.88" y2="32.12"/><line class="couronne-rayon" x1="115.80" y1="89.44" x2="179.82" y2="46.67"/><line class="couronne-rayon" x1="117.55" y1="92.73" x2="188.69" y2="63.26"/><line class="couronne-rayon" x1="118.63" y1="96.29" x2="194.16" y2="81.27"/><circle class="couronne-anneau couronne-ext" cx="100" cy="100" r="96"/></g></svg><div class="voile-contenu"><img src="/assets/images/lotus-160.webp" alt="" width="60" height="65"><span data-voile-libelle>Accueil</span></div></div>
+<div class="ouverture-panneau" data-ouverture aria-hidden="true">
+  <div class="ouverture-scene">
+    <div class="ouverture-oculus"><picture><source media="(max-width: 760px) and (orientation: portrait)" srcset="/assets/images/site/yourte-mobile-640.webp 640w, /assets/images/site/yourte-mobile-1080.webp 1080w" sizes="100vw"><img src="/assets/images/site/yourte-1280.webp" srcset="/assets/images/site/yourte-640.webp 640w, /assets/images/site/yourte-1280.webp 1280w, /assets/images/site/yourte-1920.webp 1920w" sizes="100vw" alt="" width="1280" height="853" fetchpriority="high" decoding="async"></picture></div>
+    <svg class="couronne ouverture-couronne" viewBox="0 0 200 200" aria-hidden="true" focusable="false">
+<g class="couronne-tourne"><circle class="couronne-anneau" cx="100" cy="100" r="15"/><circle class="couronne-anneau" cx="100" cy="100" r="19"/><line class="couronne-rayon" x1="119.00" y1="100.00" x2="196.00" y2="100.00"/><line class="couronne-rayon" x1="118.63" y1="103.71" x2="194.16" y2="118.73"/><line class="couronne-rayon" x1="117.55" y1="107.27" x2="188.69" y2="136.74"/><line class="couronne-rayon" x1="115.80" y1="110.56" x2="179.82" y2="153.33"/><line class="couronne-rayon" x1="113.44" y1="113.44" x2="167.88" y2="167.88"/><line class="couronne-rayon" x1="110.56" y1="115.80" x2="153.33" y2="179.82"/><line class="couronne-rayon" x1="107.27" y1="117.55" x2="136.74" y2="188.69"/><line class="couronne-rayon" x1="103.71" y1="118.63" x2="118.73" y2="194.16"/><line class="couronne-rayon" x1="100.00" y1="119.00" x2="100.00" y2="196.00"/><line class="couronne-rayon" x1="96.29" y1="118.63" x2="81.27" y2="194.16"/><line class="couronne-rayon" x1="92.73" y1="117.55" x2="63.26" y2="188.69"/><line class="couronne-rayon" x1="89.44" y1="115.80" x2="46.67" y2="179.82"/><line class="couronne-rayon" x1="86.56" y1="113.44" x2="32.12" y2="167.88"/><line class="couronne-rayon" x1="84.20" y1="110.56" x2="20.18" y2="153.33"/><line class="couronne-rayon" x1="82.45" y1="107.27" x2="11.31" y2="136.74"/><line class="couronne-rayon" x1="81.37" y1="103.71" x2="5.84" y2="118.73"/><line class="couronne-rayon" x1="81.00" y1="100.00" x2="4.00" y2="100.00"/><line class="couronne-rayon" x1="81.37" y1="96.29" x2="5.84" y2="81.27"/><line class="couronne-rayon" x1="82.45" y1="92.73" x2="11.31" y2="63.26"/><line class="couronne-rayon" x1="84.20" y1="89.44" x2="20.18" y2="46.67"/><line class="couronne-rayon" x1="86.56" y1="86.56" x2="32.12" y2="32.12"/><line class="couronne-rayon" x1="89.44" y1="84.20" x2="46.67" y2="20.18"/><line class="couronne-rayon" x1="92.73" y1="82.45" x2="63.26" y2="11.31"/><line class="couronne-rayon" x1="96.29" y1="81.37" x2="81.27" y2="5.84"/><line class="couronne-rayon" x1="100.00" y1="81.00" x2="100.00" y2="4.00"/><line class="couronne-rayon" x1="103.71" y1="81.37" x2="118.73" y2="5.84"/><line class="couronne-rayon" x1="107.27" y1="82.45" x2="136.74" y2="11.31"/><line class="couronne-rayon" x1="110.56" y1="84.20" x2="153.33" y2="20.18"/><line class="couronne-rayon" x1="113.44" y1="86.56" x2="167.88" y2="32.12"/><line class="couronne-rayon" x1="115.80" y1="89.44" x2="179.82" y2="46.67"/><line class="couronne-rayon" x1="117.55" y1="92.73" x2="188.69" y2="63.26"/><line class="couronne-rayon" x1="118.63" y1="96.29" x2="194.16" y2="81.27"/><circle class="couronne-anneau couronne-ext" cx="100" cy="100" r="96"/></g></svg>
+    <span class="ouverture-lueur"></span>
+  </div>
+  <p class="ouverture-nom"><span class="ouverture-lettre" style="--i:0">S</span><span class="ouverture-lettre" style="--i:1">E</span><span class="ouverture-lettre" style="--i:2">N</span><span class="ouverture-lettre" style="--i:3">S</span><span class="ouverture-lettre" style="--i:4">O</span><span class="ouverture-lettre" style="--i:5">R</span><span class="ouverture-lettre" style="--i:6">I</span><span class="ouverture-lettre" style="--i:7">A</span></p>
+  <p class="ouverture-ligne">École &amp; espace de soins holistiques</p>
+</div>
+<a class="evitement" href="#contenu">Aller au contenu</a>
+<header data-entete>
+  <div class="entete-rangee">
+    <a class="entete-logo" href="/" data-libelle="Accueil" aria-current="page">
+      <img src="/assets/images/logo-rond-96.png" alt="" width="44" height="44"><span class="entete-nom">SENSORIA</span>
+    </a>
+    <nav data-nav aria-label="Navigation principale">
+      <ul><li><a href="/l-ecole" data-libelle="L’école">L’école</a></li><li><a href="/formations" data-libelle="Formations">Formations</a></li><li><a href="/agenda" data-libelle="Agenda">Agenda</a></li><li><a href="/infos-pratiques" data-libelle="Infos pratiques">Infos pratiques</a></li><li><a href="/temoignages" data-libelle="Témoignages">Témoignages</a></li></ul>
+    </nav>
+    <div class="entete-actions">
+      <a class="bouton" href="/contact?sujet=entretien" data-libelle="Contact" data-survol="magnetique"><span class="libelle-long">Réserver un entretien</span><span class="libelle-court" aria-hidden="true">Entretien</span></a>
+      <button type="button" data-menu-bouton aria-controls="menu" aria-expanded="false" data-libelle-ouvrir="Menu" data-libelle-fermer="Fermer"><span class="menu-icone" aria-hidden="true"><i></i><i></i></span><span data-libelle-bouton>Menu</span></button>
+    </div>
+  </div>
+</header>
+<div id="menu" data-menu role="dialog" aria-modal="true" aria-label="Menu">
+  <svg class="couronne menu-couronne" viewBox="0 0 200 200" aria-hidden="true" focusable="false">
+<g class="couronne-tourne"><circle class="couronne-anneau" cx="100" cy="100" r="15"/><circle class="couronne-anneau" cx="100" cy="100" r="19"/><line class="couronne-rayon" x1="119.00" y1="100.00" x2="196.00" y2="100.00"/><line class="couronne-rayon" x1="118.63" y1="103.71" x2="194.16" y2="118.73"/><line class="couronne-rayon" x1="117.55" y1="107.27" x2="188.69" y2="136.74"/><line class="couronne-rayon" x1="115.80" y1="110.56" x2="179.82" y2="153.33"/><line class="couronne-rayon" x1="113.44" y1="113.44" x2="167.88" y2="167.88"/><line class="couronne-rayon" x1="110.56" y1="115.80" x2="153.33" y2="179.82"/><line class="couronne-rayon" x1="107.27" y1="117.55" x2="136.74" y2="188.69"/><line class="couronne-rayon" x1="103.71" y1="118.63" x2="118.73" y2="194.16"/><line class="couronne-rayon" x1="100.00" y1="119.00" x2="100.00" y2="196.00"/><line class="couronne-rayon" x1="96.29" y1="118.63" x2="81.27" y2="194.16"/><line class="couronne-rayon" x1="92.73" y1="117.55" x2="63.26" y2="188.69"/><line class="couronne-rayon" x1="89.44" y1="115.80" x2="46.67" y2="179.82"/><line class="couronne-rayon" x1="86.56" y1="113.44" x2="32.12" y2="167.88"/><line class="couronne-rayon" x1="84.20" y1="110.56" x2="20.18" y2="153.33"/><line class="couronne-rayon" x1="82.45" y1="107.27" x2="11.31" y2="136.74"/><line class="couronne-rayon" x1="81.37" y1="103.71" x2="5.84" y2="118.73"/><line class="couronne-rayon" x1="81.00" y1="100.00" x2="4.00" y2="100.00"/><line class="couronne-rayon" x1="81.37" y1="96.29" x2="5.84" y2="81.27"/><line class="couronne-rayon" x1="82.45" y1="92.73" x2="11.31" y2="63.26"/><line class="couronne-rayon" x1="84.20" y1="89.44" x2="20.18" y2="46.67"/><line class="couronne-rayon" x1="86.56" y1="86.56" x2="32.12" y2="32.12"/><line class="couronne-rayon" x1="89.44" y1="84.20" x2="46.67" y2="20.18"/><line class="couronne-rayon" x1="92.73" y1="82.45" x2="63.26" y2="11.31"/><line class="couronne-rayon" x1="96.29" y1="81.37" x2="81.27" y2="5.84"/><line class="couronne-rayon" x1="100.00" y1="81.00" x2="100.00" y2="4.00"/><line class="couronne-rayon" x1="103.71" y1="81.37" x2="118.73" y2="5.84"/><line class="couronne-rayon" x1="107.27" y1="82.45" x2="136.74" y2="11.31"/><line class="couronne-rayon" x1="110.56" y1="84.20" x2="153.33" y2="20.18"/><line class="couronne-rayon" x1="113.44" y1="86.56" x2="167.88" y2="32.12"/><line class="couronne-rayon" x1="115.80" y1="89.44" x2="179.82" y2="46.67"/><line class="couronne-rayon" x1="117.55" y1="92.73" x2="188.69" y2="63.26"/><line class="couronne-rayon" x1="118.63" y1="96.29" x2="194.16" y2="81.27"/><circle class="couronne-anneau couronne-ext" cx="100" cy="100" r="96"/></g></svg>
+  <ul><li style="--i:0"><a href="/" class="menu-lien" data-libelle="Accueil" aria-current="page">Accueil</a></li><li style="--i:1"><a href="/l-ecole" class="menu-lien" data-libelle="L’école">L’école</a></li><li style="--i:2"><a href="/formations" class="menu-lien" data-libelle="Formations">Formations</a></li><li style="--i:3"><a href="/agenda" class="menu-lien" data-libelle="Agenda">Agenda</a></li><li style="--i:4"><a href="/infos-pratiques" class="menu-lien" data-libelle="Infos pratiques">Infos pratiques</a></li><li style="--i:5"><a href="/temoignages" class="menu-lien" data-libelle="Témoignages">Témoignages</a></li><li style="--i:6"><a href="/contact" class="menu-lien" data-libelle="Contact">Contact</a></li></ul>
+  <div class="menu-pied">
+    <p><a class="bouton" href="/contact?sujet=entretien" data-libelle="Contact">Réserver un entretien</a></p>
+    <p><a class="bouton bouton--contour" href="tel:+33673418005">Appeler 06 73 41 80 05</a></p>
+    <p><a href="mailto:contact@formations-sensoria.fr">contact@formations-sensoria.fr</a></p>
+    <p><button type="button" class="lien" data-calme-bascule data-libelle-reduire="Réduire les animations" data-libelle-retablir="Rétablir les animations" data-libelle-systeme="Animations réduites par le réglage de votre appareil"><span data-libelle-bouton>Réduire les animations</span></button></p>
+  </div>
+</div>
+<main id="contenu" tabindex="-1">
+<section class="hero" id="debut" data-section-nom="ouverture">
+  <figure class="media hero-media" data-effet="oculus" data-oculus-hero style="--cadrage:48% 40%;--cadrage-mobile:48% 40%">
+  <picture><source media="(max-width: 760px) and (orientation: portrait)" srcset="/assets/images/site/yourte-mobile-640.webp 640w, /assets/images/site/yourte-mobile-1080.webp 1080w" sizes="100vw">
+    <img src="/assets/images/site/yourte-1280.webp" srcset="/assets/images/site/yourte-640.webp 640w, /assets/images/site/yourte-1280.webp 1280w, /assets/images/site/yourte-1920.webp 1920w" sizes="100vw" alt="La yourte de Blois : charpente rayonnante, lumière du toit, espace de pratique" width="1280" height="853" fetchpriority="high" loading="eager" decoding="async">
+  </picture>
+</figure>
+  <span class="hero-voile" aria-hidden="true"></span>
+  <svg class="couronne hero-couronne" viewBox="0 0 200 200" aria-hidden="true" focusable="false" data-effet="couronne">
+<g class="couronne-tourne"><circle class="couronne-anneau" cx="100" cy="100" r="15"/><circle class="couronne-anneau" cx="100" cy="100" r="19"/><line class="couronne-rayon" x1="119.00" y1="100.00" x2="196.00" y2="100.00"/><line class="couronne-rayon" x1="118.63" y1="103.71" x2="194.16" y2="118.73"/><line class="couronne-rayon" x1="117.55" y1="107.27" x2="188.69" y2="136.74"/><line class="couronne-rayon" x1="115.80" y1="110.56" x2="179.82" y2="153.33"/><line class="couronne-rayon" x1="113.44" y1="113.44" x2="167.88" y2="167.88"/><line class="couronne-rayon" x1="110.56" y1="115.80" x2="153.33" y2="179.82"/><line class="couronne-rayon" x1="107.27" y1="117.55" x2="136.74" y2="188.69"/><line class="couronne-rayon" x1="103.71" y1="118.63" x2="118.73" y2="194.16"/><line class="couronne-rayon" x1="100.00" y1="119.00" x2="100.00" y2="196.00"/><line class="couronne-rayon" x1="96.29" y1="118.63" x2="81.27" y2="194.16"/><line class="couronne-rayon" x1="92.73" y1="117.55" x2="63.26" y2="188.69"/><line class="couronne-rayon" x1="89.44" y1="115.80" x2="46.67" y2="179.82"/><line class="couronne-rayon" x1="86.56" y1="113.44" x2="32.12" y2="167.88"/><line class="couronne-rayon" x1="84.20" y1="110.56" x2="20.18" y2="153.33"/><line class="couronne-rayon" x1="82.45" y1="107.27" x2="11.31" y2="136.74"/><line class="couronne-rayon" x1="81.37" y1="103.71" x2="5.84" y2="118.73"/><line class="couronne-rayon" x1="81.00" y1="100.00" x2="4.00" y2="100.00"/><line class="couronne-rayon" x1="81.37" y1="96.29" x2="5.84" y2="81.27"/><line class="couronne-rayon" x1="82.45" y1="92.73" x2="11.31" y2="63.26"/><line class="couronne-rayon" x1="84.20" y1="89.44" x2="20.18" y2="46.67"/><line class="couronne-rayon" x1="86.56" y1="86.56" x2="32.12" y2="32.12"/><line class="couronne-rayon" x1="89.44" y1="84.20" x2="46.67" y2="20.18"/><line class="couronne-rayon" x1="92.73" y1="82.45" x2="63.26" y2="11.31"/><line class="couronne-rayon" x1="96.29" y1="81.37" x2="81.27" y2="5.84"/><line class="couronne-rayon" x1="100.00" y1="81.00" x2="100.00" y2="4.00"/><line class="couronne-rayon" x1="103.71" y1="81.37" x2="118.73" y2="5.84"/><line class="couronne-rayon" x1="107.27" y1="82.45" x2="136.74" y2="11.31"/><line class="couronne-rayon" x1="110.56" y1="84.20" x2="153.33" y2="20.18"/><line class="couronne-rayon" x1="113.44" y1="86.56" x2="167.88" y2="32.12"/><line class="couronne-rayon" x1="115.80" y1="89.44" x2="179.82" y2="46.67"/><line class="couronne-rayon" x1="117.55" y1="92.73" x2="188.69" y2="63.26"/><line class="couronne-rayon" x1="118.63" y1="96.29" x2="194.16" y2="81.27"/><circle class="couronne-anneau couronne-ext" cx="100" cy="100" r="96"/></g></svg>
+  <div class="hero-texte conteneur">
+    <p class="hero-marque" data-anime="gsap"><span>SENSORIA</span><span class="hero-sous">École &amp; espace de soins holistiques</span></p>
+    <h1 class="hero-titre" data-superpose>
+      <span class="ligne-masque"><span class="hero-ligne" data-anime="gsap">Formations, soins</span></span>
+      <span class="ligne-masque"><span class="hero-ligne" data-anime="gsap"><em>&amp; ateliers holistiques</em></span></span>
+      <span class="ligne-masque"><span class="hero-ligne hero-ligne--lieux" data-anime="gsap">à Blois, Sète &amp; Briord</span></span>
+    </h1>
+    <p class="hero-intro" data-anime="gsap">Une école à taille humaine fondée en 2012 par Sandrine Sansano, pour apprendre les massages bien-être, le magnétisme, la naturopathie et les méthodes de libération des mémoires.</p>
+    <div class="hero-actions" data-anime="gsap">
+      <a href="/formations" class="bouton" data-libelle="Formations" data-action-principale data-survol="magnetique">Voir les formations</a>
+      <a href="/contact?sujet=entretien" class="bouton bouton--clair" data-libelle="Contact" data-survol="magnetique">Réserver un entretien</a>
+    </div>
+    <p class="hero-info" data-info-cle data-anime="gsap" data-prochaine-formation><span class="hero-info-etiquette">Prochaine session</span> <span data-prochaine-texte>Techniques quantiques, modules 3 et 4 + soin ORIÂ®, Blois, 9 – 12 novembre 2026</span></p>
+  </div>
+</section>
+<section class="approche" id="approche">
+  <div class="conteneur approche-grille">
+    <div class="approche-portrait">
+      <figure class="media oculus-media" data-oculus style="--cadrage:55% 40%">
+  <picture>
+    <img src="/assets/images/site/sandrine-tambour-4-1280.webp" srcset="/assets/images/site/sandrine-tambour-4-640.webp 640w, /assets/images/site/sandrine-tambour-4-1280.webp 1280w, /assets/images/site/sandrine-tambour-4-1920.webp 1920w" sizes="(max-width: 760px) 90vw, 40vw" alt="Sandrine Sansano tient un tambour chamanique au bord de la mer" width="1280" height="1707" loading="lazy" decoding="async">
+  </picture>
+</figure>
+      <svg class="couronne approche-couronne" viewBox="0 0 200 200" aria-hidden="true" focusable="false" data-effet="couronne">
+<g class="couronne-tourne"><circle class="couronne-anneau" cx="100" cy="100" r="15"/><circle class="couronne-anneau" cx="100" cy="100" r="19"/><line class="couronne-rayon" x1="119.00" y1="100.00" x2="196.00" y2="100.00"/><line class="couronne-rayon" x1="118.35" y1="104.92" x2="192.73" y2="124.85"/><line class="couronne-rayon" x1="116.45" y1="109.50" x2="183.14" y2="148.00"/><line class="couronne-rayon" x1="113.44" y1="113.44" x2="167.88" y2="167.88"/><line class="couronne-rayon" x1="109.50" y1="116.45" x2="148.00" y2="183.14"/><line class="couronne-rayon" x1="104.92" y1="118.35" x2="124.85" y2="192.73"/><line class="couronne-rayon" x1="100.00" y1="119.00" x2="100.00" y2="196.00"/><line class="couronne-rayon" x1="95.08" y1="118.35" x2="75.15" y2="192.73"/><line class="couronne-rayon" x1="90.50" y1="116.45" x2="52.00" y2="183.14"/><line class="couronne-rayon" x1="86.56" y1="113.44" x2="32.12" y2="167.88"/><line class="couronne-rayon" x1="83.55" y1="109.50" x2="16.86" y2="148.00"/><line class="couronne-rayon" x1="81.65" y1="104.92" x2="7.27" y2="124.85"/><line class="couronne-rayon" x1="81.00" y1="100.00" x2="4.00" y2="100.00"/><line class="couronne-rayon" x1="81.65" y1="95.08" x2="7.27" y2="75.15"/><line class="couronne-rayon" x1="83.55" y1="90.50" x2="16.86" y2="52.00"/><line class="couronne-rayon" x1="86.56" y1="86.56" x2="32.12" y2="32.12"/><line class="couronne-rayon" x1="90.50" y1="83.55" x2="52.00" y2="16.86"/><line class="couronne-rayon" x1="95.08" y1="81.65" x2="75.15" y2="7.27"/><line class="couronne-rayon" x1="100.00" y1="81.00" x2="100.00" y2="4.00"/><line class="couronne-rayon" x1="104.92" y1="81.65" x2="124.85" y2="7.27"/><line class="couronne-rayon" x1="109.50" y1="83.55" x2="148.00" y2="16.86"/><line class="couronne-rayon" x1="113.44" y1="86.56" x2="167.88" y2="32.12"/><line class="couronne-rayon" x1="116.45" y1="90.50" x2="183.14" y2="52.00"/><line class="couronne-rayon" x1="118.35" y1="95.08" x2="192.73" y2="75.15"/><circle class="couronne-anneau couronne-ext" cx="100" cy="100" r="96"/></g></svg>
+    </div>
+    <div class="approche-texte">
+      <blockquote class="citation" data-anime="mots"><p>Prendre soin de soi commence parfois par l’autorisation de s’arrêter, d’écouter &amp; de remettre du mouvement là où tout semblait figé.</p></blockquote>
+      <p class="signature" data-anime>L’approche SENSORIA</p>
+      <svg class="infini infini--section" viewBox="0 0 120 40" aria-hidden="true" focusable="false" data-effet="infini"><path class="infini-trait" d="M60 20 C 48 4, 22 4, 22 20 C 22 36, 48 36, 60 20 C 72 4, 98 4, 98 20 C 98 36, 72 36, 60 20 Z"/><circle class="infini-point" r="2.6" cx="60" cy="20"/></svg>
+      <h2 data-anime="lignes">Considérer l’être dans sa globalité</h2>
+      <p data-anime>Fondé en 2012, Sensoria repose sur une philosophie simple : appliquer les lois de la nature pour accompagner chacun sur son chemin. Inspirée de pratiques millénaires, l’approche considère chaque personne dans sa dimension physique, émotionnelle et énergétique.</p>
+      <p data-anime>Le végétal, la vibration, le toucher conscient, l’expression et le mouvement s’unissent ici au service d’un même but : remettre du mouvement là où tout semblait figé. Sandrine y met plus de 30 années d’expérience, de recherche et de transmissions familiales.</p>
+      <p data-anime><a href="/l-ecole" class="lien-fleche" data-libelle="L’école">Découvrir l’école &amp; Sandrine</a></p>
+    </div>
+  </div>
+</section>
+<section class="domaines ecran" id="domaines" data-plein-ecran data-roue>
+  <div class="conteneur domaines-grille">
+    <div class="domaines-tete">
+      <h2 data-anime="lignes">Cinq domaines pour se former</h2>
+      <p data-anime>Des cursus complets ou des modules à la carte, en présentiel dans trois lieux, avec un e-learning en accès illimité.</p>
+      <p class="domaines-aide" data-anime>Faites défiler : la roue tourne et présente chaque domaine.</p>
+    </div>
+    <div class="roue" data-effet="roue-domaines" aria-hidden="true">
+      <svg class="couronne roue-couronne" viewBox="0 0 200 200" aria-hidden="true" focusable="false">
+<g class="couronne-tourne"><circle class="couronne-anneau" cx="100" cy="100" r="15"/><circle class="couronne-anneau" cx="100" cy="100" r="19"/><line class="couronne-rayon" x1="119.00" y1="100.00" x2="196.00" y2="100.00"/><line class="couronne-rayon" x1="118.77" y1="102.97" x2="194.82" y2="115.02"/><line class="couronne-rayon" x1="118.07" y1="105.87" x2="191.30" y2="129.67"/><line class="couronne-rayon" x1="116.93" y1="108.63" x2="185.54" y2="143.58"/><line class="couronne-rayon" x1="115.37" y1="111.17" x2="177.67" y2="156.43"/><line class="couronne-rayon" x1="113.44" y1="113.44" x2="167.88" y2="167.88"/><line class="couronne-rayon" x1="111.17" y1="115.37" x2="156.43" y2="177.67"/><line class="couronne-rayon" x1="108.63" y1="116.93" x2="143.58" y2="185.54"/><line class="couronne-rayon" x1="105.87" y1="118.07" x2="129.67" y2="191.30"/><line class="couronne-rayon" x1="102.97" y1="118.77" x2="115.02" y2="194.82"/><line class="couronne-rayon" x1="100.00" y1="119.00" x2="100.00" y2="196.00"/><line class="couronne-rayon" x1="97.03" y1="118.77" x2="84.98" y2="194.82"/><line class="couronne-rayon" x1="94.13" y1="118.07" x2="70.33" y2="191.30"/><line class="couronne-rayon" x1="91.37" y1="116.93" x2="56.42" y2="185.54"/><line class="couronne-rayon" x1="88.83" y1="115.37" x2="43.57" y2="177.67"/><line class="couronne-rayon" x1="86.56" y1="113.44" x2="32.12" y2="167.88"/><line class="couronne-rayon" x1="84.63" y1="111.17" x2="22.33" y2="156.43"/><line class="couronne-rayon" x1="83.07" y1="108.63" x2="14.46" y2="143.58"/><line class="couronne-rayon" x1="81.93" y1="105.87" x2="8.70" y2="129.67"/><line class="couronne-rayon" x1="81.23" y1="102.97" x2="5.18" y2="115.02"/><line class="couronne-rayon" x1="81.00" y1="100.00" x2="4.00" y2="100.00"/><line class="couronne-rayon" x1="81.23" y1="97.03" x2="5.18" y2="84.98"/><line class="couronne-rayon" x1="81.93" y1="94.13" x2="8.70" y2="70.33"/><line class="couronne-rayon" x1="83.07" y1="91.37" x2="14.46" y2="56.42"/><line class="couronne-rayon" x1="84.63" y1="88.83" x2="22.33" y2="43.57"/><line class="couronne-rayon" x1="86.56" y1="86.56" x2="32.12" y2="32.12"/><line class="couronne-rayon" x1="88.83" y1="84.63" x2="43.57" y2="22.33"/><line class="couronne-rayon" x1="91.37" y1="83.07" x2="56.42" y2="14.46"/><line class="couronne-rayon" x1="94.13" y1="81.93" x2="70.33" y2="8.70"/><line class="couronne-rayon" x1="97.03" y1="81.23" x2="84.98" y2="5.18"/><line class="couronne-rayon" x1="100.00" y1="81.00" x2="100.00" y2="4.00"/><line class="couronne-rayon" x1="102.97" y1="81.23" x2="115.02" y2="5.18"/><line class="couronne-rayon" x1="105.87" y1="81.93" x2="129.67" y2="8.70"/><line class="couronne-rayon" x1="108.63" y1="83.07" x2="143.58" y2="14.46"/><line class="couronne-rayon" x1="111.17" y1="84.63" x2="156.43" y2="22.33"/><line class="couronne-rayon" x1="113.44" y1="86.56" x2="167.88" y2="32.12"/><line class="couronne-rayon" x1="115.37" y1="88.83" x2="177.67" y2="43.57"/><line class="couronne-rayon" x1="116.93" y1="91.37" x2="185.54" y2="56.42"/><line class="couronne-rayon" x1="118.07" y1="94.13" x2="191.30" y2="70.33"/><line class="couronne-rayon" x1="118.77" y1="97.03" x2="194.82" y2="84.98"/><circle class="couronne-anneau couronne-ext" cx="100" cy="100" r="96"/></g></svg>
+      <div class="roue-centre"><img src="/assets/images/lotus-160.webp" alt="" width="80" height="86" loading="lazy"></div>
+      <span class="roue-etiquette" style="--a:-90deg" data-index="0"><span class="roue-etiquette-in"><strong>Corps &amp; réflexologies</strong><small>dès 99 €</small></span></span><span class="roue-etiquette" style="--a:-18deg" data-index="1"><span class="roue-etiquette-in"><strong>Massages bien-être</strong><small>dès 99 €</small></span></span><span class="roue-etiquette" style="--a:54deg" data-index="2"><span class="roue-etiquette-in"><strong>Énergétique &amp; magnétisme</strong><small>dès 99 €</small></span></span><span class="roue-etiquette" style="--a:126deg" data-index="3"><span class="roue-etiquette-in"><strong>Libération des mémoires</strong><small>dès 450 €</small></span></span><span class="roue-etiquette" style="--a:198deg" data-index="4"><span class="roue-etiquette-in"><strong>Naturopathie</strong><small>dès 99 €</small></span></span>
+    </div>
+    <ol class="domaines-liste" data-anime="cascade" aria-label="Les cinq domaines de formation">
+      <li class="domaine est-actif" data-index="0">
+        <figure class="media domaine-media" data-grok style="--cadrage:50% 45%">
+  <picture>
+    <img src="/assets/images/grok/domaine-corporel-1122.webp" srcset="/assets/images/grok/domaine-corporel-640.webp 640w, /assets/images/grok/domaine-corporel-1122.webp 1122w" sizes="(max-width: 760px) 90vw, 30vw" alt="" width="1122" height="1402" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+        <div class="domaine-texte">
+          <p class="domaine-num">01</p>
+          <h3>Techniques corporelles &amp; réflexologies</h3>
+          <p class="domaine-themes">Shiatsu · Tuina · Réflexologies · Amma assis · Do In</p>
+          <p class="domaine-prix"><strong data-prix>dès 99 €</strong> <span>Modules de 350 €, 35 h minimum chacun</span></p>
+          <a href="/formations?domaine=corporel" class="lien-fleche" data-libelle="Formations">Voir les formations</a>
+        </div>
+      </li><li class="domaine" data-index="1">
+        <figure class="media domaine-media" data-grok style="--cadrage:50% 55%">
+  <picture>
+    <img src="/assets/images/grok/domaine-massage-1122.webp" srcset="/assets/images/grok/domaine-massage-640.webp 640w, /assets/images/grok/domaine-massage-1122.webp 1122w" sizes="(max-width: 760px) 90vw, 30vw" alt="" width="1122" height="1402" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+        <div class="domaine-texte">
+          <p class="domaine-num">02</p>
+          <h3>Massages bien-être</h3>
+          <p class="domaine-themes">10 massages du monde · Toucher conscient · Publics spécifiques · Pierres chaudes, bols, pochons</p>
+          <p class="domaine-prix"><strong data-prix>dès 99 €</strong> <span>Cursus complet : 2 990 €, 270 h</span></p>
+          <a href="/formations?domaine=massages" class="lien-fleche" data-libelle="Formations">Voir les formations</a>
+        </div>
+      </li><li class="domaine" data-index="2">
+        <figure class="media domaine-media" data-grok style="--cadrage:50% 45%">
+  <picture>
+    <img src="/assets/images/grok/domaine-energetique-1122.webp" srcset="/assets/images/grok/domaine-energetique-640.webp 640w, /assets/images/grok/domaine-energetique-1122.webp 1122w" sizes="(max-width: 760px) 90vw, 30vw" alt="" width="1122" height="1402" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+        <div class="domaine-texte">
+          <p class="domaine-num">03</p>
+          <h3>Énergétique, magnétisme &amp; quantique</h3>
+          <p class="domaine-themes">Magnétisme · Énergétique · Radiesthésie · Bols chantants</p>
+          <p class="domaine-prix"><strong data-prix>dès 99 €</strong> <span>Cursus complet : 1 950 €, 135 h de présentiel</span></p>
+          <a href="/formations?domaine=energetique" class="lien-fleche" data-libelle="Formations">Voir les formations</a>
+        </div>
+      </li><li class="domaine" data-index="3">
+        <figure class="media domaine-media" data-grok style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/grok/domaine-memoires-1122.webp" srcset="/assets/images/grok/domaine-memoires-640.webp 640w, /assets/images/grok/domaine-memoires-1122.webp 1122w" sizes="(max-width: 760px) 90vw, 30vw" alt="" width="1122" height="1402" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+        <div class="domaine-texte">
+          <p class="domaine-num">04</p>
+          <h3>Libération des mémoires</h3>
+          <p class="domaine-themes">Méthode LHOVE® · Méthode ESCALE® · Soin ORIÂ®</p>
+          <p class="domaine-prix"><strong data-prix>dès 450 €</strong> <span>Trois méthodes signatures créées par Sandrine</span></p>
+          <a href="/formations?domaine=memoires" class="lien-fleche" data-libelle="Formations">Voir les formations</a>
+        </div>
+      </li><li class="domaine" data-index="4">
+        <figure class="media domaine-media" data-grok style="--cadrage:55% 45%">
+  <picture>
+    <img src="/assets/images/grok/domaine-naturopathie-1122.webp" srcset="/assets/images/grok/domaine-naturopathie-640.webp 640w, /assets/images/grok/domaine-naturopathie-1122.webp 1122w" sizes="(max-width: 760px) 90vw, 30vw" alt="" width="1122" height="1402" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+        <div class="domaine-texte">
+          <p class="domaine-num">05</p>
+          <h3>Naturopathie holistique</h3>
+          <p class="domaine-themes">Naturopathie · Phyto-aromatologie · Gestion du stress</p>
+          <p class="domaine-prix"><strong data-prix>dès 99 €</strong> <span>Cursus complet : 3 990 €, 18 à 36 mois</span></p>
+          <a href="/formations?domaine=naturo" class="lien-fleche" data-libelle="Formations">Voir les formations</a>
+        </div>
+      </li>
+    </ol>
+  </div>
+</section>
+<section class="voies conteneur" id="voies">
+  <div class="section-tete">
+    <h2 data-anime="lignes">Quatre voies pour cheminer</h2>
+    <p data-anime>En reconversion ou en quête d’évolution personnelle : choisissez le format qui vous ressemble.</p>
+  </div>
+  <ul class="voies-grille" data-anime="cascade">
+    <li class="voie" data-survol="incline" data-survol-force="4">
+      <figure class="media voie-media" data-fx="zoom" data-fx-force="14" style="--cadrage:62% 58%">
+  <picture><source media="(max-width: 760px) and (orientation: portrait)" srcset="/assets/images/site/bain-sonore-mobile-640.webp 640w, /assets/images/site/bain-sonore-mobile-1080.webp 1080w" sizes="(max-width: 760px) 90vw, 45vw">
+    <img src="/assets/images/site/bain-sonore-1280.webp" srcset="/assets/images/site/bain-sonore-640.webp 640w, /assets/images/site/bain-sonore-1280.webp 1280w, /assets/images/site/bain-sonore-1920.webp 1920w" sizes="(max-width: 760px) 90vw, 45vw" alt="Sandrine assise parmi les bols chantants et le gong, dans la yourte" width="1280" height="855" loading="lazy" decoding="async">
+  </picture>
+</figure>
+      <div class="voie-texte">
+        <p class="voie-num">01</p>
+        <h3>Séances individuelles</h3>
+        <p>Soins signatures ORIÂ®, LHOVE® et ACT®, voyages sonores, à Blois et Sète.</p>
+        <p class="voie-prix" data-prix>de 65 € à 85 €</p>
+        <a href="/infos-pratiques#tarifs-seances" class="lien-fleche" data-libelle="Infos pratiques">Voir les tarifs</a>
+      </div>
+    </li><li class="voie" data-survol="incline" data-survol-force="4">
+      <figure class="media voie-media" data-fx="zoom" data-fx-force="14" style="--cadrage:60% 50%">
+  <picture>
+    <img src="/assets/images/site/yourte-groupe-1280.webp" srcset="/assets/images/site/yourte-groupe-640.webp 640w, /assets/images/site/yourte-groupe-1280.webp 1280w, /assets/images/site/yourte-groupe-1920.webp 1920w" sizes="(max-width: 760px) 90vw, 45vw" alt="Un groupe assis dans la yourte de Blois pendant un atelier" width="1280" height="960" loading="lazy" decoding="async">
+  </picture>
+</figure>
+      <div class="voie-texte">
+        <p class="voie-num">02</p>
+        <h3>Ateliers</h3>
+        <p>Ateliers découverte pour s’initier, ateliers co-créatifs avec d’autres professionnels.</p>
+        <p class="voie-prix" data-prix>dès 39 €</p>
+        <a href="/agenda?type=atelier" class="lien-fleche" data-libelle="Agenda">Voir les dates</a>
+      </div>
+    </li><li class="voie" data-survol="incline" data-survol-force="4">
+      <figure class="media voie-media" data-fx="zoom" data-fx-force="14" style="--cadrage:50% 55%">
+  <picture>
+    <img src="/assets/images/site/yourte-sandrine-debout-1280.webp" srcset="/assets/images/site/yourte-sandrine-debout-640.webp 640w, /assets/images/site/yourte-sandrine-debout-1280.webp 1280w, /assets/images/site/yourte-sandrine-debout-1920.webp 1920w" sizes="(max-width: 760px) 90vw, 45vw" alt="Sandrine debout au centre de la yourte, sous la charpente" width="1280" height="720" loading="lazy" decoding="async">
+  </picture>
+</figure>
+      <div class="voie-texte">
+        <p class="voie-num">03</p>
+        <h3>Formations</h3>
+        <p>Cursus métier ou modules à la carte pour acquérir une posture juste et des compétences concrètes.</p>
+        <p class="voie-prix" data-prix>de 99 € à 3 990 €</p>
+        <a href="/formations" class="lien-fleche" data-libelle="Formations">Voir le catalogue</a>
+      </div>
+    </li><li class="voie" data-survol="incline" data-survol-force="4">
+      <figure class="media voie-media" data-fx="zoom" data-fx-force="14" style="--cadrage:50% 55%">
+  <picture>
+    <img src="/assets/images/site/tambours-ciel-1280.webp" srcset="/assets/images/site/tambours-ciel-640.webp 640w, /assets/images/site/tambours-ciel-1280.webp 1280w" sizes="(max-width: 760px) 90vw, 45vw" alt="Deux mains tiennent des tambours chamaniques face au ciel" width="1280" height="960" loading="lazy" decoding="async">
+  </picture>
+</figure>
+      <div class="voie-texte">
+        <p class="voie-num">04</p>
+        <h3>Parcours</h3>
+        <p>Parcours Femmes et Parcours Vivant : plusieurs mois, portés par la force du collectif.</p>
+        <p class="voie-prix" data-prix>45 € la session</p>
+        <a href="/contact?sujet=parcours" class="lien-fleche" data-libelle="Contact">En parler avec Sandrine</a>
+      </div>
+    </li>
+  </ul>
+</section>
+<section class="dates" id="dates">
+  <figure class="media dates-fond" data-grok data-fx="parallaxe" data-fx-force="6" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/grok/texture-lin-1280.webp" srcset="/assets/images/grok/texture-lin-640.webp 640w, /assets/images/grok/texture-lin-1280.webp 1280w, /assets/images/grok/texture-lin-1672.webp 1672w" sizes="100vw" alt="" width="1280" height="720" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+  <div class="conteneur dates-grille">
+    <div class="dates-tete">
+      <h2 data-anime="lignes">Prochaines dates</h2>
+      <p data-anime>Calculées chaque jour à l’heure de Paris : les dates passées disparaissent d’elles-mêmes.</p>
+      <p data-anime><a href="/agenda" class="bouton bouton--contour" data-libelle="Agenda" data-survol="magnetique">Tout l’agenda</a></p>
+    </div>
+    <div class="fil" data-effet="fil-du-temps" data-fil>
+      <svg class="fil-trait" viewBox="0 0 10 100" preserveAspectRatio="none" aria-hidden="true"><line x1="5" y1="0" x2="5" y2="100"/></svg>
+      <ol class="fil-liste" data-agenda-liste data-agenda-max="5">
+        <li class="fil-item" data-debut="2026-11-03" data-fin="2026-11-04" data-statut="encours">
+          <span class="fil-point" aria-hidden="true"></span>
+          <p class="fil-date"><span class="fil-jour">3</span><span class="fil-mois">nov.</span></p>
+          <div class="fil-texte">
+            <h3>Amma, shiatsu assis sur chaise</h3>
+            <p>3 – 4 novembre 2026 · Blois · 9 h – 18 h</p>
+          </div>
+          <p class="fil-statut" data-statut-texte>en cours</p>
+        </li><li class="fil-item" data-debut="2026-11-05" data-fin="2026-11-06" data-statut="avenir">
+          <span class="fil-point" aria-hidden="true"></span>
+          <p class="fil-date"><span class="fil-jour">5</span><span class="fil-mois">nov.</span></p>
+          <div class="fil-texte">
+            <h3>Massage suédois / californien « le toucher du cœur »</h3>
+            <p>5 – 6 novembre 2026 · Blois · 9 h – 18 h</p>
+          </div>
+          <p class="fil-statut" data-statut-texte>dans 2 jours</p>
+        </li><li class="fil-item" data-debut="2026-11-07" data-fin="2026-11-07" data-statut="avenir">
+          <span class="fil-point" aria-hidden="true"></span>
+          <p class="fil-date"><span class="fil-jour">7</span><span class="fil-mois">nov.</span></p>
+          <div class="fil-texte">
+            <h3>MIST&#39;HER : cycles &amp; vie au féminin</h3>
+            <p>7 novembre 2026 · Blois</p>
+          </div>
+          <p class="fil-statut" data-statut-texte>dans 4 jours</p>
+        </li><li class="fil-item" data-debut="2026-11-09" data-fin="2026-11-12" data-statut="avenir">
+          <span class="fil-point" aria-hidden="true"></span>
+          <p class="fil-date"><span class="fil-jour">9</span><span class="fil-mois">nov.</span></p>
+          <div class="fil-texte">
+            <h3>Techniques quantiques, modules 3 et 4 + soin ORIÂ®</h3>
+            <p>9 – 12 novembre 2026 · Blois</p>
+          </div>
+          <p class="fil-statut" data-statut-texte>dans 6 jours</p>
+        </li><li class="fil-item" data-debut="2026-11-14" data-fin="2026-11-14" data-statut="avenir">
+          <span class="fil-point" aria-hidden="true"></span>
+          <p class="fil-date"><span class="fil-jour">14</span><span class="fil-mois">nov.</span></p>
+          <div class="fil-texte">
+            <h3>RE&#39;CONNEXION, niveau 1 : intuition &amp; perceptions</h3>
+            <p>14 novembre 2026 · Blois</p>
+          </div>
+          <p class="fil-statut" data-statut-texte>dans 11 jours</p>
+        </li><li class="fil-item fil-item--reserve" data-debut="2026-12-07" data-fin="2026-12-09" data-statut="avenir" hidden>
+          <span class="fil-point" aria-hidden="true"></span>
+          <p class="fil-date"><span class="fil-jour">7</span><span class="fil-mois">déc.</span></p>
+          <div class="fil-texte">
+            <h3>Techniques quantiques, module 5</h3>
+            <p>7 – 9 décembre 2026 · Sète</p>
+          </div>
+          <p class="fil-statut" data-statut-texte>dans 34 jours</p>
+        </li><li class="fil-item fil-item--reserve" data-debut="2026-12-10" data-fin="2026-12-10" data-statut="avenir" hidden>
+          <span class="fil-point" aria-hidden="true"></span>
+          <p class="fil-date"><span class="fil-jour">10</span><span class="fil-mois">déc.</span></p>
+          <div class="fil-texte">
+            <h3>Techniques quantiques, évaluation finale</h3>
+            <p>10 décembre 2026 · Sète</p>
+          </div>
+          <p class="fil-statut" data-statut-texte>dans 37 jours</p>
+        </li>
+      </ol>
+    </div>
+  </div>
+</section>
+<section class="pourquoi" id="pourquoi">
+  <figure class="media pourquoi-fond" data-grok data-fx="parallaxe" data-fx-force="8" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/grok/texture-terre-1280.webp" srcset="/assets/images/grok/texture-terre-640.webp 640w, /assets/images/grok/texture-terre-1280.webp 1280w, /assets/images/grok/texture-terre-1672.webp 1672w" sizes="100vw" alt="" width="1280" height="720" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+  <svg class="couronne pourquoi-couronne" viewBox="0 0 200 200" aria-hidden="true" focusable="false" data-effet="couronne" data-couronne-ouvre>
+<g class="couronne-tourne"><circle class="couronne-anneau" cx="100" cy="100" r="15"/><circle class="couronne-anneau" cx="100" cy="100" r="19"/><line class="couronne-rayon" x1="119.00" y1="100.00" x2="196.00" y2="100.00"/><line class="couronne-rayon" x1="118.84" y1="102.48" x2="195.18" y2="112.53"/><line class="couronne-rayon" x1="118.35" y1="104.92" x2="192.73" y2="124.85"/><line class="couronne-rayon" x1="117.55" y1="107.27" x2="188.69" y2="136.74"/><line class="couronne-rayon" x1="116.45" y1="109.50" x2="183.14" y2="148.00"/><line class="couronne-rayon" x1="115.07" y1="111.57" x2="176.16" y2="158.44"/><line class="couronne-rayon" x1="113.44" y1="113.44" x2="167.88" y2="167.88"/><line class="couronne-rayon" x1="111.57" y1="115.07" x2="158.44" y2="176.16"/><line class="couronne-rayon" x1="109.50" y1="116.45" x2="148.00" y2="183.14"/><line class="couronne-rayon" x1="107.27" y1="117.55" x2="136.74" y2="188.69"/><line class="couronne-rayon" x1="104.92" y1="118.35" x2="124.85" y2="192.73"/><line class="couronne-rayon" x1="102.48" y1="118.84" x2="112.53" y2="195.18"/><line class="couronne-rayon" x1="100.00" y1="119.00" x2="100.00" y2="196.00"/><line class="couronne-rayon" x1="97.52" y1="118.84" x2="87.47" y2="195.18"/><line class="couronne-rayon" x1="95.08" y1="118.35" x2="75.15" y2="192.73"/><line class="couronne-rayon" x1="92.73" y1="117.55" x2="63.26" y2="188.69"/><line class="couronne-rayon" x1="90.50" y1="116.45" x2="52.00" y2="183.14"/><line class="couronne-rayon" x1="88.43" y1="115.07" x2="41.56" y2="176.16"/><line class="couronne-rayon" x1="86.56" y1="113.44" x2="32.12" y2="167.88"/><line class="couronne-rayon" x1="84.93" y1="111.57" x2="23.84" y2="158.44"/><line class="couronne-rayon" x1="83.55" y1="109.50" x2="16.86" y2="148.00"/><line class="couronne-rayon" x1="82.45" y1="107.27" x2="11.31" y2="136.74"/><line class="couronne-rayon" x1="81.65" y1="104.92" x2="7.27" y2="124.85"/><line class="couronne-rayon" x1="81.16" y1="102.48" x2="4.82" y2="112.53"/><line class="couronne-rayon" x1="81.00" y1="100.00" x2="4.00" y2="100.00"/><line class="couronne-rayon" x1="81.16" y1="97.52" x2="4.82" y2="87.47"/><line class="couronne-rayon" x1="81.65" y1="95.08" x2="7.27" y2="75.15"/><line class="couronne-rayon" x1="82.45" y1="92.73" x2="11.31" y2="63.26"/><line class="couronne-rayon" x1="83.55" y1="90.50" x2="16.86" y2="52.00"/><line class="couronne-rayon" x1="84.93" y1="88.43" x2="23.84" y2="41.56"/><line class="couronne-rayon" x1="86.56" y1="86.56" x2="32.12" y2="32.12"/><line class="couronne-rayon" x1="88.43" y1="84.93" x2="41.56" y2="23.84"/><line class="couronne-rayon" x1="90.50" y1="83.55" x2="52.00" y2="16.86"/><line class="couronne-rayon" x1="92.73" y1="82.45" x2="63.26" y2="11.31"/><line class="couronne-rayon" x1="95.08" y1="81.65" x2="75.15" y2="7.27"/><line class="couronne-rayon" x1="97.52" y1="81.16" x2="87.47" y2="4.82"/><line class="couronne-rayon" x1="100.00" y1="81.00" x2="100.00" y2="4.00"/><line class="couronne-rayon" x1="102.48" y1="81.16" x2="112.53" y2="4.82"/><line class="couronne-rayon" x1="104.92" y1="81.65" x2="124.85" y2="7.27"/><line class="couronne-rayon" x1="107.27" y1="82.45" x2="136.74" y2="11.31"/><line class="couronne-rayon" x1="109.50" y1="83.55" x2="148.00" y2="16.86"/><line class="couronne-rayon" x1="111.57" y1="84.93" x2="158.44" y2="23.84"/><line class="couronne-rayon" x1="113.44" y1="86.56" x2="167.88" y2="32.12"/><line class="couronne-rayon" x1="115.07" y1="88.43" x2="176.16" y2="41.56"/><line class="couronne-rayon" x1="116.45" y1="90.50" x2="183.14" y2="52.00"/><line class="couronne-rayon" x1="117.55" y1="92.73" x2="188.69" y2="63.26"/><line class="couronne-rayon" x1="118.35" y1="95.08" x2="192.73" y2="75.15"/><line class="couronne-rayon" x1="118.84" y1="97.52" x2="195.18" y2="87.47"/><circle class="couronne-anneau couronne-ext" cx="100" cy="100" r="96"/></g></svg>
+  <div class="conteneur pourquoi-in">
+    <h2 data-anime="lignes">Pourquoi se former chez Sensoria</h2>
+    <ul class="chiffres" data-anime="cascade">
+      <li><strong><span data-compteur="1045">1 045</span></strong><span>élèves formés depuis 2012</span><small>comptés par inscription, comme l’exige l’administration</small></li>
+      <li><strong><span data-compteur="100">100</span> %</strong><span>de réussite pour chaque formation</span></li>
+      <li><strong><span data-compteur="99">99</span> %</strong><span>de satisfaits ou très satisfaits depuis 2012</span><small>100 % en 2024</small></li>
+      <li><strong><span data-compteur="30">30</span></strong><span>ans d’expérience et de recherche</span></li>
+    </ul>
+    <ul class="engagements" data-anime="cascade">
+      <li><h3>Pas de limite de temps</h3><p>Plateforme en accès illimité, présentiel quand vous êtes prêt.</p></li><li><h3>Révisions gratuites</h3><p>Revenez aux sessions pratiques autant de fois que nécessaire.</p></li><li><h3>Paiement sans frais</h3><p>En 1 à 4 fois selon les formations, tarifs gelés depuis plusieurs années.</p></li>
+    </ul>
+    <p class="pourquoi-source">Chiffres déclarés par l’école, mise à jour de juin 2025.</p>
+  </div>
+</section>
+<section class="lieux conteneur" id="lieux">
+  <div class="lieux-grille">
+    <div class="lieux-tete">
+      <h2 data-anime="lignes">Trois lieux, trois respirations</h2>
+      <p data-anime>Une yourte à Blois, un espace face à la mer à Sète, et bientôt un lieu en pleine nature à Briord.</p>
+      <div class="carte" data-effet="carte-lieux" data-visuel role="img" aria-label="Carte schématique de la France avec Blois, Sète et Briord"><svg class="carte-svg" viewBox="-6 -6 390 380" aria-hidden="true" focusable="false">
+<path class="carte-contour" d="M215.3 12.8 C212.1 13.7 200.3 15.7 195.9 18.0 C191.5 20.3 190.3 21.8 188.9 26.8 C187.5 31.8 190.0 42.7 187.6 48.0 C185.2 53.3 181.2 54.1 174.5 58.8 C167.8 63.5 153.9 72.0 147.3 76.0 C140.7 80.0 141.1 84.1 134.8 82.8 C128.6 81.5 117.2 70.6 109.8 68.0 C102.4 65.4 91.9 61.5 90.3 67.2 C88.7 72.9 100.2 95.3 100.0 102.4 C99.8 109.5 94.2 108.1 88.9 110.0 C83.6 111.9 74.8 115.2 68.1 114.0 C61.4 112.8 56.7 103.1 48.6 102.8 C40.5 102.5 25.5 108.7 19.5 112.0 C13.5 115.3 11.8 119.5 12.5 122.8 C13.2 126.1 23.6 130.0 23.6 132.0 C23.6 134.0 12.5 132.8 12.5 134.8 C12.5 136.8 17.2 142.0 23.6 144.0 C30.0 146.0 45.0 144.8 50.8 146.8 C56.6 148.8 53.0 152.9 58.4 156.0 C63.8 159.1 79.5 161.9 83.4 165.2 C87.3 168.5 80.2 170.9 82.0 176.0 C83.8 181.1 89.4 190.3 94.5 196.0 C99.6 201.7 109.0 204.1 112.5 210.0 C116.0 215.9 115.8 221.2 115.3 231.2 C114.8 241.2 111.6 259.2 109.8 270.0 C108.0 280.8 105.7 288.2 104.2 296.0 C102.8 303.8 102.6 312.5 101.1 316.8 C99.6 321.1 92.4 318.7 95.0 321.6 C97.6 324.5 108.5 330.3 116.7 334.0 C125.0 337.7 136.6 342.7 144.5 344.0 C152.4 345.3 156.0 340.0 163.9 342.0 C171.8 344.0 183.3 353.2 191.7 356.0 C200.0 358.8 207.2 358.4 214.0 358.8 C220.8 359.2 230.1 360.5 232.6 358.4 C235.1 356.3 229.3 350.7 229.2 346.0 C229.1 341.3 229.0 334.3 232.0 330.0 C235.0 325.7 243.1 322.7 247.0 320.0 C250.9 317.3 251.4 313.8 255.6 314.0 C259.8 314.2 266.1 319.5 272.3 321.2 C278.6 322.9 286.9 322.2 293.1 324.0 C299.3 325.8 303.3 331.8 309.3 332.0 C315.3 332.2 324.4 328.2 329.3 325.2 C334.3 322.2 336.1 316.9 339.0 314.0 C341.9 311.1 344.2 309.5 346.5 308.0 C348.8 306.5 354.1 308.1 352.9 304.8 C351.6 301.5 341.8 294.8 339.0 288.0 C336.2 281.2 336.2 271.3 336.2 264.0 C336.2 256.7 339.5 251.0 339.0 244.0 C338.5 237.0 337.3 228.0 333.4 222.0 C329.5 216.0 316.8 213.0 315.4 208.0 C314.0 203.0 321.2 200.0 325.1 192.0 C329.0 184.0 333.9 166.7 339.0 160.0 C344.1 153.3 353.1 156.0 355.7 152.0 C358.3 148.0 353.4 142.7 354.3 136.0 C355.2 129.3 358.2 118.5 361.2 112.0 C364.2 105.5 376.0 100.5 372.3 96.8 C368.6 93.1 347.3 93.5 339.0 90.0 C330.7 86.5 327.9 78.7 322.3 76.0 C316.7 73.3 312.8 78.3 305.6 74.0 C298.4 69.7 286.7 52.7 279.3 50.0 C271.9 47.3 268.8 61.0 261.2 58.0 C253.5 55.0 241.1 39.5 233.4 32.0 C225.8 24.5 218.3 16.0 215.3 12.8 Z"/>
+<path class="carte-trace" d="M181.6 152.6 Q214.3 214.3 247.1 319.9 Q271.6 250.4 296.1 224.9"/>
+<g class="carte-repere" data-repere style="--i:0" transform="translate(181.6 152.6)">
+<circle class="carte-halo" r="14"/><circle class="carte-point" r="5.5"/>
+<text class="carte-nom" x="-14" y="5" text-anchor="end">Blois</text></g><g class="carte-repere" data-repere style="--i:1" transform="translate(247.1 319.9)">
+<circle class="carte-halo" r="14"/><circle class="carte-point" r="5.5"/>
+<text class="carte-nom" x="14" y="5" text-anchor="start">Sète</text></g><g class="carte-repere carte-repere--bientot" data-repere style="--i:2" transform="translate(296.1 224.9)">
+<circle class="carte-halo" r="14"/><circle class="carte-point" r="5.5"/>
+<text class="carte-nom" x="14" y="5" text-anchor="start">Briord</text></g>
+</svg></div>
+    </div>
+    <ul class="lieux-liste" data-anime="cascade">
+      <li class="lieu lieu--blois">
+        <figure class="media lieu-media" data-fx="parallaxe" data-fx-force="8" style="--cadrage:58% 60%">
+  <picture><source media="(max-width: 760px) and (orientation: portrait)" srcset="/assets/images/site/yourte-table-mobile-640.webp 640w, /assets/images/site/yourte-table-mobile-1080.webp 1080w" sizes="(max-width: 760px) 90vw, 30vw">
+    <img src="/assets/images/site/yourte-table-1280.webp" srcset="/assets/images/site/yourte-table-640.webp 640w, /assets/images/site/yourte-table-1280.webp 1280w, /assets/images/site/yourte-table-1920.webp 1920w" sizes="(max-width: 760px) 90vw, 30vw" alt="La yourte de Blois" width="1280" height="853" loading="lazy" decoding="async">
+  </picture>
+</figure>
+        <div class="lieu-texte">
+          <h3>Blois <small>(41)</small></h3>
+          <p>Une yourte traditionnelle de 40 m², quartier calme, terrasse : un cocon pour pratiquer en petit groupe.</p>
+          <p class="lieu-groupe">8 personnes au plus · Proche d&#39;Orléans et de Tours</p>
+        </div>
+      </li><li class="lieu lieu--sete">
+        <figure class="media lieu-media" data-fx="onde" data-fx-force="1.2" style="--cadrage:50% 22%;--cadrage-mobile:50% 4%">
+  <picture><source media="(max-width: 760px) and (orientation: portrait)" srcset="/assets/images/site/sete-terrasse-mobile-640.webp 640w" sizes="(max-width: 760px) 90vw, 30vw">
+    <img src="/assets/images/site/sete-terrasse-1280.webp" srcset="/assets/images/site/sete-terrasse-640.webp 640w, /assets/images/site/sete-terrasse-1280.webp 1280w, /assets/images/site/sete-terrasse-1920.webp 1920w" sizes="(max-width: 760px) 90vw, 30vw" alt="L&#39;espace face à la mer" width="1280" height="720" loading="lazy" decoding="async">
+  </picture>
+</figure>
+        <div class="lieu-texte">
+          <h3>Sète <small>(34)</small></h3>
+          <p>Un espace lumineux avec vue sur la mer, à 50 m de la plage, pour se former au rythme des vagues.</p>
+          <p class="lieu-groupe">4 personnes au plus · Proche de Montpellier</p>
+        </div>
+      </li><li class="lieu lieu--briord">
+        <div class="lieu-media lieu-media--dessin" data-visuel><svg class="couronne lieu-couronne" viewBox="0 0 200 200" aria-hidden="true" focusable="false">
+<g class="couronne-tourne"><circle class="couronne-anneau" cx="100" cy="100" r="15"/><circle class="couronne-anneau" cx="100" cy="100" r="19"/><line class="couronne-rayon" x1="119.00" y1="100.00" x2="196.00" y2="100.00"/><line class="couronne-rayon" x1="118.07" y1="105.87" x2="191.30" y2="129.67"/><line class="couronne-rayon" x1="115.37" y1="111.17" x2="177.67" y2="156.43"/><line class="couronne-rayon" x1="111.17" y1="115.37" x2="156.43" y2="177.67"/><line class="couronne-rayon" x1="105.87" y1="118.07" x2="129.67" y2="191.30"/><line class="couronne-rayon" x1="100.00" y1="119.00" x2="100.00" y2="196.00"/><line class="couronne-rayon" x1="94.13" y1="118.07" x2="70.33" y2="191.30"/><line class="couronne-rayon" x1="88.83" y1="115.37" x2="43.57" y2="177.67"/><line class="couronne-rayon" x1="84.63" y1="111.17" x2="22.33" y2="156.43"/><line class="couronne-rayon" x1="81.93" y1="105.87" x2="8.70" y2="129.67"/><line class="couronne-rayon" x1="81.00" y1="100.00" x2="4.00" y2="100.00"/><line class="couronne-rayon" x1="81.93" y1="94.13" x2="8.70" y2="70.33"/><line class="couronne-rayon" x1="84.63" y1="88.83" x2="22.33" y2="43.57"/><line class="couronne-rayon" x1="88.83" y1="84.63" x2="43.57" y2="22.33"/><line class="couronne-rayon" x1="94.13" y1="81.93" x2="70.33" y2="8.70"/><line class="couronne-rayon" x1="100.00" y1="81.00" x2="100.00" y2="4.00"/><line class="couronne-rayon" x1="105.87" y1="81.93" x2="129.67" y2="8.70"/><line class="couronne-rayon" x1="111.17" y1="84.63" x2="156.43" y2="22.33"/><line class="couronne-rayon" x1="115.37" y1="88.83" x2="177.67" y2="43.57"/><line class="couronne-rayon" x1="118.07" y1="94.13" x2="191.30" y2="70.33"/><circle class="couronne-anneau couronne-ext" cx="100" cy="100" r="96"/></g></svg><span>Photo de Briord à venir</span></div>
+        <div class="lieu-texte">
+          <h3>Briord <small>(01)</small></h3>
+          <p>Un lieu atypique et préservé, en pleine nature, pour les retraites et ateliers immersifs. Ouverture prochaine, dates en 2027.</p>
+          <p class="lieu-groupe"><span class="a-completer">à compléter</span> · Proche de Lyon</p>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <p class="lieux-lien" data-anime><a href="/infos-pratiques#lieux" class="lien-fleche" data-libelle="Infos pratiques">Adresses &amp; accès</a></p>
+</section>
+<section class="paroles" id="temoignages">
+  <figure class="media paroles-fond" data-grok data-fx="zoom" data-fx-force="10" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/grok/temoignages-cercle-1280.webp" srcset="/assets/images/grok/temoignages-cercle-640.webp 640w, /assets/images/grok/temoignages-cercle-1280.webp 1280w, /assets/images/grok/temoignages-cercle-1672.webp 1672w" sizes="100vw" alt="Coussins de méditation disposés en cercle autour d’un bol" width="1280" height="720" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+  <div class="conteneur paroles-in">
+    <div class="paroles-tete">
+      <h2 data-anime="lignes">Ils sont ma plus belle récompense</h2>
+      <p data-anime>Extraits d’avis publiés par des élèves sur le site actuel.</p>
+    </div>
+    <div class="cercle" data-effet="cercle-de-parole" data-cercle>
+      <svg class="cercle-anneau" viewBox="0 0 200 200" aria-hidden="true" data-audit-ignorer><circle cx="100" cy="100" r="98"/></svg>
+      <div class="cercle-centre"><p class="cercle-note">5,0</p><p>sur 5<br>8 avis</p></div>
+      <ul class="cercle-liste">
+        <li class="cercle-avis" style="--a:-90deg">
+          <blockquote><p>« Une formation intense et complète dans un cadre où les énergies vous enveloppent et vous apaisent. »</p><footer><strong>Christophe D.</strong>, Techniques quantiques, Blois</footer></blockquote>
+        </li><li class="cercle-avis" style="--a:-30deg">
+          <blockquote><p>« Ce que je retiens le plus, c&#39;est la qualité d&#39;accompagnement de Sandrine. »</p><footer><strong>Morgane</strong>, Praticienne en massage bien-être</footer></blockquote>
+        </li><li class="cercle-avis" style="--a:30deg">
+          <blockquote><p>« Adepte de la bienveillance et de la douceur de Sandrine ainsi que de son professionnalisme. »</p><footer><strong>Vanessa</strong>, Massages et cursus magnétiseur</footer></blockquote>
+        </li><li class="cercle-avis" style="--a:90deg">
+          <blockquote><p>« Une formation très enrichissante et au top avec un suivi individuel. »</p><footer><strong>Esmeralda P.</strong>, Naturopathie</footer></blockquote>
+        </li><li class="cercle-avis" style="--a:150deg">
+          <blockquote><p>« Plus qu&#39;une formatrice, une amie très chère et d&#39;une patience à toute épreuve. »</p><footer><strong>Émilie</strong>, Naturopathie et réflexologies</footer></blockquote>
+        </li><li class="cercle-avis" style="--a:210deg">
+          <blockquote><p>« Une formation de qualité alliant théorie et pratique dans une ambiance chaleureuse et bienveillante. »</p><footer><strong>Virginie L.</strong>, Massage bien-être, dans la yourte</footer></blockquote>
+        </li>
+      </ul>
+    </div>
+    <p class="paroles-lien" data-anime><a href="/temoignages" class="bouton" data-libelle="Témoignages" data-survol="magnetique">Lire les témoignages</a></p>
+  </div>
+</section>
+<section class="fin" id="fin">
+  <div class="conteneur fin-grille">
+    <div class="bol" data-effet="bol" data-bol>
+      <figure class="media bol-media" data-grok data-anime="rideau" style="--cadrage:58% 62%">
+  <picture>
+    <img src="/assets/images/grok/bol-cuivre-1254.webp" srcset="/assets/images/grok/bol-cuivre-640.webp 640w, /assets/images/grok/bol-cuivre-1254.webp 1254w" sizes="(max-width: 760px) 90vw, 40vw" alt="Bol chantant en cuivre rempli d’eau, ondes à la surface" width="1254" height="1254" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+      <svg class="bol-ondes" viewBox="0 0 200 200" aria-hidden="true" data-audit-ignorer><circle class="bol-onde" cx="100" cy="100" r="40" style="--i:0"/><circle class="bol-onde" cx="100" cy="100" r="40" style="--i:1"/><circle class="bol-onde" cx="100" cy="100" r="40" style="--i:2"/><circle class="bol-onde" cx="100" cy="100" r="40" style="--i:3"/></svg>
+      <p class="bol-question">Une pause sonore avant de partir ?</p>
+      <button type="button" class="bouton bouton--clair bol-bouton" data-bol-bouton aria-pressed="false" data-libelle-ecouter="Écouter un bol chantant" data-libelle-arreter="Arrêter le son"><span class="bol-icone" aria-hidden="true"></span><span data-libelle-bouton>Écouter un bol chantant</span></button>
+      <p class="bol-aide">Le son ne démarre qu’après votre clic. Il est créé dans votre navigateur.</p>
+      <p class="visuellement-cache" role="status" data-bol-etat data-joue="Un bol chantant résonne" data-arrete="Son arrêté"></p>
+    </div>
+    <div class="fin-texte">
+      <svg class="infini infini--section" viewBox="0 0 120 40" aria-hidden="true" focusable="false" data-effet="infini"><path class="infini-trait" d="M60 20 C 48 4, 22 4, 22 20 C 22 36, 48 36, 60 20 C 72 4, 98 4, 98 20 C 98 36, 72 36, 60 20 Z"/><circle class="infini-point" r="2.6" cx="60" cy="20"/></svg>
+      <h2 data-anime="lignes">Et si vous commenciez par un entretien ?</h2>
+      <p data-anime>Chaque projet de formation commence par un échange avec Sandrine : vos envies, votre rythme, le bon cursus.</p>
+      <div class="fin-actions" data-anime>
+        <a href="/contact?sujet=entretien" class="bouton" data-libelle="Contact" data-survol="magnetique">Réserver un entretien</a>
+        <a class="bouton bouton--contour" href="tel:+33673418005" data-survol="magnetique">Appeler 06 73 41 80 05</a>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+<footer class="pied" id="pied">
+  <div class="pied-haut">
+    <svg class="couronne pied-couronne" viewBox="0 0 200 200" aria-hidden="true" focusable="false" data-effet="couronne">
+<g class="couronne-tourne"><circle class="couronne-anneau" cx="100" cy="100" r="15"/><circle class="couronne-anneau" cx="100" cy="100" r="19"/><line class="couronne-rayon" x1="119.00" y1="100.00" x2="196.00" y2="100.00"/><line class="couronne-rayon" x1="118.63" y1="103.71" x2="194.16" y2="118.73"/><line class="couronne-rayon" x1="117.55" y1="107.27" x2="188.69" y2="136.74"/><line class="couronne-rayon" x1="115.80" y1="110.56" x2="179.82" y2="153.33"/><line class="couronne-rayon" x1="113.44" y1="113.44" x2="167.88" y2="167.88"/><line class="couronne-rayon" x1="110.56" y1="115.80" x2="153.33" y2="179.82"/><line class="couronne-rayon" x1="107.27" y1="117.55" x2="136.74" y2="188.69"/><line class="couronne-rayon" x1="103.71" y1="118.63" x2="118.73" y2="194.16"/><line class="couronne-rayon" x1="100.00" y1="119.00" x2="100.00" y2="196.00"/><line class="couronne-rayon" x1="96.29" y1="118.63" x2="81.27" y2="194.16"/><line class="couronne-rayon" x1="92.73" y1="117.55" x2="63.26" y2="188.69"/><line class="couronne-rayon" x1="89.44" y1="115.80" x2="46.67" y2="179.82"/><line class="couronne-rayon" x1="86.56" y1="113.44" x2="32.12" y2="167.88"/><line class="couronne-rayon" x1="84.20" y1="110.56" x2="20.18" y2="153.33"/><line class="couronne-rayon" x1="82.45" y1="107.27" x2="11.31" y2="136.74"/><line class="couronne-rayon" x1="81.37" y1="103.71" x2="5.84" y2="118.73"/><line class="couronne-rayon" x1="81.00" y1="100.00" x2="4.00" y2="100.00"/><line class="couronne-rayon" x1="81.37" y1="96.29" x2="5.84" y2="81.27"/><line class="couronne-rayon" x1="82.45" y1="92.73" x2="11.31" y2="63.26"/><line class="couronne-rayon" x1="84.20" y1="89.44" x2="20.18" y2="46.67"/><line class="couronne-rayon" x1="86.56" y1="86.56" x2="32.12" y2="32.12"/><line class="couronne-rayon" x1="89.44" y1="84.20" x2="46.67" y2="20.18"/><line class="couronne-rayon" x1="92.73" y1="82.45" x2="63.26" y2="11.31"/><line class="couronne-rayon" x1="96.29" y1="81.37" x2="81.27" y2="5.84"/><line class="couronne-rayon" x1="100.00" y1="81.00" x2="100.00" y2="4.00"/><line class="couronne-rayon" x1="103.71" y1="81.37" x2="118.73" y2="5.84"/><line class="couronne-rayon" x1="107.27" y1="82.45" x2="136.74" y2="11.31"/><line class="couronne-rayon" x1="110.56" y1="84.20" x2="153.33" y2="20.18"/><line class="couronne-rayon" x1="113.44" y1="86.56" x2="167.88" y2="32.12"/><line class="couronne-rayon" x1="115.80" y1="89.44" x2="179.82" y2="46.67"/><line class="couronne-rayon" x1="117.55" y1="92.73" x2="188.69" y2="63.26"/><line class="couronne-rayon" x1="118.63" y1="96.29" x2="194.16" y2="81.27"/><circle class="couronne-anneau couronne-ext" cx="100" cy="100" r="96"/></g></svg>
+    <div class="conteneur pied-marque">
+      <img src="/assets/images/lotus-160.webp" alt="" width="72" height="78" loading="lazy">
+      <p class="pied-nom">SENSORIA</p>
+      <p class="pied-accroche">Formations, soins &amp; ateliers holistiques à Blois, Sète et Briord, depuis 2012.</p>
+      <svg class="infini pied-infini" viewBox="0 0 120 40" aria-hidden="true" focusable="false" data-effet="infini"><path class="infini-trait" d="M60 20 C 48 4, 22 4, 22 20 C 22 36, 48 36, 60 20 C 72 4, 98 4, 98 20 C 98 36, 72 36, 60 20 Z"/><circle class="infini-point" r="2.6" cx="60" cy="20"/></svg>
+    </div>
+  </div>
+  <div class="conteneur pied-partenaires">
+    <p class="pied-titre">Réseaux, presse &amp; partenaires</p>
+    <ul><li><a href="https://www.marieclaire.fr/adresses-incontournables/sensoria-sagesse-de-femme/" target="_blank" rel="noopener" aria-label="Marie Claire (nouvel onglet)"><img src="/assets/images/partenaires/marie-claire.png" alt="" loading="lazy"></a></li><li><a href="https://www.signesetsens.com/medecines-douces-le-magnetisme-une-science-complementaire-de-la-medecine.html" target="_blank" rel="noopener" aria-label="Signes &amp; Sens (nouvel onglet)"><img src="/assets/images/partenaires/signes-et-sens.png" alt="" loading="lazy"></a></li><li><a href="https://cnpl.org/" target="_blank" rel="noopener" aria-label="CNPL (nouvel onglet)"><img src="/assets/images/partenaires/cnpl.png" alt="" loading="lazy"></a></li><li><a href="https://www.green-yoga.fr/" target="_blank" rel="noopener" aria-label="Green Yoga (nouvel onglet)"><img src="/assets/images/partenaires/green-yoga.png" alt="" loading="lazy"></a></li><li><a href="https://www.hypnose-regioncentre-ihec.fr/formations" target="_blank" rel="noopener" aria-label="IHEC (nouvel onglet)"><img src="/assets/images/partenaires/ihec.png" alt="" loading="lazy"></a></li><li><a href="https://www.bibledesformations.fr/" target="_blank" rel="noopener" aria-label="Bible des formations (nouvel onglet)"><img src="/assets/images/partenaires/bible-des-formations.png" alt="" loading="lazy"></a></li></ul>
+  </div>
+  <div class="conteneur pied-grille">
+    <div>
+      <p class="pied-titre">Contact</p>
+      <p>51 rue de Villiersfins, 41000 Blois<br><a href="tel:+33673418005">06 73 41 80 05</a><br><a href="mailto:contact@formations-sensoria.fr">contact@formations-sensoria.fr</a></p>
+      <p class="pied-titre">Suivre Sensoria</p>
+      <ul class="reseaux"><li><a href="https://www.instagram.com/sandrine.sansano/" target="_blank" rel="noopener" aria-label="Instagram (nouvel onglet)"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4.2"/><circle cx="17.4" cy="6.6" r="1" class="plein"/></svg></a></li><li><a href="https://www.facebook.com/profile.php?id=100063701431885" target="_blank" rel="noopener" aria-label="Facebook (nouvel onglet)"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 21v-7h2.6l.4-3H14V9.2c0-.9.3-1.5 1.6-1.5H17V5.1c-.3 0-1.2-.1-2.3-.1-2.3 0-3.7 1.4-3.7 3.9V11H8.5v3H11v7"/></svg></a></li><li><a href="https://www.youtube.com/channel/UC6HB26bQ2tlzkfV79rf0G0g/videos" target="_blank" rel="noopener" aria-label="YouTube (nouvel onglet)"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="2.5" y="5.5" width="19" height="13" rx="4"/><path d="M10 9.2v5.6l4.8-2.8z" class="plein"/></svg></a></li></ul>
+    </div>
+    <nav aria-label="Sommaire">
+      <p class="pied-titre">Sommaire</p>
+      <ul><li><a href="/" data-libelle="Accueil" aria-current="page">Accueil</a></li><li><a href="/l-ecole" data-libelle="L’école">L’école</a></li><li><a href="/formations" data-libelle="Formations">Formations</a></li><li><a href="/agenda" data-libelle="Agenda">Agenda</a></li><li><a href="/infos-pratiques" data-libelle="Infos pratiques">Infos pratiques</a></li><li><a href="/temoignages" data-libelle="Témoignages">Témoignages</a></li><li><a href="/contact" data-libelle="Contact">Contact</a></li><li><a href="/mentions-legales" data-libelle="Mentions légales">Mentions légales</a></li></ul>
+    </nav>
+    <div>
+      <p class="pied-titre">Confort</p>
+      <ul>
+        <li><button type="button" class="lien" data-calme-bascule data-libelle-reduire="Réduire les animations" data-libelle-retablir="Rétablir les animations" data-libelle-systeme="Animations réduites par le réglage de votre appareil"><span data-libelle-bouton>Réduire les animations</span></button></li>
+        <li><a href="#haut" data-sans-transition>Retour en haut</a></li>
+      </ul>
+      <p class="pied-sante">Les formations, séances et ateliers de Sensoria relèvent du bien-être. Ils ne s’apparentent à aucune pratique médicale ou paramédicale et ne remplacent ni un diagnostic, ni un traitement, ni un avis médical.</p>
+    </div>
+  </div>
+  <div class="conteneur pied-bas"><p>Maquette : les informations marquées « à compléter » seront fournies par Sensoria.</p><p>© SENSORIA, Sandrine Sansano</p></div>
+</footer>
+<div data-barre-fixe>
+  <a class="bouton bouton--contour" href="tel:+33673418005">Appeler</a>
+  <a class="bouton" href="/contact?sujet=entretien" data-libelle="Contact">Réserver un entretien</a>
+</div>
+<script type="application/json" id="donnees-agenda">[{"debut":"2026-08-06","fin":"2026-08-07","titre":"Tuina, massage traditionnel chinois","type":"massage","lieu":"Blois","horaires":"9 h – 18 h","formation":"tuina"},{"debut":"2026-08-21","titre":"Réunion d'information : techniques quantiques & soin ORIÂ®","type":"reunion","lieu":"Blois","horaires":"18 h","formation":"quantique"},{"debut":"2026-08-22","titre":"Atelier découverte : magnétisme & énergétique","type":"atelier","lieu":"Blois","horaires":"9 h – 19 h"},{"debut":"2026-08-29","fin":"2026-08-31","titre":"Immersion chamanique, 3 jours","type":"atelier","lieu":"Lieu à confirmer","horaires":"9 h – 19 h"},{"debut":"2026-09-05","titre":"Do In, auto-massage","type":"massage","lieu":"Blois","horaires":"9 h – 18 h","formation":"do-in"},{"debut":"2026-09-12","titre":"Atelier découverte : approche du massage","type":"atelier","lieu":"Blois","horaires":"9 h – 18 h"},{"debut":"2026-09-14","fin":"2026-09-18","titre":"Techniques quantiques, modules 1 et 2","type":"formation","lieu":"Blois","session":"Blois 2026, 2e session","formation":"quantique"},{"debut":"2026-09-21","fin":"2026-09-25","titre":"Techniques quantiques, modules 1 et 2","type":"formation","lieu":"Sète","session":"Sète 2026, 2e session","formation":"quantique"},{"debut":"2026-10-19","fin":"2026-10-23","titre":"Techniques quantiques, modules 3 et 4 + soin ORIÂ®","type":"formation","lieu":"Sète","session":"Sète 2026, 2e session","formation":"quantique"},{"debut":"2026-10-31","titre":"SAN'HELIA : réapprivoiser votre corps","type":"evenement","lieu":"Blois","detail":"Atelier co-créatif"},{"debut":"2026-11-03","fin":"2026-11-04","titre":"Amma, shiatsu assis sur chaise","type":"massage","lieu":"Blois","horaires":"9 h – 18 h","formation":"amma"},{"debut":"2026-11-05","fin":"2026-11-06","titre":"Massage suédois / californien « le toucher du cœur »","type":"massage","lieu":"Blois","horaires":"9 h – 18 h","formation":"massages-carte"},{"debut":"2026-11-07","titre":"MIST'HER : cycles & vie au féminin","type":"evenement","lieu":"Blois","detail":"Atelier co-créatif avec Gwendoline, psychanalyste"},{"debut":"2026-11-09","fin":"2026-11-12","titre":"Techniques quantiques, modules 3 et 4 + soin ORIÂ®","type":"formation","lieu":"Blois","session":"Blois 2026, 2e session","formation":"quantique"},{"debut":"2026-11-14","titre":"RE'CONNEXION, niveau 1 : intuition & perceptions","type":"evenement","lieu":"Blois","detail":"Atelier co-créatif, 2 jours (dates exactes à confirmer)"},{"debut":"2026-12-07","fin":"2026-12-09","titre":"Techniques quantiques, module 5","type":"formation","lieu":"Sète","session":"Sète 2026, 2e session","formation":"quantique"},{"debut":"2026-12-10","titre":"Techniques quantiques, évaluation finale","type":"formation","lieu":"Sète","session":"Sète 2026, 2e session","detail":"Suivie d'un repas partagé de fin de formation","formation":"quantique"},{"debut":"2026-12-14","fin":"2026-12-17","titre":"Techniques quantiques, module 5","type":"formation","lieu":"Blois","session":"Blois 2026, 2e session","formation":"quantique"},{"debut":"2026-12-18","titre":"Techniques quantiques, évaluation finale","type":"formation","lieu":"Blois","session":"Blois 2026, 2e session","detail":"Suivie d'un repas partagé de fin de formation","formation":"quantique"},{"debut":"2026-12-21","fin":"2026-12-22","titre":"Réflexologie palmaire","type":"massage","lieu":"Blois","horaires":"9 h – 18 h","formation":"reflexologie"},{"debut":"2026-12-28","fin":"2026-12-29","titre":"Massage spécial sportif","type":"massage","lieu":"Blois","horaires":"9 h – 18 h","formation":"massages-carte"},{"debut":"2027-01-16","titre":"Atelier découverte : magnétisme & énergétique","type":"atelier","lieu":"Blois","horaires":"9 h – 19 h"},{"debut":"2027-01-19","fin":"2027-01-20","titre":"Massage aux pochons d'herbes","type":"massage","lieu":"Blois","horaires":"9 h – 18 h","formation":"massages-carte"},{"debut":"2027-01-21","fin":"2027-01-22","titre":"Massage & bain sonore aux bols chantants","type":"massage","lieu":"Blois","horaires":"9 h – 18 h","formation":"massages-carte"},{"debut":"2027-01-26","fin":"2027-01-27","titre":"Massage des personnes âgées ou à mobilité réduite","type":"massage","lieu":"Blois","horaires":"9 h – 18 h","formation":"massages-carte"},{"debut":"2027-01-28","fin":"2027-01-29","titre":"Massage bien-être femme enceinte & gestion du stress","type":"massage","lieu":"Blois","horaires":"9 h – 18 h","formation":"massages-carte"},{"debut":"2027-02-02","fin":"2027-02-03","titre":"Massage ayurvédique abhyanga","type":"massage","lieu":"Blois","horaires":"9 h – 18 h","formation":"massages-carte"},{"debut":"2027-02-04","fin":"2027-02-05","titre":"Réflexologie plantaire","type":"massage","lieu":"Blois","horaires":"9 h – 18 h","formation":"reflexologie"},{"debut":"2027-02-06","titre":"Journée découverte : la naturopathie au quotidien","type":"atelier","lieu":"Blois"},{"debut":"2027-02-15","fin":"2027-02-19","titre":"Techniques quantiques, modules 1 et 2","type":"formation","lieu":"Blois","session":"Blois 2027, 1re session","formation":"quantique"},{"debut":"2027-02-23","fin":"2027-02-24","titre":"Massage minceur : cellulite, jambes lourdes, remodelage","type":"massage","lieu":"Blois","horaires":"9 h – 18 h","formation":"massages-carte"},{"debut":"2027-02-25","fin":"2027-02-26","titre":"Réflexologie crânio-faciale","type":"massage","lieu":"Blois","horaires":"9 h – 18 h","formation":"reflexologie"},{"debut":"2027-03-09","fin":"2027-03-10","titre":"Tuina, massage traditionnel chinois","type":"massage","lieu":"Blois","horaires":"9 h – 18 h","formation":"tuina"},{"debut":"2027-03-11","fin":"2027-03-12","titre":"Shiatsu visage & crâne","type":"massage","lieu":"Blois","horaires":"9 h – 18 h","formation":"massages-carte"},{"debut":"2027-03-16","fin":"2027-03-17","titre":"Shiatsu corps","type":"massage","lieu":"Blois","horaires":"9 h – 18 h","formation":"massages-carte"},{"debut":"2027-03-18","fin":"2027-03-19","titre":"Méthode LHOVE®","type":"formation","lieu":"Blois","horaires":"9 h – 18 h","formation":"lhove"},{"debut":"2027-03-22","fin":"2027-03-23","titre":"Massage aux pierres chaudes","type":"massage","lieu":"Blois","horaires":"9 h – 18 h","formation":"massages-carte"},{"debut":"2027-03-24","fin":"2027-03-26","titre":"Immersion chamanique, 3 jours","type":"atelier","lieu":"Lieu à confirmer","horaires":"9 h – 19 h"},{"debut":"2027-03-30","fin":"2027-04-02","titre":"Techniques quantiques, modules 3 et 4 + soin ORIÂ®","type":"formation","lieu":"Blois","session":"Blois 2027, 1re session","formation":"quantique"},{"debut":"2027-04-05","fin":"2027-04-09","titre":"Techniques quantiques, modules 1 et 2","type":"formation","lieu":"Sète","session":"Sète 2027, 1re session","formation":"quantique"},{"debut":"2027-05-10","fin":"2027-05-13","titre":"Techniques quantiques, module 5","type":"formation","lieu":"Blois","session":"Blois 2027, 1re session","formation":"quantique"},{"debut":"2027-05-14","titre":"Techniques quantiques, évaluation finale","type":"formation","lieu":"Blois","session":"Blois 2027, 1re session","detail":"Suivie d'un repas partagé de fin de formation","formation":"quantique"},{"debut":"2027-06-07","fin":"2027-06-11","titre":"Techniques quantiques, modules 3 et 4 + soin ORIÂ®","type":"formation","lieu":"Sète","session":"Sète 2027, 1re session","formation":"quantique"},{"debut":"2027-07-05","fin":"2027-07-07","titre":"Techniques quantiques, module 5","type":"formation","lieu":"Sète","session":"Sète 2027, 1re session","formation":"quantique"},{"debut":"2027-07-08","titre":"Techniques quantiques, évaluation finale","type":"formation","lieu":"Sète","session":"Sète 2027, 1re session","detail":"Date à confirmer : le site actuel indique « 08 juillet 2026 »","formation":"quantique"}]</script>
+</body>
+</html>

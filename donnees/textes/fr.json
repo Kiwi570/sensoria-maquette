@@ -1,0 +1,629 @@
+{
+  "commun": {
+    "navigation": "Navigation principale",
+    "menu": "Menu",
+    "fermer": "Fermer",
+    "langueAutre": "English version",
+    "actionEntete": "Réserver un entretien",
+    "actionCourte": "Entretien",
+    "appeler": "Appeler",
+    "ecrire": "Écrire",
+    "calmeReduire": "Réduire les animations",
+    "calmeRetablir": "Rétablir les animations",
+    "calmeSysteme": "Animations réduites par le réglage de votre appareil",
+    "sommaire": "Sommaire",
+    "confort": "Confort",
+    "retourHaut": "Retour en haut",
+    "maquette": "Maquette : les informations marquées « à compléter » seront fournies par Sensoria.",
+    "evitement": "Aller au contenu",
+    "mentionIa": "Illustration générée",
+    "pause": "Pause",
+    "lecture": "Lecture",
+    "introLigne": "École & espace de soins holistiques",
+    "sousTitre": "École & espace de soins holistiques",
+    "nonMedical": "Les formations, séances et ateliers de Sensoria relèvent du bien-être. Ils ne s’apparentent à aucune pratique médicale ou paramédicale et ne remplacent ni un diagnostic, ni un traitement, ni un avis médical.",
+    "piedAccroche": "Formations, soins & ateliers holistiques à Blois, Sète et Briord, depuis 2012.",
+    "reseaux": "Suivre Sensoria",
+    "partenaires": "Réseaux, presse & partenaires",
+    "nouvelOnglet": "(nouvel onglet)",
+    "aCompleter": "à compléter",
+    "aConfirmer": "à confirmer",
+    "bientot": "Bientôt",
+    "dansJours": "dans {n} jours",
+    "demain": "demain",
+    "aujourdhui": "aujourd’hui",
+    "enCours": "en cours",
+    "termine": "Terminé",
+    "aVenir": "À venir",
+    "lieux": "Lieux",
+    "prix": "Tarif",
+    "duree": "Durée",
+    "format": "Format",
+    "son": {
+      "ecouter": "Écouter un bol chantant",
+      "arreter": "Arrêter le son",
+      "joue": "Un bol chantant résonne",
+      "arrete": "Son arrêté",
+      "aide": "Le son ne démarre qu’après votre clic. Il est créé dans votre navigateur."
+    }
+  },
+  "pages": {
+    "accueil": {
+      "titre": "SENSORIA : formations, soins & ateliers holistiques à Blois, Sète et Briord",
+      "description": "École fondée en 2012 par Sandrine Sansano : massages bien-être, magnétisme et énergétique, naturopathie, méthodes de libération des mémoires. Petits groupes, paiement en plusieurs fois.",
+      "nav": "Accueil",
+      "partageAlt": "La yourte de Sensoria à Blois, avec le logo et l’accroche de l’école",
+      "accroche": "Formations, soins & ateliers holistiques"
+    },
+    "ecole": {
+      "titre": "L’école & Sandrine Sansano : SENSORIA",
+      "description": "Sandrine Sansano, fondatrice de Sensoria : héritage de magnétiseurs, plus de 30 ans d’expérience, une école à taille humaine depuis 2012.",
+      "nav": "L’école",
+      "partageAlt": "Sandrine Sansano au tambour, face à la mer",
+      "accroche": "Sandrine Sansano, fondatrice de Sensoria"
+    },
+    "formations": {
+      "titre": "Formations professionnelles holistiques : SENSORIA",
+      "description": "13 formations : techniques quantiques, massages bien-être, réflexologies, naturopathie, méthodes LHOVE® et ESCALE®. Présentiel à Blois, Sète et Briord, e-learning illimité.",
+      "nav": "Formations",
+      "partageAlt": "Les formations de Sensoria dans la yourte de Blois",
+      "accroche": "13 formations, du module au cursus complet"
+    },
+    "quantique": {
+      "titre": "Formation praticien en techniques quantiques : SENSORIA",
+      "description": "Magnétisme, énergétique, radiesthésie et bols chantants : 135 h de présentiel en 5 modules, e-learning illimité, 1 950 € en 1 à 4 fois sans frais. Blois, Sète et Briord.",
+      "nav": "Techniques quantiques",
+      "partageAlt": "Pendule et bols chantants, formation techniques quantiques",
+      "accroche": "Praticien en techniques quantiques"
+    },
+    "agenda": {
+      "titre": "Agenda des formations & ateliers : SENSORIA",
+      "description": "Toutes les dates des formations, massages, ateliers découverte et ateliers co-créatifs à Blois et Sète, triées automatiquement.",
+      "nav": "Agenda",
+      "partageAlt": "Agenda de Sensoria",
+      "accroche": "Les prochaines dates"
+    },
+    "infos-pratiques": {
+      "titre": "Tarifs, lieux & financement : SENSORIA",
+      "description": "Tarifs des formations, ateliers et séances, paiement en plusieurs fois sans frais, lieux d’accueil à Blois, Sète et Briord, conditions.",
+      "nav": "Infos pratiques",
+      "partageAlt": "Infos pratiques de Sensoria",
+      "accroche": "Tarifs, lieux & financement"
+    },
+    "temoignages": {
+      "titre": "Témoignages d’élèves : SENSORIA",
+      "description": "Note de 5,0 sur 8 avis : ce que les élèves disent des formations de Sandrine Sansano.",
+      "nav": "Témoignages",
+      "partageAlt": "Témoignages d’élèves de Sensoria",
+      "accroche": "Ils sont ma plus belle récompense"
+    },
+    "contact": {
+      "titre": "Contact & inscription : SENSORIA",
+      "description": "Réserver un entretien, s’inscrire à une formation, un atelier ou une séance : 06 73 41 80 05, contact@formations-sensoria.fr.",
+      "nav": "Contact",
+      "partageAlt": "Contacter Sensoria",
+      "accroche": "Échanger & réserver"
+    },
+    "mentions-legales": {
+      "titre": "Mentions légales : SENSORIA",
+      "description": "Éditeur, hébergeur, crédits, confidentialité et informations à fournir.",
+      "nav": "Mentions légales",
+      "partageAlt": "Mentions légales de Sensoria",
+      "accroche": "Mentions légales"
+    },
+    "404": {
+      "titre": "Page introuvable : SENSORIA",
+      "description": "Cette page n’existe pas ou plus.",
+      "nav": "Page introuvable",
+      "partageAlt": "Page introuvable",
+      "accroche": "Page introuvable"
+    }
+  },
+  "accueil": {
+    "hero": {
+      "marque": "SENSORIA",
+      "titre1": "Formations, soins",
+      "titre2": "& ateliers holistiques",
+      "titre3": "à Blois, Sète & Briord",
+      "texte": "Une école à taille humaine fondée en 2012 par Sandrine Sansano, pour apprendre les massages bien-être, le magnétisme, la naturopathie et les méthodes de libération des mémoires.",
+      "action": "Voir les formations",
+      "entretien": "Réserver un entretien",
+      "prochaine": "Prochaine session",
+      "alt": "La yourte de Blois : charpente rayonnante, lumière du toit, espace de pratique"
+    },
+    "approche": {
+      "citation": "Prendre soin de soi commence parfois par l’autorisation de s’arrêter, d’écouter & de remettre du mouvement là où tout semblait figé.",
+      "signature": "L’approche SENSORIA",
+      "titre": "Considérer l’être dans sa globalité",
+      "texte1": "Fondé en 2012, Sensoria repose sur une philosophie simple : appliquer les lois de la nature pour accompagner chacun sur son chemin. Inspirée de pratiques millénaires, l’approche considère chaque personne dans sa dimension physique, émotionnelle et énergétique.",
+      "texte2": "Le végétal, la vibration, le toucher conscient, l’expression et le mouvement s’unissent ici au service d’un même but : remettre du mouvement là où tout semblait figé. Sandrine y met plus de 30 années d’expérience, de recherche et de transmissions familiales.",
+      "lien": "Découvrir l’école & Sandrine",
+      "alt": "Sandrine Sansano tient un tambour chamanique au bord de la mer"
+    },
+    "domaines": {
+      "titre": "Cinq domaines pour se former",
+      "texte": "Des cursus complets ou des modules à la carte, en présentiel dans trois lieux, avec un e-learning en accès illimité.",
+      "voir": "Voir les formations",
+      "aide": "Faites défiler : la roue tourne et présente chaque domaine.",
+      "region": "Les cinq domaines de formation"
+    },
+    "voies": {
+      "titre": "Quatre voies pour cheminer",
+      "texte": "En reconversion ou en quête d’évolution personnelle : choisissez le format qui vous ressemble.",
+      "seances": {
+        "titre": "Séances individuelles",
+        "texte": "Soins signatures ORIÂ®, LHOVE® et ACT®, voyages sonores, à Blois et Sète.",
+        "prix": "de 65 € à 85 €",
+        "lien": "Voir les tarifs",
+        "alt": "Sandrine assise parmi les bols chantants et le gong, dans la yourte"
+      },
+      "ateliers": {
+        "titre": "Ateliers",
+        "texte": "Ateliers découverte pour s’initier, ateliers co-créatifs avec d’autres professionnels.",
+        "prix": "dès 39 €",
+        "lien": "Voir les dates",
+        "alt": "Un groupe assis dans la yourte de Blois pendant un atelier"
+      },
+      "formations": {
+        "titre": "Formations",
+        "texte": "Cursus métier ou modules à la carte pour acquérir une posture juste et des compétences concrètes.",
+        "prix": "de 99 € à 3 990 €",
+        "lien": "Voir le catalogue",
+        "alt": "Sandrine debout au centre de la yourte, sous la charpente"
+      },
+      "parcours": {
+        "titre": "Parcours",
+        "texte": "Parcours Femmes et Parcours Vivant : plusieurs mois, portés par la force du collectif.",
+        "prix": "45 € la session",
+        "lien": "En parler avec Sandrine",
+        "alt": "Deux mains tiennent des tambours chamaniques face au ciel"
+      }
+    },
+    "dates": {
+      "titre": "Prochaines dates",
+      "texte": "Calculées chaque jour à l’heure de Paris : les dates passées disparaissent d’elles-mêmes.",
+      "tout": "Tout l’agenda",
+      "vide": "Aucune date publiée pour le moment : contactez Sandrine."
+    },
+    "pourquoi": {
+      "titre": "Pourquoi se former chez Sensoria",
+      "eleves": "élèves formés depuis 2012",
+      "elevesNote": "comptés par inscription, comme l’exige l’administration",
+      "reussite": "de réussite pour chaque formation",
+      "satisfaits": "de satisfaits ou très satisfaits depuis 2012",
+      "satisfaitsNote": "100 % en 2024",
+      "annees": "ans d’expérience et de recherche",
+      "source": "Chiffres déclarés par l’école, mise à jour de juin 2025.",
+      "e1": {
+        "titre": "Pas de limite de temps",
+        "texte": "Plateforme en accès illimité, présentiel quand vous êtes prêt."
+      },
+      "e2": {
+        "titre": "Révisions gratuites",
+        "texte": "Revenez aux sessions pratiques autant de fois que nécessaire."
+      },
+      "e3": {
+        "titre": "Paiement sans frais",
+        "texte": "En 1 à 4 fois selon les formations, tarifs gelés depuis plusieurs années."
+      }
+    },
+    "lieux": {
+      "titre": "Trois lieux, trois respirations",
+      "texte": "Une yourte à Blois, un espace face à la mer à Sète, et bientôt un lieu en pleine nature à Briord.",
+      "carte": "Carte schématique de la France avec Blois, Sète et Briord",
+      "lien": "Adresses & accès",
+      "briordVisuel": "Photo de Briord à venir"
+    },
+    "temoignages": {
+      "titre": "Ils sont ma plus belle récompense",
+      "texte": "Extraits d’avis publiés par des élèves sur le site actuel.",
+      "sur": "sur 5",
+      "nombre": "8 avis",
+      "lien": "Lire les témoignages",
+      "alt": "Coussins de méditation disposés en cercle autour d’un bol"
+    },
+    "fin": {
+      "titre": "Et si vous commenciez par un entretien ?",
+      "texte": "Chaque projet de formation commence par un échange avec Sandrine : vos envies, votre rythme, le bon cursus.",
+      "bol": "Une pause sonore avant de partir ?",
+      "alt": "Bol chantant en cuivre rempli d’eau, ondes à la surface"
+    }
+  },
+  "ecole": {
+    "tete": {
+      "titre": "Sandrine Sansano, fondatrice de Sensoria",
+      "role": "Formatrice, praticienne holistique, accompagnante & facilitatrice",
+      "texte": "Spécialisée dans la libération des mémoires du corps et des empreintes du vécu, elle crée en 2012 son espace d’accompagnement et son centre de stages et de formations professionnelles.",
+      "alt": "Sandrine Sansano marche au bord de l’eau avec son tambour",
+      "titre1": "Sandrine Sansano,",
+      "titre2": "fondatrice de Sensoria",
+      "info": "Depuis 2012 · 1 045 élèves"
+    },
+    "racines": {
+      "titre": "Mon parcours, mes racines",
+      "texte": "J’ai la chance d’avoir hérité de mes lignées paternelle et maternelle de magnétiseurs et de clairvoyants. Cet héritage m’a ouverte aux techniques holistiques dès mon plus jeune âge. Mon souhait profond : faire de Sensoria un lieu convivial, chaleureux et simple, où la bienveillance passe en premier.",
+      "alt": "Deux mains, l’une âgée, l’autre jeune, se touchent paume contre paume"
+    },
+    "cursus": {
+      "titre": "Mon cursus",
+      "texte": "Les formations que je propose sont issues de tous ces enseignements, mis en pratique depuis 1996.",
+      "alt": "Carnet ouvert, fleurs séchées et stylo plume"
+    },
+    "transmettre": {
+      "titre": "Ma façon de transmettre",
+      "texte": "Des groupes de 8 personnes au plus dans la yourte, de 4 face à la mer. Chacun avance à son rythme, avec une plateforme en ligne illimitée et la possibilité de revenir aux sessions pratiques gratuitement, autant de fois que nécessaire.",
+      "citation": "Sandrine s’est pleinement adaptée à mon mode d’apprentissage.",
+      "auteur": "Morgane, praticienne en massage bien-être",
+      "alt": "Sandrine assise au centre de la yourte, entourée de bougies"
+    },
+    "accompagner": {
+      "titre": "Au féminin, et au masculin",
+      "texte1": "Depuis 2012, je me consacre au soutien des femmes : ateliers, rituels de passage et retraites mêlent danse, chant, méditation, yoga et pratiques ancestrales au son du tambour.",
+      "texte2": "J’accompagne aussi les hommes, avec mon amie Gwendoline, psychanalyste spécialisée en neuropsychologie, pour notre projet MIST’HER, et bientôt avec Thomas, magnétiseur, pour de nouveaux ateliers co-créatifs.",
+      "alt": "Sandrine Sansano et Gwendoline, du projet MIST’HER, côte à côte",
+      "lien": "Voir les ateliers co-créatifs"
+    },
+    "fin": {
+      "titre": "Envie d’échanger avec Sandrine ?",
+      "texte": "Un projet de formation, une séance, un atelier : parlons-en.",
+      "alt": "Sandrine joue du tambour dans la pénombre de la yourte"
+    }
+  },
+  "formations": {
+    "tete": {
+      "titre": "Les formations professionnelles",
+      "texte": "Des parcours complets pour révéler votre posture de praticien : cursus métier ou modules à la carte, en présentiel à Blois, Sète et Briord, avec un e-learning en accès illimité.",
+      "action": "Voir le catalogue",
+      "info": "13 formations · de 99 € à 3 990 €",
+      "alt": "Élèves réunis dans la yourte de Blois autour d’une table de massage",
+      "titre1": "Les formations",
+      "titre2": "professionnelles"
+    },
+    "catalogue": {
+      "titre": "Le catalogue",
+      "filtreDomaine": "Domaine",
+      "filtreLieu": "Lieu",
+      "tous": "Tous",
+      "tousLieux": "Tous les lieux",
+      "enLigne": "En ligne",
+      "recherche": "Rechercher une formation",
+      "rechercheExemple": "massage, pendule, plantes…",
+      "resultats": "{n} formations",
+      "resultat": "1 formation",
+      "vide": "Aucune formation ne correspond : essayez un autre domaine ou un autre lieu.",
+      "effacer": "Effacer les filtres",
+      "voir": "Voir la formation",
+      "programme": "Demander le programme",
+      "phare": "Cursus complet"
+    },
+    "etapes": {
+      "titre": "Comment se déroule une formation",
+      "texte": "Le même chemin pour chaque cursus, de l’entretien au certificat d’école."
+    },
+    "paiement": {
+      "titre": "Financer sa formation",
+      "texte": "Paiement en ligne, par virement ou par chèque, en 1 à 4 fois sans frais selon les formations. Sandrine a gelé ses tarifs depuis plusieurs années.",
+      "qualiopi": "Sensoria a choisi de se dégager de la certification Qualiopi pour garder un accompagnement humain et libre : les formations ne sont donc pas finançables par le CPF ou les OPCO.",
+      "lien": "Tous les tarifs & conditions",
+      "exemple": "Exemple : cursus techniques quantiques",
+      "fois": "4 fois",
+      "visuel": "1 950 € réglés en 4 fois sans frais : 487,50 € par échéance"
+    },
+    "faq": {
+      "titre": "Questions fréquentes",
+      "alt": "Sandrine assise au centre de la yourte"
+    },
+    "fin": {
+      "titre": "Une question sur un cursus ?",
+      "texte": "Sandrine vous aide à choisir la formation qui correspond à votre projet.",
+      "alt": "Sandrine lève son tambour face à la mer"
+    }
+  },
+  "quantique": {
+    "tete": {
+      "domaine": "Énergétique, magnétisme & quantique",
+      "titre": "Praticien en techniques quantiques",
+      "sousTitre": "Magnétisme, énergétique, radiesthésie & bols chantants",
+      "texte": "Un cursus complet et structuré pour devenir praticien en magnétisme, énergétique et radiesthésie : on commence par les bases, puis on approfondit les outils, la posture et les techniques avancées.",
+      "action": "Demander mon entretien",
+      "dates": "Voir les dates",
+      "alt": "Mains tenant un pendule en laiton au-dessus d’une planche en bois, bols chantants",
+      "titre1": "Praticien en",
+      "titre2": "techniques quantiques"
+    },
+    "cles": {
+      "prix": "1 950 €",
+      "prixNote": "en 1 à 4 fois sans frais",
+      "heures": "135 h",
+      "heuresNote": "de présentiel intensif",
+      "modules": "5 modules",
+      "modulesNote": "+ e-learning illimité",
+      "lieux": "3 lieux",
+      "lieuxNote": "Blois, Sète · Briord en 2027"
+    },
+    "art": {
+      "titre": "L’art ancestral de l’énergie & du ressenti",
+      "texte1": "Les techniques énergétiques sont pratiquées depuis des siècles, au cœur de traditions comme le chamanisme, l’ayurvéda ou l’approche traditionnelle chinoise. Dans nos campagnes, cette sensibilité s’est transmise de génération en génération.",
+      "texte2": "Pour Sandrine, le magnétisme est un outil précieux de bien-être, dédié à la libération des empreintes du passé et à la connaissance de soi, de ses lignées et de ses ancêtres.",
+      "alt": "Sandrine fait chanter un bol, entourée de bols et d’un gong"
+    },
+    "modalites": {
+      "titre": "Votre parcours d’apprentissage",
+      "alt": "Sandrine debout dans la yourte, sous la lumière du toit"
+    },
+    "programme": {
+      "titre": "Le programme, module par module",
+      "texte": "Cinq étapes pour développer vos ressentis, votre confiance et votre capacité à accompagner par l’énergie.",
+      "region": "Programme en cinq modules, défilement horizontal",
+      "module": "Module {n}"
+    },
+    "dates": {
+      "titre": "Les sessions",
+      "texte": "Intensif de 8 h à 18 h, voire 19 h. Statuts calculés chaque jour à l’heure de Paris.",
+      "briord": "Briord (près de Lyon) : dates en 2027, à venir.",
+      "reunion": "Réunion d’information sur la formation et le soin ORIÂ® : prochaine date à confirmer (la dernière a eu lieu le 21 août 2026 à Blois).",
+      "visuel": "Calendrier des sessions de Blois et Sète",
+      "briordTitre": "Briord, près de Lyon"
+    },
+    "competences": {
+      "titre": "Ce que vous saurez faire",
+      "objectif": "Devenir praticien en techniques quantiques et vibratoires (magnétisme, énergétique, radiesthésie, sonothérapie aux bols), dans le seul but de favoriser un mieux-être global.",
+      "alt": "Tambour chamanique posé sur le sable face à la mer",
+      "conditions": "Accessible à tous, sans connaissance préalable, après un entretien avec Sandrine. Validation sur étude de cas pratique devant la formatrice, puis entretien : attestation de fin de formation et certificat d’école."
+    },
+    "tarifs": {
+      "titre": "Vos options & tarifs",
+      "texte": "Le parcours complet, ou une acquisition à la carte.",
+      "o1": {
+        "titre": "Cursus praticien complet",
+        "prix": "1 950 €",
+        "detail": "5 modules, supervision, e-learning illimité, évaluation finale",
+        "paiement": "en 1 à 4 fois sans frais, soit 4 × 487,50 €",
+        "choix": "Choisir le cursus"
+      },
+      "o2": {
+        "titre": "Module radiesthésie seul",
+        "prix": "290 €",
+        "detail": "3 jours de formation",
+        "paiement": "en 1 à 2 fois sans frais",
+        "choix": "Choisir ce module"
+      },
+      "o3": {
+        "titre": "Module soin signature ORIÂ®",
+        "prix": "450 €",
+        "detail": "4 jours de formation, soin signature inclus",
+        "paiement": "en 1 à 3 fois sans frais",
+        "choix": "Choisir ce module"
+      }
+    },
+    "avis": {
+      "titre": "Ils ont suivi ce cursus",
+      "alt": "Tambours chamaniques tenus face au ciel"
+    },
+    "fin": {
+      "titre": "Prêt à ouvrir les portes du ressenti ?",
+      "texte": "Le cursus commence par un entretien avec Sandrine, pour valider votre projet d’apprentissage.",
+      "alt": "Sandrine en méditation sur la plage"
+    }
+  },
+  "agenda": {
+    "tete": {
+      "titre": "Agenda des formations & ateliers",
+      "texte": "Toutes les dates publiées, triées d’elles-mêmes : à venir, en cours, terminées. Sessions sur demande possibles à Sète et Briord.",
+      "action": "Voir les dates",
+      "alt": "Feuilles et branches des quatre saisons disposées en cercle sur du lin",
+      "titre1": "Agenda des formations",
+      "titre2": "& des ateliers",
+      "prochaine": "Prochaine date"
+    },
+    "liste": {
+      "titre": "Toutes les dates",
+      "type": "Type",
+      "lieu": "Lieu",
+      "tous": "Tout",
+      "tousLieux": "Tous les lieux",
+      "passees": "Afficher les dates terminées",
+      "vide": "Aucune date ne correspond à ces filtres.",
+      "aujourdhui": "Aujourd’hui",
+      "region": "Dates par mois",
+      "voirFormation": "Voir la formation",
+      "inscrire": "Demander une inscription",
+      "compteUn": "1 date",
+      "compte": "{n} dates"
+    },
+    "demande": {
+      "titre": "Une date qui ne vous convient pas ?",
+      "texte": "Les sessions de massage se tiennent à Blois, et sur demande à Sète et Briord. Écrivez à Sandrine pour organiser votre session.",
+      "alt": "La terrasse de Sète face à la mer",
+      "action": "Demander une session"
+    }
+  },
+  "infos": {
+    "tete": {
+      "titre": "Tarifs, lieux & financement",
+      "texte": "Tout pour planifier une formation, un atelier ou une séance : les prix, le paiement en plusieurs fois, les lieux d’accueil et les conditions.",
+      "action": "Voir les tarifs",
+      "info": "Paiement en 1 à 4 fois sans frais",
+      "alt": "Théière, tasses et plaids pliés sur un banc en bois",
+      "titre1": "Tarifs, lieux",
+      "titre2": "& financement"
+    },
+    "tarifs": {
+      "titre": "Les tarifs",
+      "texte": "Prix relevés sur la page Tarifs du site actuel."
+    },
+    "paiement": {
+      "titre": "Payer en plusieurs fois",
+      "texte": "En ligne, par virement ou par chèque, avec la possibilité de régler en plusieurs fois sans frais. Pour un échéancier personnalisé, contactez Sandrine.",
+      "visuel": "Un cercle partagé en quatre échéances"
+    },
+    "financement": {
+      "titre": "Pourquoi j’ai arrêté Qualiopi",
+      "texte1": "Parce que je tiens à vous offrir un accompagnement profondément humain et libre, j’ai fait le choix de me dégager des lourdeurs de la certification Qualiopi. Les financements des formations professionnelles du bien-être étant très compliqués, je n’en voyais plus l’intérêt.",
+      "texte2": "La qualité des formations n’est en aucun cas impactée : je ne change rien à ma manière de travailler. Pour que la formation reste accessible, j’ai gelé mes tarifs depuis plusieurs années et je propose des facilités de paiement.",
+      "note": "Conséquence : les formations ne sont pas finançables par le CPF, France Travail ou les OPCO.",
+      "alt": "Tambour posé sur le sable, la mer derrière",
+      "signature": "Sandrine Sansano"
+    },
+    "lieux": {
+      "titre": "Les lieux d’accueil",
+      "texte": "Trois espaces choisis pour leur calme et leur lumière.",
+      "carte": "Carte schématique de la France avec Blois, Sète et Briord",
+      "adresse": "Adresse",
+      "acces": "Accès",
+      "groupe": "Groupe",
+      "itineraire": "Itinéraire",
+      "briordVisuel": "Photo de Briord à venir"
+    },
+    "surplace": {
+      "titre": "Sur place",
+      "alt": "Sandrine assise dans la yourte, bougies allumées"
+    },
+    "conditions": {
+      "titre": "Conditions, en bref",
+      "texte": "Résumé des conditions générales de vente actuelles, à valider par Sensoria."
+    }
+  },
+  "temoignages": {
+    "tete": {
+      "titre": "Témoignages d’élèves",
+      "texte": "Merci à vous tous pour vos témoignages : ils sont ma plus belle récompense, et ma gratitude.",
+      "signature": "Sandrine",
+      "info": "sur 5 · 8 avis",
+      "action": "Lire les avis",
+      "alt": "Mains de plusieurs personnes réunies en cercle",
+      "titre1": "Témoignages",
+      "titre2": "d’élèves"
+    },
+    "paroles": {
+      "titre": "Paroles d’élèves",
+      "texte": "6 des 8 avis publiés sur le site actuel, reproduits fidèlement (extraits signalés par […]).",
+      "filtre": "Formation suivie",
+      "toutes": "Toutes",
+      "precedent": "Avis précédent",
+      "suivant": "Avis suivant",
+      "region": "Témoignages en cercle",
+      "vide": "Aucun avis pour cette formation pour le moment.",
+      "gQuantique": "Techniques quantiques",
+      "gMassages": "Massages",
+      "gNaturo": "Naturopathie",
+      "etoiles": "Noté 5 étoiles sur 5"
+    },
+    "presse": {
+      "titre": "Réseaux, presse & partenaires",
+      "texte": "Sensoria est citée par Marie Claire et Signes & Sens, et membre ou partenaire de plusieurs réseaux.",
+      "marieClaire": "Marie Claire : Sensoria parmi les adresses incontournables",
+      "signesSens": "Signes & Sens : article sur le magnétisme",
+      "cnpl": "CNPL, Chambre nationale des professions libérales",
+      "greenYoga": "Green Yoga, école et fédération",
+      "ihec": "IHEC, formations en hypnose",
+      "bible": "Bible des formations, annuaire"
+    },
+    "partager": {
+      "titre": "Vous avez suivi une formation ?",
+      "texte": "Votre témoignage aide les futurs élèves à choisir. Sandrine le lira avec gratitude.",
+      "action": "Envoyer mon témoignage",
+      "alt": "Deux tambours chamaniques posés sur le sable"
+    }
+  },
+  "contact": {
+    "tete": {
+      "titre": "Contact & inscription",
+      "texte": "Une question sur un cursus, un atelier co-créatif, ou besoin de planifier une séance ? Sandrine vous répond avec joie et bienveillance.",
+      "action": "Remplir le formulaire",
+      "alt": "Porte en bois entrouverte, lumière dorée",
+      "titre1": "Contact",
+      "titre2": "& inscription"
+    },
+    "form": {
+      "titre": "Votre demande",
+      "etapes": "4 étapes : votre demande, votre choix, vos coordonnées, le récapitulatif.",
+      "etape": "Étape {n} sur 4",
+      "e1": "Votre demande",
+      "e2": "Votre choix",
+      "e3": "Vos coordonnées",
+      "e4": "Récapitulatif",
+      "sujet": "Vous souhaitez…",
+      "sujetEntretien": "Réserver un entretien avant une formation",
+      "sujetFormation": "S’inscrire à une formation",
+      "sujetAtelier": "Participer à un atelier",
+      "sujetSeance": "Réserver une séance individuelle",
+      "sujetParcours": "Rejoindre un parcours",
+      "sujetTemoignage": "Envoyer un témoignage",
+      "sujetQuestion": "Poser une question",
+      "formation": "Formation concernée",
+      "formationAucune": "Pas encore décidé",
+      "option": "Option",
+      "optionCursus": "Cursus complet",
+      "optionRadiesthesie": "Module radiesthésie seul",
+      "optionOria": "Module soin ORIÂ®",
+      "optionAucune": "Sans objet",
+      "lieu": "Lieu souhaité",
+      "lieuIndifferent": "Indifférent",
+      "enLigne": "En ligne",
+      "prenom": "Prénom",
+      "nom": "Nom",
+      "email": "E-mail",
+      "tel": "Téléphone",
+      "adresse": "Adresse postale (pour un devis ou une inscription)",
+      "facultatif": "facultatif",
+      "message": "Message",
+      "messageAide": "Vos envies, vos disponibilités, vos questions.",
+      "suivant": "Continuer",
+      "precedent": "Retour",
+      "envoyer": "Envoyer ma demande",
+      "recap": "Votre récapitulatif",
+      "recapVide": "Vos choix s’afficheront ici.",
+      "donnees": "Vos données servent seulement à répondre à votre demande et ne sont jamais cédées. <a href=\"/mentions-legales#confidentialite\">Politique de confidentialité</a> (à compléter).",
+      "simule": "Maquette : ce formulaire est simulé, rien n’est envoyé.",
+      "envoye": "Demande simulée : rien n’a été envoyé. Sur le site final, elle partira vers Sandrine, qui vous répondra.",
+      "recapSujet": "Demande",
+      "recapFormation": "Formation",
+      "recapOption": "Option",
+      "recapLieu": "Lieu",
+      "recapPersonne": "Coordonnées"
+    },
+    "direct": {
+      "titre": "Ou directement",
+      "tel": "Par téléphone",
+      "email": "Par e-mail",
+      "lieux": "Trois espaces d’accueil",
+      "lienLieux": "Adresses & accès"
+    }
+  },
+  "mentions": {
+    "titre": "Mentions légales",
+    "alt": "Papier artisanal aux fibres végétales",
+    "fiche": {
+      "titre": "À fournir par Sensoria",
+      "texte": "Hébergeur définitif · politique de confidentialité · durée exacte des formations ESCALE®, phyto-aromatologie et gestion du stress · prix d’ESCALE® et des constellations à confirmer · photos de Briord · règlement intérieur · CGV mises à jour · statut exact de l’atelier RE’CONNEXION (dates)."
+    },
+    "editeur": {
+      "titre": "Éditeur",
+      "texte": "Entreprise individuelle Sandrine Sansano (SENSORIA), 51 rue de Villiersfins, 41000 Blois. SIRET 518 623 707 00016, APE 8559B (autres enseignements). Déclaration d’activité de formation enregistrée sous le n° 24 41 01093 41 auprès du préfet de la région Centre (cet enregistrement ne vaut pas agrément de l’État). Directrice de la publication : Sandrine Sansano. Contact : contact@formations-sensoria.fr, 06 73 41 80 05."
+    },
+    "hebergeur": {
+      "titre": "Hébergeur",
+      "texte": "Vercel Inc., 440 N Barranca Avenue #4133, Covina, CA 91723, États-Unis (adresse vérifiée sur vercel.com le 2 novembre 2026, à revérifier lors de la mise en ligne définitive)."
+    },
+    "credits": {
+      "titre": "Crédits",
+      "texte": "Photographies : Sensoria. Les images marquées « Illustration générée » ont été créées par intelligence artificielle et ne montrent ni les lieux, ni les personnes de Sensoria. Polices Fraunces et Figtree sous licence SIL Open Font License. Logos des partenaires : propriété de leurs titulaires."
+    },
+    "sante": {
+      "titre": "Bien-être, sans visée médicale",
+      "texte": "Les formations, séances et ateliers de Sensoria relèvent du bien-être. Ils ne s’apparentent à aucune pratique médicale ou paramédicale, n’ont aucune visée thérapeutique et ne remplacent ni un diagnostic, ni un traitement, ni un avis médical. Les certificats remis sont des certificats d’école, pas des diplômes d’État."
+    },
+    "confidentialite": {
+      "titre": "Confidentialité",
+      "texte": "Politique de confidentialité à compléter (RGPD) : données recueillies par les formulaires, finalité, durée de conservation, droits d’accès, de rectification et d’effacement. Cette maquette n’utilise aucun cookie de mesure d’audience ; le choix « Réduire les animations » est mémorisé dans votre navigateur."
+    }
+  },
+  "introuvable": {
+    "titre": "Ce chemin s’est perdu dans la brume",
+    "texte": "La page que vous cherchez a pris un autre sentier : elle n’existe pas ou plus.",
+    "retour": "Revenir à l’accueil",
+    "formations": "Voir les formations",
+    "alt": "Sentier qui se perd dans la brume du matin"
+  }
+}

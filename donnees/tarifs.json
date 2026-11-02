@@ -1,0 +1,53 @@
+{
+  "groupes": [
+    {
+      "cle": "formations", "titre": "Formations professionnelles",
+      "lignes": [
+        { "nom": "Praticien en techniques quantiques (cursus complet)", "prix": "1 950 €", "paiement": "1 à 4 fois sans frais" },
+        { "nom": "Module radiesthésie seul (3 jours)", "prix": "290 €", "paiement": "1 à 2 fois sans frais" },
+        { "nom": "Module soin signature ORIÂ® (4 jours)", "prix": "450 €", "paiement": "1 à 3 fois sans frais" },
+        { "nom": "Praticien en massages bien-être (cursus complet)", "prix": "2 990 €", "paiement": "1 à 4 fois sans frais" },
+        { "nom": "Massages à la carte, le module", "prix": "350 €", "paiement": "1 à 2 fois sans frais" },
+        { "nom": "Naturopathe holistique", "prix": "3 990 €", "paiement": "1 à 4 fois sans frais" },
+        { "nom": "Phyto-aromatologie familiale", "prix": "595 €", "paiement": "1 à 3 fois sans frais" },
+        { "nom": "Coach en mieux-être, gestion du stress", "prix": "595 €", "paiement": "1 ou 3 fois sans frais" },
+        { "nom": "Méthode ESCALE®", "prix": "1 990 €", "paiement": "1 à 4 fois sans frais", "note": "à confirmer : 990 € sur la boutique actuelle" },
+        { "nom": "Méthode LHOVE®", "prix": "450 €", "paiement": "1 à 2 fois sans frais" }
+      ]
+    },
+    {
+      "cle": "ateliers", "titre": "Ateliers découverte & immersions",
+      "lignes": [
+        { "nom": "Atelier découverte (magnétisme, naturopathie, massage)", "prix": "99 €", "paiement": "la journée" },
+        { "nom": "Do In, en ligne ou en présentiel", "prix": "99 €", "paiement": "" },
+        { "nom": "Immersion chamanique, 3 jours", "prix": "290 €", "paiement": "1 à 2 fois sans frais" },
+        { "nom": "Journée de ressourcement et de rituels", "prix": "99 €", "paiement": "la journée" },
+        { "nom": "Retraite de ressourcement, 3 jours", "prix": "290 €", "paiement": "1 à 2 fois sans frais" }
+      ]
+    },
+    {
+      "cle": "seances", "titre": "Séances individuelles",
+      "lignes": [
+        { "nom": "Soin signature ORIÂ®", "prix": "75 €", "paiement": "" },
+        { "nom": "Soin signature LHOVE®", "prix": "65 €", "paiement": "" },
+        { "nom": "Séance ACT®", "prix": "85 €", "paiement": "" },
+        { "nom": "Séance cocooning énergétique", "prix": "65 €", "paiement": "" },
+        { "nom": "Voyage sonore", "prix": "65 €", "paiement": "" }
+      ]
+    },
+    {
+      "cle": "groupes", "titre": "Ateliers en groupe & parcours",
+      "lignes": [
+        { "nom": "Constellations du vivant", "prix": "50 €", "paiement": "la demi-journée" },
+        { "nom": "Constellations du vivant", "prix": "90 €", "paiement": "la journée", "note": "à confirmer : 85 € sur la fiche actuelle" },
+        { "nom": "MIST'HER, atelier co-créatif", "prix": "50 €", "paiement": "la séance" },
+        { "nom": "SAN'HELIA, atelier co-créatif", "prix": "50 €", "paiement": "la séance" },
+        { "nom": "RE'CONNEXION", "prix": "250 €", "paiement": "les 2 jours" },
+        { "nom": "Voyage sonore en groupe", "prix": "39 €", "paiement": "l'immersion" },
+        { "nom": "Espace de rencontre (3 h)", "prix": "39 €", "paiement": "la session" },
+        { "nom": "Espace en duo : couple ou mère-fille (3 h)", "prix": "55 €", "paiement": "par binôme" },
+        { "nom": "Parcours Femmes, sur plusieurs mois", "prix": "45 €", "paiement": "la session de 3 h 30 min" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,369 @@
+<!doctype html>
+<html lang="fr" data-v="1" data-curseur data-page="quantique">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Formation praticien en techniques quantiques : SENSORIA</title>
+<meta name="description" content="Magnétisme, énergétique, radiesthésie et bols chantants : 135 h de présentiel en 5 modules, e-learning illimité, 1 950 € en 1 à 4 fois sans frais. Blois, Sète et Briord.">
+<meta name="robots" content="noindex, nofollow">
+<link rel="canonical" href="https://sensoria-maquette.vercel.app/formation-techniques-quantiques">
+<style>:root{--fond:#F4EDE3;--texte:#2B1D16;--voile-fond:#2B1D16;--ouverture-fond:#2B1D16;--menu-fond:#2B1D16}:root { --entete-h: 72px; --barres-h: 0px; } html { background: var(--fond); color: var(--texte); scrollbar-gutter: stable; } body { margin: 0; background: var(--fond); } html.js:not(.calme):not(.secours):not([data-arrivee="retour"]) [data-anime] { opacity: 0; } html.js:not(.calme):not(.secours):not([data-arrivee="retour"]) [data-anime].vu { opacity: 1; } [data-voile] { position: fixed; inset: 0; z-index: 900; background: var(--voile-fond); transform: translateY(100%); visibility: hidden; pointer-events: none; } html[data-arrivee="voile"]:not(.voile-leve):not(.calme):not(.secours) [data-voile] { transform: none; visibility: visible; } html.calme [data-voile], html.secours [data-voile] { visibility: hidden !important; } .ouverture-panneau { position: fixed; inset: 0; z-index: 850; display: none; place-content: center; justify-items: center; background: var(--ouverture-fond, var(--voile-fond)); color: var(--fond); text-align: center; } html.js[data-arrivee="intro"]:not(.calme):not(.secours):not(.intro-finie) .ouverture-panneau { display: grid; } html.defilement-bloque, html.defilement-bloque body, html.js[data-arrivee="intro"]:not(.calme):not(.secours):not(.intro-finie), html.js[data-arrivee="intro"]:not(.calme):not(.secours):not(.intro-finie) body, html[data-arrivee="voile"]:not(.voile-leve):not(.calme):not(.secours), html[data-arrivee="voile"]:not(.voile-leve):not(.calme):not(.secours) body { overflow: hidden; } html.js[data-arrivee="intro"]:not(.calme):not(.secours):not(.intro-finie) { background-color: var(--ouverture-fond, var(--voile-fond)); } html[data-arrivee="voile"]:not(.voile-leve):not(.calme):not(.secours) { background-color: var(--voile-fond); }</style>
+<script>(function () {
+var d = document.documentElement, ss = null, ls = null;
+try { ss = window.sessionStorage; ls = window.localStorage; } catch (e) {}
+d.classList.add('js');
+var calme = false;
+try { calme = !!ls && ls.getItem('socle:calme') === 'oui'; } catch (e) {}
+if (!calme && window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches) calme = true;
+if (calme) d.classList.add('calme');
+var nav = performance.getEntriesByType ? performance.getEntriesByType('navigation')[0] : null;
+var type = nav ? nav.type : 'navigate';
+var depart = null;
+try { depart = JSON.parse(ss.getItem('socle:depart') || 'null'); ss.removeItem('socle:depart'); } catch (e) {}
+if (depart && !(Date.now() - depart.t < 15000)) depart = null;
+var retourSection = false;
+try { retourSection = !!ss.getItem('socle:calme-retour'); } catch (e) {}
+var mode = type === 'back_forward' || retourSection ? 'retour' : type === 'reload' ? 'intro' : depart ? 'voile' : 'intro';
+d.setAttribute('data-arrivee', mode);
+if (mode === 'voile' && depart.couleur) d.style.setProperty('--voile-fond', depart.couleur);
+if (type === 'reload' && 'scrollRestoration' in history) {
+if (!retourSection) history.scrollRestoration = 'manual';
+}
+try {
+var choisie = ls && ls.getItem('socle:langue');
+var langue = (d.lang || '').slice(0, 2);
+if (choisie && choisie !== langue && type === 'navigate' && !depart) {
+var alt = document.querySelector('link[rel="alternate"][hreflang="' + choisie + '"]');
+if (alt) location.replace(new URL(alt.href).pathname + location.search + location.hash);
+}
+} catch (e) {}
+setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('secours'); }, 2000);
+})();</script>
+<link rel="preload" href="/assets/polices/fraunces.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/polices/figtree.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/css/socle.css?v=1">
+<link rel="stylesheet" href="/assets/css/site.css?v=1">
+<link rel="modulepreload" href="/assets/js/site.js?v=1">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=1">
+<script src="/assets/vendor/gsap.min.js" defer></script>
+<script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
+<script src="/assets/vendor/SplitText.min.js" defer></script>
+<script type="module" src="/assets/js/site.js?v=1"></script>
+<meta name="theme-color" content="#F4EDE3">
+<link rel="icon" href="/assets/images/favicon-32.png" type="image/png" sizes="32x32">
+<link rel="icon" href="/assets/images/favicon-48.png" type="image/png" sizes="48x48">
+<link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="SENSORIA">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:title" content="Formation praticien en techniques quantiques : SENSORIA">
+<meta property="og:description" content="Magnétisme, énergétique, radiesthésie et bols chantants : 135 h de présentiel en 5 modules, e-learning illimité, 1 950 € en 1 à 4 fois sans frais. Blois, Sète et Briord.">
+<meta property="og:url" content="https://sensoria-maquette.vercel.app/formation-techniques-quantiques">
+<meta property="og:image" content="https://sensoria-maquette.vercel.app/assets/partage/quantique-fr.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Pendule et bols chantants, formation techniques quantiques">
+<meta name="twitter:card" content="summary_large_image">
+</head>
+<body id="haut">
+<div data-voile aria-hidden="true"><svg class="couronne voile-couronne" viewBox="0 0 200 200" aria-hidden="true" focusable="false">
+<g class="couronne-tourne"><circle class="couronne-anneau" cx="100" cy="100" r="15"/><circle class="couronne-anneau" cx="100" cy="100" r="19"/><line class="couronne-rayon" x1="119.00" y1="100.00" x2="196.00" y2="100.00"/><line class="couronne-rayon" x1="118.63" y1="103.71" x2="194.16" y2="118.73"/><line class="couronne-rayon" x1="117.55" y1="107.27" x2="188.69" y2="136.74"/><line class="couronne-rayon" x1="115.80" y1="110.56" x2="179.82" y2="153.33"/><line class="couronne-rayon" x1="113.44" y1="113.44" x2="167.88" y2="167.88"/><line class="couronne-rayon" x1="110.56" y1="115.80" x2="153.33" y2="179.82"/><line class="couronne-rayon" x1="107.27" y1="117.55" x2="136.74" y2="188.69"/><line class="couronne-rayon" x1="103.71" y1="118.63" x2="118.73" y2="194.16"/><line class="couronne-rayon" x1="100.00" y1="119.00" x2="100.00" y2="196.00"/><line class="couronne-rayon" x1="96.29" y1="118.63" x2="81.27" y2="194.16"/><line class="couronne-rayon" x1="92.73" y1="117.55" x2="63.26" y2="188.69"/><line class="couronne-rayon" x1="89.44" y1="115.80" x2="46.67" y2="179.82"/><line class="couronne-rayon" x1="86.56" y1="113.44" x2="32.12" y2="167.88"/><line class="couronne-rayon" x1="84.20" y1="110.56" x2="20.18" y2="153.33"/><line class="couronne-rayon" x1="82.45" y1="107.27" x2="11.31" y2="136.74"/><line class="couronne-rayon" x1="81.37" y1="103.71" x2="5.84" y2="118.73"/><line class="couronne-rayon" x1="81.00" y1="100.00" x2="4.00" y2="100.00"/><line class="couronne-rayon" x1="81.37" y1="96.29" x2="5.84" y2="81.27"/><line class="couronne-rayon" x1="82.45" y1="92.73" x2="11.31" y2="63.26"/><line class="couronne-rayon" x1="84.20" y1="89.44" x2="20.18" y2="46.67"/><line class="couronne-rayon" x1="86.56" y1="86.56" x2="32.12" y2="32.12"/><line class="couronne-rayon" x1="89.44" y1="84.20" x2="46.67" y2="20.18"/><line class="couronne-rayon" x1="92.73" y1="82.45" x2="63.26" y2="11.31"/><line class="couronne-rayon" x1="96.29" y1="81.37" x2="81.27" y2="5.84"/><line class="couronne-rayon" x1="100.00" y1="81.00" x2="100.00" y2="4.00"/><line class="couronne-rayon" x1="103.71" y1="81.37" x2="118.73" y2="5.84"/><line class="couronne-rayon" x1="107.27" y1="82.45" x2="136.74" y2="11.31"/><line class="couronne-rayon" x1="110.56" y1="84.20" x2="153.33" y2="20.18"/><line class="couronne-rayon" x1="113.44" y1="86.56" x2="167.88" y2="32.12"/><line class="couronne-rayon" x1="115.80" y1="89.44" x2="179.82" y2="46.67"/><line class="couronne-rayon" x1="117.55" y1="92.73" x2="188.69" y2="63.26"/><line class="couronne-rayon" x1="118.63" y1="96.29" x2="194.16" y2="81.27"/><circle class="couronne-anneau couronne-ext" cx="100" cy="100" r="96"/></g></svg><div class="voile-contenu"><img src="/assets/images/lotus-160.webp" alt="" width="60" height="65"><span data-voile-libelle>Techniques quantiques</span></div></div>
+<div class="ouverture-panneau" data-ouverture aria-hidden="true">
+  <div class="ouverture-scene">
+    <div class="ouverture-oculus"><picture><source media="(max-width: 760px) and (orientation: portrait)" srcset="/assets/images/site/yourte-mobile-640.webp 640w, /assets/images/site/yourte-mobile-1080.webp 1080w" sizes="100vw"><img src="/assets/images/site/yourte-1280.webp" srcset="/assets/images/site/yourte-640.webp 640w, /assets/images/site/yourte-1280.webp 1280w, /assets/images/site/yourte-1920.webp 1920w" sizes="100vw" alt="" width="1280" height="853" fetchpriority="high" decoding="async"></picture></div>
+    <svg class="couronne ouverture-couronne" viewBox="0 0 200 200" aria-hidden="true" focusable="false">
+<g class="couronne-tourne"><circle class="couronne-anneau" cx="100" cy="100" r="15"/><circle class="couronne-anneau" cx="100" cy="100" r="19"/><line class="couronne-rayon" x1="119.00" y1="100.00" x2="196.00" y2="100.00"/><line class="couronne-rayon" x1="118.63" y1="103.71" x2="194.16" y2="118.73"/><line class="couronne-rayon" x1="117.55" y1="107.27" x2="188.69" y2="136.74"/><line class="couronne-rayon" x1="115.80" y1="110.56" x2="179.82" y2="153.33"/><line class="couronne-rayon" x1="113.44" y1="113.44" x2="167.88" y2="167.88"/><line class="couronne-rayon" x1="110.56" y1="115.80" x2="153.33" y2="179.82"/><line class="couronne-rayon" x1="107.27" y1="117.55" x2="136.74" y2="188.69"/><line class="couronne-rayon" x1="103.71" y1="118.63" x2="118.73" y2="194.16"/><line class="couronne-rayon" x1="100.00" y1="119.00" x2="100.00" y2="196.00"/><line class="couronne-rayon" x1="96.29" y1="118.63" x2="81.27" y2="194.16"/><line class="couronne-rayon" x1="92.73" y1="117.55" x2="63.26" y2="188.69"/><line class="couronne-rayon" x1="89.44" y1="115.80" x2="46.67" y2="179.82"/><line class="couronne-rayon" x1="86.56" y1="113.44" x2="32.12" y2="167.88"/><line class="couronne-rayon" x1="84.20" y1="110.56" x2="20.18" y2="153.33"/><line class="couronne-rayon" x1="82.45" y1="107.27" x2="11.31" y2="136.74"/><line class="couronne-rayon" x1="81.37" y1="103.71" x2="5.84" y2="118.73"/><line class="couronne-rayon" x1="81.00" y1="100.00" x2="4.00" y2="100.00"/><line class="couronne-rayon" x1="81.37" y1="96.29" x2="5.84" y2="81.27"/><line class="couronne-rayon" x1="82.45" y1="92.73" x2="11.31" y2="63.26"/><line class="couronne-rayon" x1="84.20" y1="89.44" x2="20.18" y2="46.67"/><line class="couronne-rayon" x1="86.56" y1="86.56" x2="32.12" y2="32.12"/><line class="couronne-rayon" x1="89.44" y1="84.20" x2="46.67" y2="20.18"/><line class="couronne-rayon" x1="92.73" y1="82.45" x2="63.26" y2="11.31"/><line class="couronne-rayon" x1="96.29" y1="81.37" x2="81.27" y2="5.84"/><line class="couronne-rayon" x1="100.00" y1="81.00" x2="100.00" y2="4.00"/><line class="couronne-rayon" x1="103.71" y1="81.37" x2="118.73" y2="5.84"/><line class="couronne-rayon" x1="107.27" y1="82.45" x2="136.74" y2="11.31"/><line class="couronne-rayon" x1="110.56" y1="84.20" x2="153.33" y2="20.18"/><line class="couronne-rayon" x1="113.44" y1="86.56" x2="167.88" y2="32.12"/><line class="couronne-rayon" x1="115.80" y1="89.44" x2="179.82" y2="46.67"/><line class="couronne-rayon" x1="117.55" y1="92.73" x2="188.69" y2="63.26"/><line class="couronne-rayon" x1="118.63" y1="96.29" x2="194.16" y2="81.27"/><circle class="couronne-anneau couronne-ext" cx="100" cy="100" r="96"/></g></svg>
+    <span class="ouverture-lueur"></span>
+  </div>
+  <p class="ouverture-nom"><span class="ouverture-lettre" style="--i:0">S</span><span class="ouverture-lettre" style="--i:1">E</span><span class="ouverture-lettre" style="--i:2">N</span><span class="ouverture-lettre" style="--i:3">S</span><span class="ouverture-lettre" style="--i:4">O</span><span class="ouverture-lettre" style="--i:5">R</span><span class="ouverture-lettre" style="--i:6">I</span><span class="ouverture-lettre" style="--i:7">A</span></p>
+  <p class="ouverture-ligne">École &amp; espace de soins holistiques</p>
+</div>
+<a class="evitement" href="#contenu">Aller au contenu</a>
+<header data-entete>
+  <div class="entete-rangee">
+    <a class="entete-logo" href="/" data-libelle="Accueil">
+      <img src="/assets/images/logo-rond-96.png" alt="" width="44" height="44"><span class="entete-nom">SENSORIA</span>
+    </a>
+    <nav data-nav aria-label="Navigation principale">
+      <ul><li><a href="/l-ecole" data-libelle="L’école">L’école</a></li><li><a href="/formations" data-libelle="Formations">Formations</a></li><li><a href="/agenda" data-libelle="Agenda">Agenda</a></li><li><a href="/infos-pratiques" data-libelle="Infos pratiques">Infos pratiques</a></li><li><a href="/temoignages" data-libelle="Témoignages">Témoignages</a></li></ul>
+    </nav>
+    <div class="entete-actions">
+      <a class="bouton" href="/contact?sujet=entretien" data-libelle="Contact" data-survol="magnetique"><span class="libelle-long">Réserver un entretien</span><span class="libelle-court" aria-hidden="true">Entretien</span></a>
+      <button type="button" data-menu-bouton aria-controls="menu" aria-expanded="false" data-libelle-ouvrir="Menu" data-libelle-fermer="Fermer"><span class="menu-icone" aria-hidden="true"><i></i><i></i></span><span data-libelle-bouton>Menu</span></button>
+    </div>
+  </div>
+</header>
+<div id="menu" data-menu role="dialog" aria-modal="true" aria-label="Menu">
+  <svg class="couronne menu-couronne" viewBox="0 0 200 200" aria-hidden="true" focusable="false">
+<g class="couronne-tourne"><circle class="couronne-anneau" cx="100" cy="100" r="15"/><circle class="couronne-anneau" cx="100" cy="100" r="19"/><line class="couronne-rayon" x1="119.00" y1="100.00" x2="196.00" y2="100.00"/><line class="couronne-rayon" x1="118.63" y1="103.71" x2="194.16" y2="118.73"/><line class="couronne-rayon" x1="117.55" y1="107.27" x2="188.69" y2="136.74"/><line class="couronne-rayon" x1="115.80" y1="110.56" x2="179.82" y2="153.33"/><line class="couronne-rayon" x1="113.44" y1="113.44" x2="167.88" y2="167.88"/><line class="couronne-rayon" x1="110.56" y1="115.80" x2="153.33" y2="179.82"/><line class="couronne-rayon" x1="107.27" y1="117.55" x2="136.74" y2="188.69"/><line class="couronne-rayon" x1="103.71" y1="118.63" x2="118.73" y2="194.16"/><line class="couronne-rayon" x1="100.00" y1="119.00" x2="100.00" y2="196.00"/><line class="couronne-rayon" x1="96.29" y1="118.63" x2="81.27" y2="194.16"/><line class="couronne-rayon" x1="92.73" y1="117.55" x2="63.26" y2="188.69"/><line class="couronne-rayon" x1="89.44" y1="115.80" x2="46.67" y2="179.82"/><line class="couronne-rayon" x1="86.56" y1="113.44" x2="32.12" y2="167.88"/><line class="couronne-rayon" x1="84.20" y1="110.56" x2="20.18" y2="153.33"/><line class="couronne-rayon" x1="82.45" y1="107.27" x2="11.31" y2="136.74"/><line class="couronne-rayon" x1="81.37" y1="103.71" x2="5.84" y2="118.73"/><line class="couronne-rayon" x1="81.00" y1="100.00" x2="4.00" y2="100.00"/><line class="couronne-rayon" x1="81.37" y1="96.29" x2="5.84" y2="81.27"/><line class="couronne-rayon" x1="82.45" y1="92.73" x2="11.31" y2="63.26"/><line class="couronne-rayon" x1="84.20" y1="89.44" x2="20.18" y2="46.67"/><line class="couronne-rayon" x1="86.56" y1="86.56" x2="32.12" y2="32.12"/><line class="couronne-rayon" x1="89.44" y1="84.20" x2="46.67" y2="20.18"/><line class="couronne-rayon" x1="92.73" y1="82.45" x2="63.26" y2="11.31"/><line class="couronne-rayon" x1="96.29" y1="81.37" x2="81.27" y2="5.84"/><line class="couronne-rayon" x1="100.00" y1="81.00" x2="100.00" y2="4.00"/><line class="couronne-rayon" x1="103.71" y1="81.37" x2="118.73" y2="5.84"/><line class="couronne-rayon" x1="107.27" y1="82.45" x2="136.74" y2="11.31"/><line class="couronne-rayon" x1="110.56" y1="84.20" x2="153.33" y2="20.18"/><line class="couronne-rayon" x1="113.44" y1="86.56" x2="167.88" y2="32.12"/><line class="couronne-rayon" x1="115.80" y1="89.44" x2="179.82" y2="46.67"/><line class="couronne-rayon" x1="117.55" y1="92.73" x2="188.69" y2="63.26"/><line class="couronne-rayon" x1="118.63" y1="96.29" x2="194.16" y2="81.27"/><circle class="couronne-anneau couronne-ext" cx="100" cy="100" r="96"/></g></svg>
+  <ul><li style="--i:0"><a href="/" class="menu-lien" data-libelle="Accueil">Accueil</a></li><li style="--i:1"><a href="/l-ecole" class="menu-lien" data-libelle="L’école">L’école</a></li><li style="--i:2"><a href="/formations" class="menu-lien" data-libelle="Formations">Formations</a></li><li style="--i:3"><a href="/agenda" class="menu-lien" data-libelle="Agenda">Agenda</a></li><li style="--i:4"><a href="/infos-pratiques" class="menu-lien" data-libelle="Infos pratiques">Infos pratiques</a></li><li style="--i:5"><a href="/temoignages" class="menu-lien" data-libelle="Témoignages">Témoignages</a></li><li style="--i:6"><a href="/contact" class="menu-lien" data-libelle="Contact">Contact</a></li></ul>
+  <div class="menu-pied">
+    <p><a class="bouton" href="/contact?sujet=entretien" data-libelle="Contact">Réserver un entretien</a></p>
+    <p><a class="bouton bouton--contour" href="tel:+33673418005">Appeler 06 73 41 80 05</a></p>
+    <p><a href="mailto:contact@formations-sensoria.fr">contact@formations-sensoria.fr</a></p>
+    <p><button type="button" class="lien" data-calme-bascule data-libelle-reduire="Réduire les animations" data-libelle-retablir="Rétablir les animations" data-libelle-systeme="Animations réduites par le réglage de votre appareil"><span data-libelle-bouton>Réduire les animations</span></button></p>
+  </div>
+</div>
+<main id="contenu" tabindex="-1">
+<section class="page-tete page-tete--fiche conteneur" id="debut">
+  <div class="page-tete-texte">
+    <p class="surtitre tete-suite" data-anime="gsap">Énergétique, magnétisme &amp; quantique</p>
+    <h1 data-superpose><span class="ligne-masque"><span class="tete-ligne" data-anime="gsap">Praticien en</span></span><span class="ligne-masque"><span class="tete-ligne" data-anime="gsap"><em>techniques quantiques</em></span></span></h1>
+    <p class="page-tete-role tete-suite tete-secondaire" data-anime="gsap">Magnétisme, énergétique, radiesthésie &amp; bols chantants</p>
+    <ul class="cles tete-suite" data-anime="gsap" data-info-cle>
+      <li><strong data-prix>1 950 €</strong><span>en 1 à 4 fois sans frais</span></li>
+      <li><strong>135 h</strong><span>de présentiel intensif</span></li>
+      <li><strong>5 modules</strong><span>+ e-learning illimité</span></li>
+      <li><strong>3 lieux</strong><span>Blois, Sète · Briord en 2027</span></li>
+    </ul>
+    <div class="page-tete-actions tete-suite" data-anime="gsap">
+      <a href="/contact?sujet=entretien&amp;formation=quantique" class="bouton" data-libelle="Contact" data-action-principale data-survol="magnetique">Demander mon entretien</a>
+      <a class="bouton bouton--contour" href="#dates">Voir les dates</a>
+    </div>
+    <p class="page-tete-prochaine tete-suite" data-anime="gsap"><span>Prochaine session</span> <span data-prochaine-texte>Techniques quantiques, modules 3 et 4 + soin ORIÂ®, Blois, 9 – 12 novembre 2026</span></p>
+  </div>
+  <div class="page-tete-visuel">
+    <figure class="media page-tete-media" data-grok data-oculus style="--cadrage:55% 50%">
+  <picture><source media="(max-width: 760px) and (orientation: portrait)" srcset="/assets/images/grok/fiche-quantique-mobile-640.webp 640w, /assets/images/grok/fiche-quantique-mobile-941.webp 941w" sizes="(max-width: 860px) 78vw, 45vw">
+    <img src="/assets/images/grok/fiche-quantique-1280.webp" srcset="/assets/images/grok/fiche-quantique-640.webp 640w, /assets/images/grok/fiche-quantique-1280.webp 1280w, /assets/images/grok/fiche-quantique-1672.webp 1672w" sizes="(max-width: 860px) 78vw, 45vw" alt="Mains tenant un pendule en laiton au-dessus d’une planche en bois, bols chantants" width="1280" height="720" fetchpriority="high" loading="eager" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+    <svg class="couronne page-tete-couronne" viewBox="0 0 200 200" aria-hidden="true" focusable="false" data-effet="couronne">
+<g class="couronne-tourne"><circle class="couronne-anneau" cx="100" cy="100" r="15"/><circle class="couronne-anneau" cx="100" cy="100" r="19"/><line class="couronne-rayon" x1="119.00" y1="100.00" x2="196.00" y2="100.00"/><line class="couronne-rayon" x1="118.63" y1="103.71" x2="194.16" y2="118.73"/><line class="couronne-rayon" x1="117.55" y1="107.27" x2="188.69" y2="136.74"/><line class="couronne-rayon" x1="115.80" y1="110.56" x2="179.82" y2="153.33"/><line class="couronne-rayon" x1="113.44" y1="113.44" x2="167.88" y2="167.88"/><line class="couronne-rayon" x1="110.56" y1="115.80" x2="153.33" y2="179.82"/><line class="couronne-rayon" x1="107.27" y1="117.55" x2="136.74" y2="188.69"/><line class="couronne-rayon" x1="103.71" y1="118.63" x2="118.73" y2="194.16"/><line class="couronne-rayon" x1="100.00" y1="119.00" x2="100.00" y2="196.00"/><line class="couronne-rayon" x1="96.29" y1="118.63" x2="81.27" y2="194.16"/><line class="couronne-rayon" x1="92.73" y1="117.55" x2="63.26" y2="188.69"/><line class="couronne-rayon" x1="89.44" y1="115.80" x2="46.67" y2="179.82"/><line class="couronne-rayon" x1="86.56" y1="113.44" x2="32.12" y2="167.88"/><line class="couronne-rayon" x1="84.20" y1="110.56" x2="20.18" y2="153.33"/><line class="couronne-rayon" x1="82.45" y1="107.27" x2="11.31" y2="136.74"/><line class="couronne-rayon" x1="81.37" y1="103.71" x2="5.84" y2="118.73"/><line class="couronne-rayon" x1="81.00" y1="100.00" x2="4.00" y2="100.00"/><line class="couronne-rayon" x1="81.37" y1="96.29" x2="5.84" y2="81.27"/><line class="couronne-rayon" x1="82.45" y1="92.73" x2="11.31" y2="63.26"/><line class="couronne-rayon" x1="84.20" y1="89.44" x2="20.18" y2="46.67"/><line class="couronne-rayon" x1="86.56" y1="86.56" x2="32.12" y2="32.12"/><line class="couronne-rayon" x1="89.44" y1="84.20" x2="46.67" y2="20.18"/><line class="couronne-rayon" x1="92.73" y1="82.45" x2="63.26" y2="11.31"/><line class="couronne-rayon" x1="96.29" y1="81.37" x2="81.27" y2="5.84"/><line class="couronne-rayon" x1="100.00" y1="81.00" x2="100.00" y2="4.00"/><line class="couronne-rayon" x1="103.71" y1="81.37" x2="118.73" y2="5.84"/><line class="couronne-rayon" x1="107.27" y1="82.45" x2="136.74" y2="11.31"/><line class="couronne-rayon" x1="110.56" y1="84.20" x2="153.33" y2="20.18"/><line class="couronne-rayon" x1="113.44" y1="86.56" x2="167.88" y2="32.12"/><line class="couronne-rayon" x1="115.80" y1="89.44" x2="179.82" y2="46.67"/><line class="couronne-rayon" x1="117.55" y1="92.73" x2="188.69" y2="63.26"/><line class="couronne-rayon" x1="118.63" y1="96.29" x2="194.16" y2="81.27"/><circle class="couronne-anneau couronne-ext" cx="100" cy="100" r="96"/></g></svg>
+  </div>
+</section>
+<section class="bloc conteneur" id="approche">
+  <figure class="media bloc-media bloc-media--paysage" data-anime="rideau" style="--cadrage:62% 58%">
+  <picture><source media="(max-width: 760px) and (orientation: portrait)" srcset="/assets/images/site/bain-sonore-mobile-640.webp 640w, /assets/images/site/bain-sonore-mobile-1080.webp 1080w" sizes="(max-width: 860px) 90vw, 46vw">
+    <img src="/assets/images/site/bain-sonore-1280.webp" srcset="/assets/images/site/bain-sonore-640.webp 640w, /assets/images/site/bain-sonore-1280.webp 1280w, /assets/images/site/bain-sonore-1920.webp 1920w" sizes="(max-width: 860px) 90vw, 46vw" alt="Sandrine fait chanter un bol, entourée de bols et d’un gong" width="1280" height="855" loading="lazy" decoding="async">
+  </picture>
+</figure>
+  <div class="bloc-texte">
+    <svg class="infini infini--section" viewBox="0 0 120 40" aria-hidden="true" focusable="false" data-effet="infini"><path class="infini-trait" d="M60 20 C 48 4, 22 4, 22 20 C 22 36, 48 36, 60 20 C 72 4, 98 4, 98 20 C 98 36, 72 36, 60 20 Z"/><circle class="infini-point" r="2.6" cx="60" cy="20"/></svg>
+    <h2 data-anime="lignes">L’art ancestral de l’énergie &amp; du ressenti</h2>
+    <p data-anime>Les techniques énergétiques sont pratiquées depuis des siècles, au cœur de traditions comme le chamanisme, l’ayurvéda ou l’approche traditionnelle chinoise. Dans nos campagnes, cette sensibilité s’est transmise de génération en génération.</p>
+    <p data-anime>Pour Sandrine, le magnétisme est un outil précieux de bien-être, dédié à la libération des empreintes du passé et à la connaissance de soi, de ses lignées et de ses ancêtres.</p>
+  </div>
+</section>
+<section class="modalites bande" id="modalites">
+  <div class="conteneur modalites-grille">
+    <div>
+      <h2 data-anime="lignes">Votre parcours d’apprentissage</h2>
+      <ul class="modalites-liste" data-anime="cascade">
+        <li><h3>Présentiel intensif</h3><p>135 heures de transmission dans la yourte de Blois, face à la mer à Sète ou en pleine nature à Briord.</p></li><li><h3>Supervision incluse</h3><p>Un accompagnement personnalisé tout au long du parcours pour ancrer votre posture.</p></li><li><h3>E-learning illimité</h3><p>La plateforme pour étudier le corps humain et réviser à votre rythme (même programme de biologie que les naturopathes).</p></li><li><h3>Pratique personnelle</h3><p>20 heures minimum, suivies dans votre carnet de bord (à confirmer : 40 h sur une fiche externe).</p></li><li><h3>Révisions libres</h3><p>Revenez gratuitement aux sessions autant de fois que nécessaire.</p></li><li><h3>Évaluation finale</h3><p>Une étude de cas pratique, puis un entretien de fin de parcours.</p></li>
+      </ul>
+    </div>
+    <figure class="media modalites-media" data-fx="parallaxe" data-fx-force="8" style="--cadrage:50% 55%">
+  <picture>
+    <img src="/assets/images/site/yourte-sandrine-debout-1280.webp" srcset="/assets/images/site/yourte-sandrine-debout-640.webp 640w, /assets/images/site/yourte-sandrine-debout-1280.webp 1280w, /assets/images/site/yourte-sandrine-debout-1920.webp 1920w" sizes="(max-width: 860px) 90vw, 38vw" alt="Sandrine debout dans la yourte, sous la lumière du toit" width="1280" height="720" loading="lazy" decoding="async">
+  </picture>
+</figure>
+  </div>
+</section>
+<section class="programme ecran epingle" id="programme" data-entete-cache data-fx="galerie">
+  <div class="conteneur programme-tete">
+    <h2 data-anime="lignes">Le programme, module par module</h2>
+    <p data-anime>Cinq étapes pour développer vos ressentis, votre confiance et votre capacité à accompagner par l’énergie.</p>
+  </div>
+  <div class="piste programme-piste" data-galerie tabindex="0" role="region" aria-label="Programme en cinq modules, défilement horizontal">
+    <article class="module" id="module-1" data-visuel>
+      <svg class="embleme" viewBox="0 0 200 200" aria-hidden="true"><circle cx="100" cy="100" r="80" class="embleme-anneau"/><path d="M100 100 L100.0 20.0 A80 80 0 0 1 176.1 75.3 Z" class="embleme-secteur"/><circle cx="100" cy="100" r="18" class="embleme-centre"/><text x="100" y="108" text-anchor="middle" class="embleme-num">1</text></svg>
+      <p class="module-num">Module 1</p>
+      <h3>Les bases du magnétisme &amp; de l’énergétique</h3>
+      <ul><li>Courants énergétiques, chakras, nadis, bases de l’ayurvéda</li><li>Les méridiens et les points d’ancrage traditionnels</li><li>Développer son ressenti : pierres, symboles, bols, couleurs</li><li>Ancrage et protection du praticien</li></ul>
+    </article><article class="module" id="module-2" data-visuel>
+      <svg class="embleme" viewBox="0 0 200 200" aria-hidden="true"><circle cx="100" cy="100" r="80" class="embleme-anneau"/><path d="M100 100 L176.1 75.3 A80 80 0 0 1 147.0 164.7 Z" class="embleme-secteur"/><circle cx="100" cy="100" r="18" class="embleme-centre"/><text x="100" y="108" text-anchor="middle" class="embleme-num">2</text></svg>
+      <p class="module-num">Module 2</p>
+      <h3>Le praticien &amp; son espace d’accompagnement</h3>
+      <ul><li>Posture et éthique d’une pratique saine</li><li>Nettoyage énergétique du lieu de travail</li><li>Méditation, respiration, sourire intérieur, circulation du Qi</li><li>Connexion aux cinq éléments</li></ul>
+    </article><article class="module" id="module-3" data-visuel>
+      <svg class="embleme" viewBox="0 0 200 200" aria-hidden="true"><circle cx="100" cy="100" r="80" class="embleme-anneau"/><path d="M100 100 L147.0 164.7 A80 80 0 0 1 53.0 164.7 Z" class="embleme-secteur"/><circle cx="100" cy="100" r="18" class="embleme-centre"/><text x="100" y="108" text-anchor="middle" class="embleme-num">3</text></svg>
+      <p class="module-num">Module 3</p>
+      <h3>La radiesthésie</h3>
+      <ul><li>Histoire et maniement pas à pas du pendule</li><li>Utilisation des planches de radiesthésie</li><li>Le pendule comme outil d’équilibrage face aux surcharges émotionnelles</li></ul>
+    </article><article class="module" id="module-4" data-visuel>
+      <svg class="embleme" viewBox="0 0 200 200" aria-hidden="true"><circle cx="100" cy="100" r="80" class="embleme-anneau"/><path d="M100 100 L53.0 164.7 A80 80 0 0 1 23.9 75.3 Z" class="embleme-secteur"/><circle cx="100" cy="100" r="18" class="embleme-centre"/><text x="100" y="108" text-anchor="middle" class="embleme-num">4</text></svg>
+      <p class="module-num">Module 4</p>
+      <h3>Le bain sonore aux bols chantants</h3>
+      <ul><li>Histoire et traditions des bols chantants</li><li>Gestion des résonances, protocole complet de relaxation sonore</li><li>Pratique et démonstration du bain sonore</li></ul>
+    </article><article class="module" id="module-5" data-visuel>
+      <svg class="embleme" viewBox="0 0 200 200" aria-hidden="true"><circle cx="100" cy="100" r="80" class="embleme-anneau"/><path d="M100 100 L23.9 75.3 A80 80 0 0 1 100.0 20.0 Z" class="embleme-secteur"/><circle cx="100" cy="100" r="18" class="embleme-centre"/><text x="100" y="108" text-anchor="middle" class="embleme-num">5</text></svg>
+      <p class="module-num">Module 5</p>
+      <h3>Techniques globales &amp; soin ORIÂ®</h3>
+      <ul><li>Le protocole exclusif ORIÂ® (reconnexion aux mémoires originelles)</li><li>Harmonisation par les couleurs, rééquilibrage des chakras</li><li>Le magnétisme appliqué au végétal et aux animaux</li></ul>
+    </article>
+  </div>
+  <div class="galerie-progres" aria-hidden="true"><span></span></div>
+</section>
+<section class="sessions conteneur" id="dates">
+  <div class="section-tete">
+    <h2 data-anime="lignes">Les sessions</h2>
+    <p data-anime>Intensif de 8 h à 18 h, voire 19 h. Statuts calculés chaque jour à l’heure de Paris.</p>
+  </div>
+  <div class="sessions-grille" data-anime="cascade">
+    <article class="session" data-debut="2026-09-14" data-fin="2026-12-18" data-statut="encours">
+      <header><h3>Blois 2026, 2e session</h3><p class="session-statut" data-statut-texte data-statut-mode="session">en cours</p></header>
+      <div class="fil fil--compact" data-fil data-effet="fil-du-temps">
+        <svg class="fil-trait" viewBox="0 0 10 100" preserveAspectRatio="none" aria-hidden="true"><line x1="5" y1="0" x2="5" y2="100"/></svg>
+        <ol class="fil-liste"><li class="fil-item" data-debut="2026-09-14" data-fin="2026-09-18" data-statut="termine"><span class="fil-point" aria-hidden="true"></span><div class="fil-texte"><h4>Modules 1 et 2</h4><p>14 – 18 septembre 2026</p></div></li><li class="fil-item" data-debut="2026-11-09" data-fin="2026-11-12" data-statut="avenir"><span class="fil-point" aria-hidden="true"></span><div class="fil-texte"><h4>Modules 3 et 4 + soin ORIÂ®</h4><p>9 – 12 novembre 2026</p></div></li><li class="fil-item" data-debut="2026-12-14" data-fin="2026-12-17" data-statut="avenir"><span class="fil-point" aria-hidden="true"></span><div class="fil-texte"><h4>Module 5</h4><p>14 – 17 décembre 2026</p></div></li><li class="fil-item" data-debut="2026-12-18" data-fin="2026-12-18" data-statut="avenir"><span class="fil-point" aria-hidden="true"></span><div class="fil-texte"><h4>Évaluation finale</h4><p>18 décembre 2026</p></div></li></ol>
+      </div>
+    </article><article class="session" data-debut="2026-09-21" data-fin="2026-12-10" data-statut="encours">
+      <header><h3>Sète 2026, 2e session</h3><p class="session-statut" data-statut-texte data-statut-mode="session">en cours</p></header>
+      <div class="fil fil--compact" data-fil data-effet="fil-du-temps">
+        <svg class="fil-trait" viewBox="0 0 10 100" preserveAspectRatio="none" aria-hidden="true"><line x1="5" y1="0" x2="5" y2="100"/></svg>
+        <ol class="fil-liste"><li class="fil-item" data-debut="2026-09-21" data-fin="2026-09-25" data-statut="termine"><span class="fil-point" aria-hidden="true"></span><div class="fil-texte"><h4>Modules 1 et 2</h4><p>21 – 25 septembre 2026</p></div></li><li class="fil-item" data-debut="2026-10-19" data-fin="2026-10-23" data-statut="termine"><span class="fil-point" aria-hidden="true"></span><div class="fil-texte"><h4>Modules 3 et 4 + soin ORIÂ®</h4><p>19 – 23 octobre 2026</p></div></li><li class="fil-item" data-debut="2026-12-07" data-fin="2026-12-09" data-statut="avenir"><span class="fil-point" aria-hidden="true"></span><div class="fil-texte"><h4>Module 5</h4><p>7 – 9 décembre 2026</p></div></li><li class="fil-item" data-debut="2026-12-10" data-fin="2026-12-10" data-statut="avenir"><span class="fil-point" aria-hidden="true"></span><div class="fil-texte"><h4>Évaluation finale</h4><p>10 décembre 2026</p></div></li></ol>
+      </div>
+    </article><article class="session" data-debut="2027-02-15" data-fin="2027-05-14" data-statut="avenir">
+      <header><h3>Blois 2027, 1re session</h3><p class="session-statut" data-statut-texte data-statut-mode="session">À venir</p></header>
+      <div class="fil fil--compact" data-fil data-effet="fil-du-temps">
+        <svg class="fil-trait" viewBox="0 0 10 100" preserveAspectRatio="none" aria-hidden="true"><line x1="5" y1="0" x2="5" y2="100"/></svg>
+        <ol class="fil-liste"><li class="fil-item" data-debut="2027-02-15" data-fin="2027-02-19" data-statut="avenir"><span class="fil-point" aria-hidden="true"></span><div class="fil-texte"><h4>Modules 1 et 2</h4><p>15 – 19 février 2027</p></div></li><li class="fil-item" data-debut="2027-03-30" data-fin="2027-04-02" data-statut="avenir"><span class="fil-point" aria-hidden="true"></span><div class="fil-texte"><h4>Modules 3 et 4 + soin ORIÂ®</h4><p>30 mars – 2 avril 2027</p></div></li><li class="fil-item" data-debut="2027-05-10" data-fin="2027-05-13" data-statut="avenir"><span class="fil-point" aria-hidden="true"></span><div class="fil-texte"><h4>Module 5</h4><p>10 – 13 mai 2027</p></div></li><li class="fil-item" data-debut="2027-05-14" data-fin="2027-05-14" data-statut="avenir"><span class="fil-point" aria-hidden="true"></span><div class="fil-texte"><h4>Évaluation finale</h4><p>14 mai 2027</p></div></li></ol>
+      </div>
+    </article><article class="session" data-debut="2027-04-05" data-fin="2027-07-08" data-statut="avenir">
+      <header><h3>Sète 2027, 1re session</h3><p class="session-statut" data-statut-texte data-statut-mode="session">À venir</p></header>
+      <div class="fil fil--compact" data-fil data-effet="fil-du-temps">
+        <svg class="fil-trait" viewBox="0 0 10 100" preserveAspectRatio="none" aria-hidden="true"><line x1="5" y1="0" x2="5" y2="100"/></svg>
+        <ol class="fil-liste"><li class="fil-item" data-debut="2027-04-05" data-fin="2027-04-09" data-statut="avenir"><span class="fil-point" aria-hidden="true"></span><div class="fil-texte"><h4>Modules 1 et 2</h4><p>5 – 9 avril 2027</p></div></li><li class="fil-item" data-debut="2027-06-07" data-fin="2027-06-11" data-statut="avenir"><span class="fil-point" aria-hidden="true"></span><div class="fil-texte"><h4>Modules 3 et 4 + soin ORIÂ®</h4><p>7 – 11 juin 2027</p></div></li><li class="fil-item" data-debut="2027-07-05" data-fin="2027-07-07" data-statut="avenir"><span class="fil-point" aria-hidden="true"></span><div class="fil-texte"><h4>Module 5</h4><p>5 – 7 juillet 2027</p></div></li><li class="fil-item" data-debut="2027-07-08" data-fin="2027-07-08" data-statut="avenir"><span class="fil-point" aria-hidden="true"></span><div class="fil-texte"><h4>Évaluation finale</h4><p>8 juillet 2027</p></div></li></ol>
+      </div>
+    </article>
+    <article class="session session--bientot" data-visuel>
+      <svg class="couronne session-couronne" viewBox="0 0 200 200" aria-hidden="true" focusable="false" data-audit-ignorer>
+<g class="couronne-tourne"><circle class="couronne-anneau" cx="100" cy="100" r="15"/><circle class="couronne-anneau" cx="100" cy="100" r="19"/><line class="couronne-rayon" x1="119.00" y1="100.00" x2="196.00" y2="100.00"/><line class="couronne-rayon" x1="118.07" y1="105.87" x2="191.30" y2="129.67"/><line class="couronne-rayon" x1="115.37" y1="111.17" x2="177.67" y2="156.43"/><line class="couronne-rayon" x1="111.17" y1="115.37" x2="156.43" y2="177.67"/><line class="couronne-rayon" x1="105.87" y1="118.07" x2="129.67" y2="191.30"/><line class="couronne-rayon" x1="100.00" y1="119.00" x2="100.00" y2="196.00"/><line class="couronne-rayon" x1="94.13" y1="118.07" x2="70.33" y2="191.30"/><line class="couronne-rayon" x1="88.83" y1="115.37" x2="43.57" y2="177.67"/><line class="couronne-rayon" x1="84.63" y1="111.17" x2="22.33" y2="156.43"/><line class="couronne-rayon" x1="81.93" y1="105.87" x2="8.70" y2="129.67"/><line class="couronne-rayon" x1="81.00" y1="100.00" x2="4.00" y2="100.00"/><line class="couronne-rayon" x1="81.93" y1="94.13" x2="8.70" y2="70.33"/><line class="couronne-rayon" x1="84.63" y1="88.83" x2="22.33" y2="43.57"/><line class="couronne-rayon" x1="88.83" y1="84.63" x2="43.57" y2="22.33"/><line class="couronne-rayon" x1="94.13" y1="81.93" x2="70.33" y2="8.70"/><line class="couronne-rayon" x1="100.00" y1="81.00" x2="100.00" y2="4.00"/><line class="couronne-rayon" x1="105.87" y1="81.93" x2="129.67" y2="8.70"/><line class="couronne-rayon" x1="111.17" y1="84.63" x2="156.43" y2="22.33"/><line class="couronne-rayon" x1="115.37" y1="88.83" x2="177.67" y2="43.57"/><line class="couronne-rayon" x1="118.07" y1="94.13" x2="191.30" y2="70.33"/><circle class="couronne-anneau couronne-ext" cx="100" cy="100" r="96"/></g></svg>
+      <header><h3>Briord, près de Lyon</h3><p class="session-statut">Bientôt</p></header>
+      <p>Briord (près de Lyon) : dates en 2027, à venir.</p>
+    </article>
+  </div>
+  <p class="sessions-note" data-anime>Réunion d’information sur la formation et le soin ORIÂ® : prochaine date à confirmer (la dernière a eu lieu le 21 août 2026 à Blois).</p>
+</section>
+<section class="competences bande--nuit" id="competences">
+  <svg class="couronne competences-couronne" viewBox="0 0 200 200" aria-hidden="true" focusable="false" data-effet="couronne" data-couronne-ouvre data-audit-ignorer>
+<g class="couronne-tourne"><circle class="couronne-anneau" cx="100" cy="100" r="15"/><circle class="couronne-anneau" cx="100" cy="100" r="19"/><line class="couronne-rayon" x1="119.00" y1="100.00" x2="196.00" y2="100.00"/><line class="couronne-rayon" x1="118.77" y1="102.97" x2="194.82" y2="115.02"/><line class="couronne-rayon" x1="118.07" y1="105.87" x2="191.30" y2="129.67"/><line class="couronne-rayon" x1="116.93" y1="108.63" x2="185.54" y2="143.58"/><line class="couronne-rayon" x1="115.37" y1="111.17" x2="177.67" y2="156.43"/><line class="couronne-rayon" x1="113.44" y1="113.44" x2="167.88" y2="167.88"/><line class="couronne-rayon" x1="111.17" y1="115.37" x2="156.43" y2="177.67"/><line class="couronne-rayon" x1="108.63" y1="116.93" x2="143.58" y2="185.54"/><line class="couronne-rayon" x1="105.87" y1="118.07" x2="129.67" y2="191.30"/><line class="couronne-rayon" x1="102.97" y1="118.77" x2="115.02" y2="194.82"/><line class="couronne-rayon" x1="100.00" y1="119.00" x2="100.00" y2="196.00"/><line class="couronne-rayon" x1="97.03" y1="118.77" x2="84.98" y2="194.82"/><line class="couronne-rayon" x1="94.13" y1="118.07" x2="70.33" y2="191.30"/><line class="couronne-rayon" x1="91.37" y1="116.93" x2="56.42" y2="185.54"/><line class="couronne-rayon" x1="88.83" y1="115.37" x2="43.57" y2="177.67"/><line class="couronne-rayon" x1="86.56" y1="113.44" x2="32.12" y2="167.88"/><line class="couronne-rayon" x1="84.63" y1="111.17" x2="22.33" y2="156.43"/><line class="couronne-rayon" x1="83.07" y1="108.63" x2="14.46" y2="143.58"/><line class="couronne-rayon" x1="81.93" y1="105.87" x2="8.70" y2="129.67"/><line class="couronne-rayon" x1="81.23" y1="102.97" x2="5.18" y2="115.02"/><line class="couronne-rayon" x1="81.00" y1="100.00" x2="4.00" y2="100.00"/><line class="couronne-rayon" x1="81.23" y1="97.03" x2="5.18" y2="84.98"/><line class="couronne-rayon" x1="81.93" y1="94.13" x2="8.70" y2="70.33"/><line class="couronne-rayon" x1="83.07" y1="91.37" x2="14.46" y2="56.42"/><line class="couronne-rayon" x1="84.63" y1="88.83" x2="22.33" y2="43.57"/><line class="couronne-rayon" x1="86.56" y1="86.56" x2="32.12" y2="32.12"/><line class="couronne-rayon" x1="88.83" y1="84.63" x2="43.57" y2="22.33"/><line class="couronne-rayon" x1="91.37" y1="83.07" x2="56.42" y2="14.46"/><line class="couronne-rayon" x1="94.13" y1="81.93" x2="70.33" y2="8.70"/><line class="couronne-rayon" x1="97.03" y1="81.23" x2="84.98" y2="5.18"/><line class="couronne-rayon" x1="100.00" y1="81.00" x2="100.00" y2="4.00"/><line class="couronne-rayon" x1="102.97" y1="81.23" x2="115.02" y2="5.18"/><line class="couronne-rayon" x1="105.87" y1="81.93" x2="129.67" y2="8.70"/><line class="couronne-rayon" x1="108.63" y1="83.07" x2="143.58" y2="14.46"/><line class="couronne-rayon" x1="111.17" y1="84.63" x2="156.43" y2="22.33"/><line class="couronne-rayon" x1="113.44" y1="86.56" x2="167.88" y2="32.12"/><line class="couronne-rayon" x1="115.37" y1="88.83" x2="177.67" y2="43.57"/><line class="couronne-rayon" x1="116.93" y1="91.37" x2="185.54" y2="56.42"/><line class="couronne-rayon" x1="118.07" y1="94.13" x2="191.30" y2="70.33"/><line class="couronne-rayon" x1="118.77" y1="97.03" x2="194.82" y2="84.98"/><circle class="couronne-anneau couronne-ext" cx="100" cy="100" r="96"/></g></svg>
+  <div class="conteneur competences-grille">
+    <div>
+      <h2 data-anime="lignes">Ce que vous saurez faire</h2>
+      <p class="competences-objectif" data-anime>Devenir praticien en techniques quantiques et vibratoires (magnétisme, énergétique, radiesthésie, sonothérapie aux bols), dans le seul but de favoriser un mieux-être global.</p>
+      <ul class="competences-liste" data-anime="cascade">
+        <li><h3>Qualité d’accueil</h3><p>Installer un accueil chaleureux, sécurisant et bienveillant, dans le respect des règles d’hygiène.</p></li><li><h3>Adaptabilité</h3><p>Ajuster les techniques et leur intensité à la sensibilité et à la demande de chaque personne.</p></li><li><h3>Maîtrise technique</h3><p>Appliquer avec précision les protocoles de magnétisme, de radiesthésie et d’intégration sonore.</p></li><li><h3>Pédagogie du bien-être</h3><p>Transmettre des conseils d’harmonisation au quotidien.</p></li><li><h3>Vigilance &amp; déontologie</h3><p>Connaître les limites de la pratique et les précautions indispensables.</p></li><li><h3>Ateliers</h3><p>Concevoir et animer des ateliers collectifs ou individuels (respiration, relaxation).</p></li>
+      </ul>
+      <p class="competences-conditions" data-anime>Accessible à tous, sans connaissance préalable, après un entretien avec Sandrine. Validation sur étude de cas pratique devant la formatrice, puis entretien : attestation de fin de formation et certificat d’école.</p>
+    </div>
+    <figure class="media competences-media" data-fx="zoom" data-fx-force="14" style="--cadrage:56% 55%">
+  <picture>
+    <img src="/assets/images/site/tambour-sable-3-1280.webp" srcset="/assets/images/site/tambour-sable-3-640.webp 640w, /assets/images/site/tambour-sable-3-1280.webp 1280w, /assets/images/site/tambour-sable-3-1920.webp 1920w" sizes="(max-width: 860px) 90vw, 34vw" alt="Tambour chamanique posé sur le sable face à la mer" width="1280" height="960" loading="lazy" decoding="async">
+  </picture>
+</figure>
+  </div>
+</section>
+<section class="options conteneur" id="tarifs">
+  <div class="section-tete">
+    <h2 data-anime="lignes">Vos options &amp; tarifs</h2>
+    <p data-anime>Le parcours complet, ou une acquisition à la carte.</p>
+  </div>
+  <div class="options-grille">
+    <div class="options-echeances"><figure class="echeances" data-visuel>
+  <svg viewBox="0 0 200 200" aria-hidden="true" data-fx="trace"><path class="echeance-arc" d="M106.1 12.2 A88 88 0 0 1 187.8 93.9"/><path class="echeance-arc" d="M187.8 106.1 A88 88 0 0 1 106.1 187.8"/><path class="echeance-arc" d="M93.9 187.8 A88 88 0 0 1 12.2 106.1"/><path class="echeance-arc" d="M12.2 93.9 A88 88 0 0 1 93.9 12.2"/></svg>
+  <figcaption class="echeances-centre"><strong data-prix>1 950 €</strong><span>4 fois</span><span data-prix>4 × 487,50 €</span></figcaption>
+  <p class="visuellement-cache">1 950 € réglés en 4 fois sans frais : 487,50 € par échéance</p>
+</figure></div>
+    <ul class="options-liste" data-anime="cascade">
+      <li class="option option--phare" data-survol="incline" data-survol-force="3">
+        <h3>Cursus praticien complet</h3>
+        <p class="option-prix" data-prix>1 950 €</p>
+        <p>5 modules, supervision, e-learning illimité, évaluation finale</p>
+        <p class="option-paiement">en 1 à 4 fois sans frais, soit 4 × 487,50 €</p>
+        <a href="/contact?sujet=formation&amp;formation=quantique&amp;option=cursus" class="bouton" data-libelle="Contact">Choisir le cursus</a>
+      </li><li class="option" data-survol="incline" data-survol-force="3">
+        <h3>Module radiesthésie seul</h3>
+        <p class="option-prix" data-prix>290 €</p>
+        <p>3 jours de formation</p>
+        <p class="option-paiement">en 1 à 2 fois sans frais</p>
+        <a href="/contact?sujet=formation&amp;formation=quantique&amp;option=radiesthesie" class="bouton bouton--contour" data-libelle="Contact">Choisir ce module</a>
+      </li><li class="option" data-survol="incline" data-survol-force="3">
+        <h3>Module soin signature ORIÂ®</h3>
+        <p class="option-prix" data-prix>450 €</p>
+        <p>4 jours de formation, soin signature inclus</p>
+        <p class="option-paiement">en 1 à 3 fois sans frais</p>
+        <a href="/contact?sujet=formation&amp;formation=quantique&amp;option=oria" class="bouton bouton--contour" data-libelle="Contact">Choisir ce module</a>
+      </li>
+    </ul>
+  </div>
+</section>
+<section class="avis-fiche bande" id="avis">
+  <div class="conteneur bloc">
+    <figure class="media bloc-media bloc-media--paysage" data-fx="parallaxe" data-fx-force="8" style="--cadrage:50% 55%">
+  <picture>
+    <img src="/assets/images/site/tambours-ciel-1280.webp" srcset="/assets/images/site/tambours-ciel-640.webp 640w, /assets/images/site/tambours-ciel-1280.webp 1280w" sizes="(max-width: 860px) 90vw, 40vw" alt="Tambours chamaniques tenus face au ciel" width="1280" height="960" loading="lazy" decoding="async">
+  </picture>
+</figure>
+    <div class="bloc-texte">
+      <h2 data-anime="lignes">Ils ont suivi ce cursus</h2>
+      <div class="avis-liste" data-anime="cascade">
+        <blockquote class="avis"><p>« Formation techniques quantiques réalisée à Blois. Une magnifique expérience et une belle aventure humaine. Une formation intense et complète dans un cadre où les énergies vous enveloppent et vous apaisent. Merci à Sandrine pour sa bienveillance, son partage et sa méthode efficace pour dispenser les cours pratiques et théoriques. »</p><footer><strong>Christophe D.</strong>, Techniques quantiques, Blois</footer></blockquote><blockquote class="avis"><p>« J&#39;ai suivi avec grand plaisir des formations massage et le cursus magnétiseur. Ce fût une révélation. Adepte de la bienveillance et la douceur de Sandrine ainsi que de son professionnalisme, c&#39;est en toute confiance que me suis inscrite pour le parcours Cercle de femmes. »</p><footer><strong>Vanessa</strong>, Massages et cursus magnétiseur</footer></blockquote>
+      </div>
+      <p data-anime><a href="/temoignages" class="lien-fleche" data-libelle="Témoignages">Lire les témoignages</a></p>
+    </div>
+  </div>
+</section>
+<section class="fin-page conteneur" id="fin">
+  <div class="bloc bloc--inverse">
+    <figure class="media bloc-media bloc-media--paysage" data-anime="rideau" style="--cadrage:58% 55%">
+  <picture><source media="(max-width: 760px) and (orientation: portrait)" srcset="/assets/images/site/sandrine-meditation-mobile-640.webp 640w, /assets/images/site/sandrine-meditation-mobile-1080.webp 1080w" sizes="(max-width: 860px) 90vw, 44vw">
+    <img src="/assets/images/site/sandrine-meditation-1280.webp" srcset="/assets/images/site/sandrine-meditation-640.webp 640w, /assets/images/site/sandrine-meditation-1280.webp 1280w, /assets/images/site/sandrine-meditation-1920.webp 1920w" sizes="(max-width: 860px) 90vw, 44vw" alt="Sandrine en méditation sur la plage" width="1280" height="960" loading="lazy" decoding="async">
+  </picture>
+</figure>
+    <div class="bloc-texte">
+      <h2 data-anime="lignes">Prêt à ouvrir les portes du ressenti ?</h2>
+      <p data-anime>Le cursus commence par un entretien avec Sandrine, pour valider votre projet d’apprentissage.</p>
+      <div class="fin-actions" data-anime>
+        <a href="/contact?sujet=entretien&amp;formation=quantique" class="bouton" data-libelle="Contact" data-survol="magnetique">Demander mon entretien</a>
+        <a class="bouton bouton--contour" href="tel:+33673418005">Appeler 06 73 41 80 05</a>
+      </div>
+      <p class="mention-sante" data-anime>Les formations, séances et ateliers de Sensoria relèvent du bien-être. Ils ne s’apparentent à aucune pratique médicale ou paramédicale et ne remplacent ni un diagnostic, ni un traitement, ni un avis médical.</p>
+    </div>
+  </div>
+</section>
+</main>
+<footer class="pied" id="pied">
+  <div class="pied-haut">
+    <svg class="couronne pied-couronne" viewBox="0 0 200 200" aria-hidden="true" focusable="false" data-effet="couronne">
+<g class="couronne-tourne"><circle class="couronne-anneau" cx="100" cy="100" r="15"/><circle class="couronne-anneau" cx="100" cy="100" r="19"/><line class="couronne-rayon" x1="119.00" y1="100.00" x2="196.00" y2="100.00"/><line class="couronne-rayon" x1="118.63" y1="103.71" x2="194.16" y2="118.73"/><line class="couronne-rayon" x1="117.55" y1="107.27" x2="188.69" y2="136.74"/><line class="couronne-rayon" x1="115.80" y1="110.56" x2="179.82" y2="153.33"/><line class="couronne-rayon" x1="113.44" y1="113.44" x2="167.88" y2="167.88"/><line class="couronne-rayon" x1="110.56" y1="115.80" x2="153.33" y2="179.82"/><line class="couronne-rayon" x1="107.27" y1="117.55" x2="136.74" y2="188.69"/><line class="couronne-rayon" x1="103.71" y1="118.63" x2="118.73" y2="194.16"/><line class="couronne-rayon" x1="100.00" y1="119.00" x2="100.00" y2="196.00"/><line class="couronne-rayon" x1="96.29" y1="118.63" x2="81.27" y2="194.16"/><line class="couronne-rayon" x1="92.73" y1="117.55" x2="63.26" y2="188.69"/><line class="couronne-rayon" x1="89.44" y1="115.80" x2="46.67" y2="179.82"/><line class="couronne-rayon" x1="86.56" y1="113.44" x2="32.12" y2="167.88"/><line class="couronne-rayon" x1="84.20" y1="110.56" x2="20.18" y2="153.33"/><line class="couronne-rayon" x1="82.45" y1="107.27" x2="11.31" y2="136.74"/><line class="couronne-rayon" x1="81.37" y1="103.71" x2="5.84" y2="118.73"/><line class="couronne-rayon" x1="81.00" y1="100.00" x2="4.00" y2="100.00"/><line class="couronne-rayon" x1="81.37" y1="96.29" x2="5.84" y2="81.27"/><line class="couronne-rayon" x1="82.45" y1="92.73" x2="11.31" y2="63.26"/><line class="couronne-rayon" x1="84.20" y1="89.44" x2="20.18" y2="46.67"/><line class="couronne-rayon" x1="86.56" y1="86.56" x2="32.12" y2="32.12"/><line class="couronne-rayon" x1="89.44" y1="84.20" x2="46.67" y2="20.18"/><line class="couronne-rayon" x1="92.73" y1="82.45" x2="63.26" y2="11.31"/><line class="couronne-rayon" x1="96.29" y1="81.37" x2="81.27" y2="5.84"/><line class="couronne-rayon" x1="100.00" y1="81.00" x2="100.00" y2="4.00"/><line class="couronne-rayon" x1="103.71" y1="81.37" x2="118.73" y2="5.84"/><line class="couronne-rayon" x1="107.27" y1="82.45" x2="136.74" y2="11.31"/><line class="couronne-rayon" x1="110.56" y1="84.20" x2="153.33" y2="20.18"/><line class="couronne-rayon" x1="113.44" y1="86.56" x2="167.88" y2="32.12"/><line class="couronne-rayon" x1="115.80" y1="89.44" x2="179.82" y2="46.67"/><line class="couronne-rayon" x1="117.55" y1="92.73" x2="188.69" y2="63.26"/><line class="couronne-rayon" x1="118.63" y1="96.29" x2="194.16" y2="81.27"/><circle class="couronne-anneau couronne-ext" cx="100" cy="100" r="96"/></g></svg>
+    <div class="conteneur pied-marque">
+      <img src="/assets/images/lotus-160.webp" alt="" width="72" height="78" loading="lazy">
+      <p class="pied-nom">SENSORIA</p>
+      <p class="pied-accroche">Formations, soins &amp; ateliers holistiques à Blois, Sète et Briord, depuis 2012.</p>
+      <svg class="infini pied-infini" viewBox="0 0 120 40" aria-hidden="true" focusable="false" data-effet="infini"><path class="infini-trait" d="M60 20 C 48 4, 22 4, 22 20 C 22 36, 48 36, 60 20 C 72 4, 98 4, 98 20 C 98 36, 72 36, 60 20 Z"/><circle class="infini-point" r="2.6" cx="60" cy="20"/></svg>
+    </div>
+  </div>
+  <div class="conteneur pied-partenaires">
+    <p class="pied-titre">Réseaux, presse &amp; partenaires</p>
+    <ul><li><a href="https://www.marieclaire.fr/adresses-incontournables/sensoria-sagesse-de-femme/" target="_blank" rel="noopener" aria-label="Marie Claire (nouvel onglet)"><img src="/assets/images/partenaires/marie-claire.png" alt="" loading="lazy"></a></li><li><a href="https://www.signesetsens.com/medecines-douces-le-magnetisme-une-science-complementaire-de-la-medecine.html" target="_blank" rel="noopener" aria-label="Signes &amp; Sens (nouvel onglet)"><img src="/assets/images/partenaires/signes-et-sens.png" alt="" loading="lazy"></a></li><li><a href="https://cnpl.org/" target="_blank" rel="noopener" aria-label="CNPL (nouvel onglet)"><img src="/assets/images/partenaires/cnpl.png" alt="" loading="lazy"></a></li><li><a href="https://www.green-yoga.fr/" target="_blank" rel="noopener" aria-label="Green Yoga (nouvel onglet)"><img src="/assets/images/partenaires/green-yoga.png" alt="" loading="lazy"></a></li><li><a href="https://www.hypnose-regioncentre-ihec.fr/formations" target="_blank" rel="noopener" aria-label="IHEC (nouvel onglet)"><img src="/assets/images/partenaires/ihec.png" alt="" loading="lazy"></a></li><li><a href="https://www.bibledesformations.fr/" target="_blank" rel="noopener" aria-label="Bible des formations (nouvel onglet)"><img src="/assets/images/partenaires/bible-des-formations.png" alt="" loading="lazy"></a></li></ul>
+  </div>
+  <div class="conteneur pied-grille">
+    <div>
+      <p class="pied-titre">Contact</p>
+      <p>51 rue de Villiersfins, 41000 Blois<br><a href="tel:+33673418005">06 73 41 80 05</a><br><a href="mailto:contact@formations-sensoria.fr">contact@formations-sensoria.fr</a></p>
+      <p class="pied-titre">Suivre Sensoria</p>
+      <ul class="reseaux"><li><a href="https://www.instagram.com/sandrine.sansano/" target="_blank" rel="noopener" aria-label="Instagram (nouvel onglet)"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4.2"/><circle cx="17.4" cy="6.6" r="1" class="plein"/></svg></a></li><li><a href="https://www.facebook.com/profile.php?id=100063701431885" target="_blank" rel="noopener" aria-label="Facebook (nouvel onglet)"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 21v-7h2.6l.4-3H14V9.2c0-.9.3-1.5 1.6-1.5H17V5.1c-.3 0-1.2-.1-2.3-.1-2.3 0-3.7 1.4-3.7 3.9V11H8.5v3H11v7"/></svg></a></li><li><a href="https://www.youtube.com/channel/UC6HB26bQ2tlzkfV79rf0G0g/videos" target="_blank" rel="noopener" aria-label="YouTube (nouvel onglet)"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="2.5" y="5.5" width="19" height="13" rx="4"/><path d="M10 9.2v5.6l4.8-2.8z" class="plein"/></svg></a></li></ul>
+    </div>
+    <nav aria-label="Sommaire">
+      <p class="pied-titre">Sommaire</p>
+      <ul><li><a href="/" data-libelle="Accueil">Accueil</a></li><li><a href="/l-ecole" data-libelle="L’école">L’école</a></li><li><a href="/formations" data-libelle="Formations">Formations</a></li><li><a href="/agenda" data-libelle="Agenda">Agenda</a></li><li><a href="/infos-pratiques" data-libelle="Infos pratiques">Infos pratiques</a></li><li><a href="/temoignages" data-libelle="Témoignages">Témoignages</a></li><li><a href="/contact" data-libelle="Contact">Contact</a></li><li><a href="/mentions-legales" data-libelle="Mentions légales">Mentions légales</a></li></ul>
+    </nav>
+    <div>
+      <p class="pied-titre">Confort</p>
+      <ul>
+        <li><button type="button" class="lien" data-calme-bascule data-libelle-reduire="Réduire les animations" data-libelle-retablir="Rétablir les animations" data-libelle-systeme="Animations réduites par le réglage de votre appareil"><span data-libelle-bouton>Réduire les animations</span></button></li>
+        <li><a href="#haut" data-sans-transition>Retour en haut</a></li>
+      </ul>
+      <p class="pied-sante">Les formations, séances et ateliers de Sensoria relèvent du bien-être. Ils ne s’apparentent à aucune pratique médicale ou paramédicale et ne remplacent ni un diagnostic, ni un traitement, ni un avis médical.</p>
+    </div>
+  </div>
+  <div class="conteneur pied-bas"><p>Maquette : les informations marquées « à compléter » seront fournies par Sensoria.</p><p>© SENSORIA, Sandrine Sansano</p></div>
+</footer>
+<div data-barre-fixe>
+  <a class="bouton bouton--contour" href="tel:+33673418005">Appeler</a>
+  <a class="bouton" href="/contact?sujet=entretien" data-libelle="Contact">Réserver un entretien</a>
+</div>
+<script type="application/json" id="donnees-agenda">[{"debut":"2026-08-06","fin":"2026-08-07","titre":"Tuina, massage traditionnel chinois","type":"massage","lieu":"Blois","horaires":"9 h – 18 h","formation":"tuina"},{"debut":"2026-08-21","titre":"Réunion d'information : techniques quantiques & soin ORIÂ®","type":"reunion","lieu":"Blois","horaires":"18 h","formation":"quantique"},{"debut":"2026-08-22","titre":"Atelier découverte : magnétisme & énergétique","type":"atelier","lieu":"Blois","horaires":"9 h – 19 h"},{"debut":"2026-08-29","fin":"2026-08-31","titre":"Immersion chamanique, 3 jours","type":"atelier","lieu":"Lieu à confirmer","horaires":"9 h – 19 h"},{"debut":"2026-09-05","titre":"Do In, auto-massage","type":"massage","lieu":"Blois","horaires":"9 h – 18 h","formation":"do-in"},{"debut":"2026-09-12","titre":"Atelier découverte : approche du massage","type":"atelier","lieu":"Blois","horaires":"9 h – 18 h"},{"debut":"2026-09-14","fin":"2026-09-18","titre":"Techniques quantiques, modules 1 et 2","type":"formation","lieu":"Blois","session":"Blois 2026, 2e session","formation":"quantique"},{"debut":"2026-09-21","fin":"2026-09-25","titre":"Techniques quantiques, modules 1 et 2","type":"formation","lieu":"Sète","session":"Sète 2026, 2e session","formation":"quantique"},{"debut":"2026-10-19","fin":"2026-10-23","titre":"Techniques quantiques, modules 3 et 4 + soin ORIÂ®","type":"formation","lieu":"Sète","session":"Sète 2026, 2e session","formation":"quantique"},{"debut":"2026-10-31","titre":"SAN'HELIA : réapprivoiser votre corps","type":"evenement","lieu":"Blois","detail":"Atelier co-créatif"},{"debut":"2026-11-03","fin":"2026-11-04","titre":"Amma, shiatsu assis sur chaise","type":"massage","lieu":"Blois","horaires":"9 h – 18 h","formation":"amma"},{"debut":"2026-11-05","fin":"2026-11-06","titre":"Massage suédois / californien « le toucher du cœur »","type":"massage","lieu":"Blois","horaires":"9 h – 18 h","formation":"massages-carte"},{"debut":"2026-11-07","titre":"MIST'HER : cycles & vie au féminin","type":"evenement","lieu":"Blois","detail":"Atelier co-créatif avec Gwendoline, psychanalyste"},{"debut":"2026-11-09","fin":"2026-11-12","titre":"Techniques quantiques, modules 3 et 4 + soin ORIÂ®","type":"formation","lieu":"Blois","session":"Blois 2026, 2e session","formation":"quantique"},{"debut":"2026-11-14","titre":"RE'CONNEXION, niveau 1 : intuition & perceptions","type":"evenement","lieu":"Blois","detail":"Atelier co-créatif, 2 jours (dates exactes à confirmer)"},{"debut":"2026-12-07","fin":"2026-12-09","titre":"Techniques quantiques, module 5","type":"formation","lieu":"Sète","session":"Sète 2026, 2e session","formation":"quantique"},{"debut":"2026-12-10","titre":"Techniques quantiques, évaluation finale","type":"formation","lieu":"Sète","session":"Sète 2026, 2e session","detail":"Suivie d'un repas partagé de fin de formation","formation":"quantique"},{"debut":"2026-12-14","fin":"2026-12-17","titre":"Techniques quantiques, module 5","type":"formation","lieu":"Blois","session":"Blois 2026, 2e session","formation":"quantique"},{"debut":"2026-12-18","titre":"Techniques quantiques, évaluation finale","type":"formation","lieu":"Blois","session":"Blois 2026, 2e session","detail":"Suivie d'un repas partagé de fin de formation","formation":"quantique"},{"debut":"2026-12-21","fin":"2026-12-22","titre":"Réflexologie palmaire","type":"massage","lieu":"Blois","horaires":"9 h – 18 h","formation":"reflexologie"},{"debut":"2026-12-28","fin":"2026-12-29","titre":"Massage spécial sportif","type":"massage","lieu":"Blois","horaires":"9 h – 18 h","formation":"massages-carte"},{"debut":"2027-01-16","titre":"Atelier découverte : magnétisme & énergétique","type":"atelier","lieu":"Blois","horaires":"9 h – 19 h"},{"debut":"2027-01-19","fin":"2027-01-20","titre":"Massage aux pochons d'herbes","type":"massage","lieu":"Blois","horaires":"9 h – 18 h","formation":"massages-carte"},{"debut":"2027-01-21","fin":"2027-01-22","titre":"Massage & bain sonore aux bols chantants","type":"massage","lieu":"Blois","horaires":"9 h – 18 h","formation":"massages-carte"},{"debut":"2027-01-26","fin":"2027-01-27","titre":"Massage des personnes âgées ou à mobilité réduite","type":"massage","lieu":"Blois","horaires":"9 h – 18 h","formation":"massages-carte"},{"debut":"2027-01-28","fin":"2027-01-29","titre":"Massage bien-être femme enceinte & gestion du stress","type":"massage","lieu":"Blois","horaires":"9 h – 18 h","formation":"massages-carte"},{"debut":"2027-02-02","fin":"2027-02-03","titre":"Massage ayurvédique abhyanga","type":"massage","lieu":"Blois","horaires":"9 h – 18 h","formation":"massages-carte"},{"debut":"2027-02-04","fin":"2027-02-05","titre":"Réflexologie plantaire","type":"massage","lieu":"Blois","horaires":"9 h – 18 h","formation":"reflexologie"},{"debut":"2027-02-06","titre":"Journée découverte : la naturopathie au quotidien","type":"atelier","lieu":"Blois"},{"debut":"2027-02-15","fin":"2027-02-19","titre":"Techniques quantiques, modules 1 et 2","type":"formation","lieu":"Blois","session":"Blois 2027, 1re session","formation":"quantique"},{"debut":"2027-02-23","fin":"2027-02-24","titre":"Massage minceur : cellulite, jambes lourdes, remodelage","type":"massage","lieu":"Blois","horaires":"9 h – 18 h","formation":"massages-carte"},{"debut":"2027-02-25","fin":"2027-02-26","titre":"Réflexologie crânio-faciale","type":"massage","lieu":"Blois","horaires":"9 h – 18 h","formation":"reflexologie"},{"debut":"2027-03-09","fin":"2027-03-10","titre":"Tuina, massage traditionnel chinois","type":"massage","lieu":"Blois","horaires":"9 h – 18 h","formation":"tuina"},{"debut":"2027-03-11","fin":"2027-03-12","titre":"Shiatsu visage & crâne","type":"massage","lieu":"Blois","horaires":"9 h – 18 h","formation":"massages-carte"},{"debut":"2027-03-16","fin":"2027-03-17","titre":"Shiatsu corps","type":"massage","lieu":"Blois","horaires":"9 h – 18 h","formation":"massages-carte"},{"debut":"2027-03-18","fin":"2027-03-19","titre":"Méthode LHOVE®","type":"formation","lieu":"Blois","horaires":"9 h – 18 h","formation":"lhove"},{"debut":"2027-03-22","fin":"2027-03-23","titre":"Massage aux pierres chaudes","type":"massage","lieu":"Blois","horaires":"9 h – 18 h","formation":"massages-carte"},{"debut":"2027-03-24","fin":"2027-03-26","titre":"Immersion chamanique, 3 jours","type":"atelier","lieu":"Lieu à confirmer","horaires":"9 h – 19 h"},{"debut":"2027-03-30","fin":"2027-04-02","titre":"Techniques quantiques, modules 3 et 4 + soin ORIÂ®","type":"formation","lieu":"Blois","session":"Blois 2027, 1re session","formation":"quantique"},{"debut":"2027-04-05","fin":"2027-04-09","titre":"Techniques quantiques, modules 1 et 2","type":"formation","lieu":"Sète","session":"Sète 2027, 1re session","formation":"quantique"},{"debut":"2027-05-10","fin":"2027-05-13","titre":"Techniques quantiques, module 5","type":"formation","lieu":"Blois","session":"Blois 2027, 1re session","formation":"quantique"},{"debut":"2027-05-14","titre":"Techniques quantiques, évaluation finale","type":"formation","lieu":"Blois","session":"Blois 2027, 1re session","detail":"Suivie d'un repas partagé de fin de formation","formation":"quantique"},{"debut":"2027-06-07","fin":"2027-06-11","titre":"Techniques quantiques, modules 3 et 4 + soin ORIÂ®","type":"formation","lieu":"Sète","session":"Sète 2027, 1re session","formation":"quantique"},{"debut":"2027-07-05","fin":"2027-07-07","titre":"Techniques quantiques, module 5","type":"formation","lieu":"Sète","session":"Sète 2027, 1re session","formation":"quantique"},{"debut":"2027-07-08","titre":"Techniques quantiques, évaluation finale","type":"formation","lieu":"Sète","session":"Sète 2027, 1re session","detail":"Date à confirmer : le site actuel indique « 08 juillet 2026 »","formation":"quantique"}]</script>
+</body>
+</html>

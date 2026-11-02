@@ -1,0 +1,6 @@
+[
+  { "cle": "eleves", "valeur": 1045, "suffixe": "" },
+  { "cle": "reussite", "valeur": 100, "suffixe": " %" },
+  { "cle": "satisfaits", "valeur": 99, "suffixe": " %" },
+  { "cle": "annees", "valeur": 30, "suffixe": "" }
+]

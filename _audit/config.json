@@ -1,0 +1,23 @@
+{
+  "siteActuel": "www.formations-sensoria.fr",
+  "pagesTypes": [
+    "/",
+    "/l-ecole",
+    "/formations",
+    "/formation-techniques-quantiques",
+    "/agenda",
+    "/infos-pratiques",
+    "/temoignages",
+    "/contact"
+  ],
+  "effets": [
+    "couronne",
+    "oculus",
+    "infini",
+    "roue-domaines",
+    "fil-du-temps",
+    "carte-lieux",
+    "cercle-de-parole",
+    "bol"
+  ]
+}

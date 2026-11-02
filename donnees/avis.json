@@ -1,0 +1,37 @@
+{
+  "note": "5,0",
+  "nombre": 8,
+  "source": "Avis publiés sur le site actuel",
+  "liste": [
+    {
+      "nom": "Christophe D.", "formation": "Techniques quantiques, Blois", "cle": "quantique",
+      "court": "Une formation intense et complète dans un cadre où les énergies vous enveloppent et vous apaisent.",
+      "texte": "Formation techniques quantiques réalisée à Blois. Une magnifique expérience et une belle aventure humaine. Une formation intense et complète dans un cadre où les énergies vous enveloppent et vous apaisent. Merci à Sandrine pour sa bienveillance, son partage et sa méthode efficace pour dispenser les cours pratiques et théoriques."
+    },
+    {
+      "nom": "Morgane", "formation": "Praticienne en massage bien-être", "cle": "massages",
+      "court": "Ce que je retiens le plus, c'est la qualité d'accompagnement de Sandrine.",
+      "texte": "J'ai suivi avec Sandrine une formation complète de praticienne en massage bien-être […]. J'y ai appris plus d'une dizaine de types de massage différents. […] Ce que je retiens le plus, c'est la qualité d'accompagnement de Sandrine. […] En tant que personne neuro-atypique, c'est la première fois que je me sens aussi bien accueillie dans un cadre de formation. Sandrine s'est pleinement adaptée à mon mode d'apprentissage."
+    },
+    {
+      "nom": "Vanessa", "formation": "Massages et cursus magnétiseur", "cle": "massages",
+      "court": "Adepte de la bienveillance et de la douceur de Sandrine ainsi que de son professionnalisme.",
+      "texte": "J'ai suivi avec grand plaisir des formations massage et le cursus magnétiseur. Ce fût une révélation. Adepte de la bienveillance et la douceur de Sandrine ainsi que de son professionnalisme, c'est en toute confiance que me suis inscrite pour le parcours Cercle de femmes."
+    },
+    {
+      "nom": "Esmeralda P.", "formation": "Naturopathie", "cle": "naturopathe",
+      "court": "Une formation très enrichissante et au top avec un suivi individuel.",
+      "texte": "J'ai eu la chance de suivre la formation en naturopathie. Une formation très enrichissante et au top avec un suivi individuel. Une formatrice vraiment bienveillante et très professionnelle. Je recommande cette formation à 200 %."
+    },
+    {
+      "nom": "Émilie", "formation": "Naturopathie et réflexologies", "cle": "naturopathe",
+      "court": "Plus qu'une formatrice, une amie très chère et d'une patience à toute épreuve.",
+      "texte": "Je suis en train de suivre la formation praticienne en naturopathie et je n'ai pas d'autres mots que gratitude. Merci à toi Sandrine pour ta patience et tes explications et surtout tes encouragements. […] Plus qu'une formatrice, une amie très chère et d'une patience à toute épreuve."
+    },
+    {
+      "nom": "Virginie L.", "formation": "Massage bien-être, dans la yourte", "cle": "massages",
+      "court": "Une formation de qualité alliant théorie et pratique dans une ambiance chaleureuse et bienveillante.",
+      "texte": "J'ai suivi la formation massage bien-être dans la yourte de Sandrine. Une formation de qualité alliant théorie et pratique dans une ambiance chaleureuse et bienveillante. Une expérience inoubliable qui m'a permis de développer mes compétences à mon rythme."
+    }
+  ]
+}

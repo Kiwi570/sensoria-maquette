@@ -9,6 +9,7 @@ export const page = { cle: 'agenda', fichier: 'agenda', imagePartage: 'grok/agen
 export default (c) => {
   const T = (k, v) => c.t(`agenda.${k}`, v);
   const A = c.donnees.agenda;
+  const pageDe = Object.fromEntries(c.donnees.formations.liste.filter((f) => f.page).map((f) => [f.cle, f.page]));
   const jour = aujourdhui(c.site.fuseau);
   const nomType = Object.fromEntries(A.types.map((t) => [t.cle, t.nom]));
   const mois = [...new Set(A.dates.map((d) => d.debut.slice(0, 7)))];
@@ -75,7 +76,7 @@ export default (c) => {
               <h4>${d.titre}</h4>
               <p>${periode(d)} · ${d.lieu}${d.horaires ? ` · ${d.horaires}` : ''}${d.session ? ` · ${d.session.replace(/^\S+ (\d{4}), (.+)$/, '$2 $1')}` : ''}</p>
               ${d.detail ? html`<p class="fil-detail">${d.detail}</p>` : ''}
-              ${d.formation === 'quantique' ? c.lien('quantique', { classe: 'lien-fleche', texte: T('liste.voirFormation') }) : c.lien('contact', { params: `sujet=${d.type === 'formation' || d.type === 'massage' ? 'formation' : 'atelier'}${d.formation ? `&formation=${d.formation}` : ''}`, classe: 'lien-fleche', texte: T('liste.inscrire') })}
+              ${pageDe[d.formation] ? c.lien(pageDe[d.formation], { classe: 'lien-fleche', texte: T('liste.voirFormation') }) : c.lien('contact', { params: `sujet=${d.type === 'formation' || d.type === 'massage' ? 'formation' : 'atelier'}${d.formation ? `&formation=${d.formation}` : ''}`, classe: 'lien-fleche', texte: T('liste.inscrire') })}
             </div>
             <p class="fil-statut" data-statut-texte>${libelle(d)}</p>
           </li>`;

@@ -3,7 +3,7 @@
    Effets du plan : couronne, oculus, infini, roue-domaines, fil-du-temps, carte-lieux, cercle-de-parole, bol.
    Règles : états de départ posés dans le CSS, fromTo avec valeurs d'arrivée explicites, aucune lecture de mise
    en page pendant le défilement (mesures au chargement et au redimensionnement), boucles via boucle() du socle. */
-import { demarrer, boucle, etat, quand } from './socle/index.js?v=1';
+import { demarrer, boucle, etat, quand } from './socle/index.js?v=2';
 
 const gsap = window.gsap;
 const ST = window.ScrollTrigger;

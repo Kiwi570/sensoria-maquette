@@ -1,5 +1,35 @@
 # Journal des versions — maquette SENSORIA
 
+## v2 — 3 novembre 2026
+
+Les 15 pages restantes, construites sur les modèles de la v1 (sans les CGV, non demandées pour la maquette).
+
+**Nouvelles pages**
+- 12 fiches formations, toutes produites par un même gabarit (`source/gabarits/fiche.mjs`) à partir de
+  `donnees/fiches.json` : massages bien-être (cursus), massages à la carte, réflexologies, Amma, Tuina, Do In,
+  LHOVE®, ESCALE®, naturopathe, phyto-aromatologie, gestion du stress, sonothérapie (bientôt).
+- Sur chaque fiche : chiffres clés et prochaine date au premier écran, approche avec une image portrait, programme
+  en cartes marquées de l’emblème de la couronne, compétences, modalités avec le cercle des échéances (1 à 4 fois),
+  dates aux statuts automatiques, avis liés, autres formations du même domaine, mention bien-être.
+- Séances individuelles : ORIÂ®, cocooning énergétique, LHOVE®, ACT®, voyage sonore ; les trois temps d’une séance.
+- Ateliers & parcours : ateliers-découvertes (99 € dans le cercle des échéances), constellations du vivant,
+  ressourcement, voyages sonores, ateliers co-créatifs, parcours, prochains ateliers.
+- Politique de confidentialité : celle du site actuel, complétée ; la durée de conservation reste à fournir.
+
+**Liens**
+- En-tête, menu et pied de page : Séances et Ateliers ajoutés ; Confidentialité dans le pied de page.
+- Catalogue : chaque carte ouvre sa fiche. Agenda : « Voir la formation » sur toutes les dates liées à une fiche.
+- Accueil : les cartes Séances et Ateliers mènent aux nouvelles pages.
+
+**Contenus**
+- Programmes, compétences et modalités repris des pages actuelles du site, reformulés dans le vocabulaire du
+  bien-être (liste dans le README). Nouveaux points à confirmer : prix du voyage sonore, SAN’HELIA, Parcours Vivant.
+- Les 19 illustrations Grok préparées pour la v2 sont utilisées.
+
+**Technique**
+- Version 2 : `?v=2` dans les pages et les imports ; images de partage des 15 nouvelles pages.
+- `echeancier()` (gabarit fiche) : cercle des échéances pour n paiements, réutilisé sur la page Ateliers.
+
 ## v1 — 2 novembre 2026 (base)
 
 Première version : la base de la maquette, construite à partir du socle commun.

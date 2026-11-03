@@ -10,8 +10,11 @@ Adresse prévue : https://sensoria-maquette.vercel.app (non indexée par les mot
 Accueil · L’école & Sandrine · Formations (catalogue) · Fiche « Praticien en techniques quantiques » · Agenda ·
 Infos pratiques · Témoignages · Contact & inscription · Mentions légales · Page 404.
 
-Pages prévues en v2 (mêmes modèles) : les 12 autres fiches formations, Séances individuelles, Ateliers & parcours,
-CGV, Politique de confidentialité.
+## Pages de la v2
+
+12 fiches formations (un seul gabarit : `source/gabarits/fiche.mjs`, données : `donnees/fiches.json`) ·
+Séances individuelles · Ateliers & parcours (données : `donnees/offres.json`) · Politique de confidentialité.
+Les CGV ne sont pas faites dans la maquette (choix du 3 novembre 2026).
 
 ## Modifier le contenu
 
@@ -49,6 +52,14 @@ Vocabulaire du bien-être, sans promesse de résultat ni visée thérapeutique :
 - Yoga « problématiques féminines (ménopause, endométriose) » : non repris.
 - Magnétisme « outil de prévention » : non repris.
 - Agenda : « Massage femme enceinte / personne angoissée » → « Massage bien-être femme enceinte & gestion du stress ».
+- Fiches (v2) : massage « art dédié à la prévention », réflexologie « troubles de santé et zones à travailler »,
+  Amma « diminution de l’anxiété », naturopathie « régénération tissulaire » : non repris ; LHOVE® « conseils détox »
+  → « conseils d’hygiène de vie » ; gestion du stress « accompagner le stress chronique » → « mieux vivre les périodes
+  de stress et de fatigue ».
+- Séances (v2) : ACT® « Approche Chamanique de la Thérapie » → « séance chamanique ACT® » ; photostimulation
+  « semi-psychédélique » : non repris.
+- Ateliers (v2) : thèmes MIST’HER limités à « cycles et vie au féminin, transitions de vie, charge mentale » ;
+  constellations « dysfonctionnements physiques ou émotionnels » : non repris.
 - « Réinformer l’eau », « relaxation cellulaire », « décristalliser les blocages » : non repris.
 - Avis : extraits sans les mots « diplôme de thérapeute » ; deux avis non affichés pour cette raison
   (« diplôme de thérapeute énergéticienne quantique », « cercles de guérison »). La note et le nombre d’avis restent exacts.
@@ -59,7 +70,9 @@ Vocabulaire du bien-être, sans promesse de résultat ni visée thérapeutique :
 Prix d’ESCALE® (1 990 € ou 990 €) · prix des constellations (85 € ou 90 €) · paiement de LHOVE® (2 ou 3 fois) ·
 heures de pratique personnelle du cursus quantique (20 h ou 40 h) · durées d’ESCALE®, phyto-aromatologie, gestion
 du stress · date d’évaluation de Sète 2027 · dates exactes de RE’CONNEXION · lieu des immersions chamaniques ·
-taille des groupes à Briord · photos de Briord · politique de confidentialité · CGV mises à jour.
+taille des groupes à Briord · photos de Briord · prix du voyage sonore en séance (65 € ou 55 €) · description de
+SAN’HELIA · tarif du Parcours Vivant · durées des formations ESCALE®, phyto-aromatologie et gestion du stress ·
+durée de conservation des données (politique de confidentialité).
 
 ## À la mise en ligne définitive
 

@@ -97,8 +97,8 @@ export default (c) => {
   </div>
   <ul class="voies-grille" data-anime="cascade">
     ${[
-      ['seances', 'site/bain-sonore', '62% 58%', () => c.lien('infos-pratiques', { ancre: 'tarifs-seances', classe: 'lien-fleche', texte: c.t('accueil.voies.seances.lien') })],
-      ['ateliers', 'site/yourte-groupe', '60% 50%', () => c.lien('agenda', { params: 'type=atelier', classe: 'lien-fleche', texte: c.t('accueil.voies.ateliers.lien') })],
+      ['seances', 'site/bain-sonore', '62% 58%', () => c.lien('seances', { classe: 'lien-fleche', texte: c.t('accueil.voies.seances.lien') })],
+      ['ateliers', 'site/yourte-groupe', '60% 50%', () => c.lien('ateliers', { classe: 'lien-fleche', texte: c.t('accueil.voies.ateliers.lien') })],
       ['formations', 'site/yourte-sandrine-debout', '50% 55%', () => c.lien('formations', { classe: 'lien-fleche', texte: c.t('accueil.voies.formations.lien') })],
       ['parcours', 'site/tambours-ciel', '50% 55%', () => c.lien('contact', { params: 'sujet=parcours', classe: 'lien-fleche', texte: c.t('accueil.voies.parcours.lien') })],
     ].map(([k, img, cad, lien], i) => html`<li class="voie" data-survol="incline" data-survol-force="4">

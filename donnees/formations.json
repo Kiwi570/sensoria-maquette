@@ -111,7 +111,8 @@
       ],
       "resume": "L'art du toucher conscient, enveloppant et relaxant, avec une posture professionnelle respectueuse. Sète et Briord sur demande.",
       "image": "grok/fiche-massages",
-      "phare": true
+      "phare": true,
+      "page": "fiche-massages"
     },
     {
       "cle": "massages-carte",
@@ -127,7 +128,8 @@
         "Blois"
       ],
       "resume": "Un module à la fois, pour enrichir sa pratique : grands classiques, massages avec outils, publics spécifiques (maternité, seniors, sportifs).",
-      "image": "grok/fiche-massages-carte"
+      "image": "grok/fiche-massages-carte",
+      "page": "fiche-massages-carte"
     },
     {
       "cle": "reflexologie",
@@ -143,7 +145,8 @@
         "Blois"
       ],
       "resume": "Pieds, mains, visage et crâne : des protocoles de détente précis, adaptés des bébés aux adultes pour la réflexologie plantaire.",
-      "image": "grok/fiche-reflexologie"
+      "image": "grok/fiche-reflexologie",
+      "page": "fiche-reflexologie"
     },
     {
       "cle": "amma",
@@ -159,7 +162,8 @@
         "Blois"
       ],
       "resume": "Un cursus de praticien pour maîtriser un protocole d'Amma assis, issu des traditions d'Asie.",
-      "image": "grok/fiche-amma"
+      "image": "grok/fiche-amma",
+      "page": "fiche-amma"
     },
     {
       "cle": "tuina",
@@ -175,7 +179,8 @@
         "Blois"
       ],
       "resume": "Une pratique issue de la tradition chinoise, enseignée comme un massage de relaxation, avec une posture professionnelle respectueuse.",
-      "image": "grok/fiche-tuina"
+      "image": "grok/fiche-tuina",
+      "page": "fiche-tuina"
     },
     {
       "cle": "do-in",
@@ -191,7 +196,8 @@
         "Blois"
       ],
       "resume": "Pratiquer le Do In de manière fluide et structurée, et apprendre à animer ses propres ateliers collectifs.",
-      "image": "grok/fiche-do-in"
+      "image": "grok/fiche-do-in",
+      "page": "fiche-do-in"
     },
     {
       "cle": "lhove",
@@ -207,7 +213,8 @@
         "Blois"
       ],
       "resume": "Un protocole exclusif, créé par Sandrine, qui allie le toucher de la sphère abdominale au rééquilibrage énergétique, tout en douceur.",
-      "image": "grok/fiche-lhove"
+      "image": "grok/fiche-lhove",
+      "page": "fiche-lhove"
     },
     {
       "cle": "escale",
@@ -224,7 +231,8 @@
         "Sète"
       ],
       "resume": "Pour les praticiens : associer l'expression artistique et sensorielle à des techniques d'auto-hypnose, dans un cadre structuré et éthique.",
-      "image": "grok/fiche-escale"
+      "image": "grok/fiche-escale",
+      "page": "fiche-escale"
     },
     {
       "cle": "naturopathe",
@@ -241,7 +249,8 @@
       ],
       "resume": "Toutes les clés pour accompagner vers une vitalité globale, avec un bilan de vitalité non médical et des cures saisonnières.",
       "image": "grok/fiche-naturopathe",
-      "phare": true
+      "phare": true,
+      "page": "fiche-naturopathe"
     },
     {
       "cle": "phyto",
@@ -257,7 +266,8 @@
         "En ligne"
       ],
       "resume": "Propriétés des huiles essentielles, formes d'utilisation des plantes, fleurs de Bach : conseiller au quotidien, au sein du foyer.",
-      "image": "grok/fiche-phyto-aroma"
+      "image": "grok/fiche-phyto-aroma",
+      "page": "fiche-phyto"
     },
     {
       "cle": "stress",
@@ -273,7 +283,8 @@
         "En ligne"
       ],
       "resume": "Accompagner le bien-être mental, physique et émotionnel, avec une approche structurée et profondément humaine.",
-      "image": "grok/fiche-stress"
+      "image": "grok/fiche-stress",
+      "page": "fiche-stress"
     },
     {
       "cle": "sonotherapie",
@@ -291,7 +302,8 @@
       ],
       "resume": "Structurer un bain sonore collectif ou une séance d'harmonisation individuelle. Nouveauté, ouverture prochaine.",
       "image": "grok/fiche-sonotherapie",
-      "bientot": true
+      "bientot": true,
+      "page": "fiche-sonotherapie"
     }
   ],
   "etapes": [

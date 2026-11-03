@@ -1,0 +1,177 @@
+{
+ "seances": [
+  {
+   "cle": "oria",
+   "titre": "Soin signature ORIÂ®",
+   "duree": "2 h",
+   "prix": "75 €",
+   "image": "grok/seance-oria",
+   "cadrage": "45% 55%",
+   "alt": "Main posée près d’une ammonite sur du sable clair",
+   "texte": "Une méthode créée par Sandrine, issue de dix ans de recherches et de pratique : partir à la recherche de l’origine des blocages, pour une reconnexion profonde à soi."
+  },
+  {
+   "cle": "cocooning",
+   "titre": "Séance cocooning énergétique",
+   "duree": "1 h 30",
+   "prix": "65 €",
+   "image": "grok/seance-cocooning",
+   "cadrage": "50% 55%",
+   "alt": "Plaid de laine, bougie et tasse de tisane sur un tapis de lin",
+   "texte": "Une séance tout en douceur, en énergétique et en magnétisme, pour rééquilibrer vos centres énergétiques et retrouver l’harmonie."
+  },
+  {
+   "cle": "lhove",
+   "titre": "Soin signature LHOVE®",
+   "duree": "1 h 30",
+   "prix": "65 €",
+   "image": "grok/fiche-lhove",
+   "cadrage": "45% 55%",
+   "alt": "Mains posées sur un ventre recouvert de lin",
+   "lien": "fiche-lhove",
+   "texte": "La libération holistique du ventre et des émotions liées : massage et relaxation de la sphère abdominale, selon la méthode créée par Sandrine."
+  },
+  {
+   "cle": "act",
+   "titre": "Séance chamanique ACT®",
+   "duree": "2 h au moins",
+   "prix": "85 €",
+   "image": null,
+   "texte": "Une approche chamanique transmise à Sandrine par Liliane Van der Velde : préparation, séance, conseils d’intégration puis relance, pour retrouver cohérence intérieure et fluidité."
+  },
+  {
+   "cle": "son",
+   "titre": "Voyage sonore & photostimulation",
+   "duree": "1 h",
+   "prix": "65 €",
+   "note": "55 € sur la page des séances",
+   "image": "grok/fiche-sonotherapie",
+   "cadrage": "45% 55%",
+   "alt": "Bols chantants et gong dans une pièce chaleureuse",
+   "lien": "fiche-sonotherapie",
+   "texte": "Un voyage sonore associé à la lumière de la photostimulation, au choix : relaxation ou préparation au sommeil."
+  }
+ ],
+ "etapes": [
+  {
+   "titre": "Un premier échange",
+   "texte": "Par téléphone ou par e-mail : votre intention, vos besoins du moment."
+  },
+  {
+   "titre": "Une séance sur mesure",
+   "texte": "Sandrine choisit avec vous parmi ses outils, et peut y ajouter un peu de massage."
+  },
+  {
+   "titre": "Des clés pour le quotidien",
+   "texte": "Conseils simples en naturopathie, plantes, huiles essentielles et outils d’apaisement."
+  }
+ ],
+ "decouvertes": [
+  {
+   "titre": "Magnétisme énergétique",
+   "texte": "Ressentir, canaliser et équilibrer l’énergie : une première approche des outils ancestraux."
+  },
+  {
+   "titre": "Massage bien-être",
+   "texte": "Les gestes essentiels pour masser les pieds, les jambes, les mains et les bras de vos proches."
+  },
+  {
+   "titre": "Naturopathie familiale",
+   "texte": "Les bases du mieux-être au naturel, pour vous et votre famille au quotidien."
+  },
+  {
+   "titre": "Aromatologie familiale",
+   "texte": "Utiliser les huiles essentielles en toute sécurité dans la vie de tous les jours."
+  },
+  {
+   "titre": "Phytologie familiale",
+   "texte": "Les plantes et leurs usages simples, pour votre bien-être et celui de vos proches."
+  },
+  {
+   "titre": "Radiesthésie",
+   "texte": "Manier le pendule avec précision et intuition, pour un usage personnel."
+  },
+  {
+   "titre": "Chamanisme",
+   "texte": "Un premier pas vers les sagesses ancestrales et les forces du vivant : 3 jours, 290 €."
+  },
+  {
+   "titre": "Hypnose",
+   "texte": "Guider vers une relaxation profonde par la voix, avec un professionnel de l’hypnose."
+  }
+ ],
+ "groupe": [
+  {
+   "cle": "constellations",
+   "titre": "Constellations du vivant",
+   "prix": "50 € la demi-journée · 90 € la journée",
+   "note": "85 € la journée sur la fiche actuelle",
+   "image": "grok/atelier-constellations",
+   "cadrage": "50% 50%",
+   "alt": "Galets disposés en cercle sur un linge",
+   "texte": "Une exploration collective, selon la méthode de Liliane Van der Velde, pour éclairer les liens familiaux, renforcer ses racines et retrouver sa place, relié aux ressources du vivant."
+  },
+  {
+   "cle": "ressourcement",
+   "titre": "Journées & retraites de ressourcement",
+   "prix": "99 € la journée · 290 € les 3 jours",
+   "image": "grok/atelier-ressourcement",
+   "cadrage": "50% 55%",
+   "alt": "Sentier en forêt dans la brume du matin",
+   "texte": "Des journées de lenteur et de douceur pour vous offrir un vrai temps de régénération : pratiques corporelles, temps de parole, constellations, rituels et nature."
+  }
+ ],
+ "sonores": {
+  "titre": "Voyages sonores en groupe",
+  "prix": "39 € l’immersion",
+  "texte": "Bols chantants, gong, tambour traditionnel : une immersion dans les vibrations, pour une relaxation profonde."
+ },
+ "cocreatifs": [
+  {
+   "titre": "MIST’HER",
+   "avec": "avec Gwendoline, psychanalyste",
+   "prix": "50 € la séance",
+   "texte": "Cercle de parole et rituels autour d’un thème : cycles et vie au féminin, transitions de vie, charge mentale."
+  },
+  {
+   "titre": "RE’CONNEXION",
+   "avec": "atelier de 2 jours",
+   "prix": "250 € les 2 jours",
+   "texte": "Deux journées pour explorer l’intuition et les perceptions, en petit groupe."
+  },
+  {
+   "titre": "SAN’HELIA",
+   "avec": "atelier co-créatif",
+   "prix": "50 € la séance",
+   "texte": "à compléter"
+  }
+ ],
+ "parcours": [
+  {
+   "titre": "Parcours Femmes",
+   "prix": "45 € la session de 3 h 30",
+   "image": "grok/parcours-femmes",
+   "cadrage": "50% 50%",
+   "alt": "Silhouettes de femmes assises en cercle au coucher du soleil",
+   "texte": "Un accompagnement immersif sur plusieurs mois, en petit groupe, après un entretien individuel."
+  },
+  {
+   "titre": "Parcours Vivant",
+   "prix": "à compléter",
+   "image": "grok/parcours-vivant",
+   "cadrage": "50% 55%",
+   "alt": "Racines moussues et tambour posé sur la terre",
+   "texte": "Constellations et chamanisme : un chemin pour se relier à ses racines et aux forces du vivant."
+  },
+  {
+   "titre": "Espace de rencontre",
+   "prix": "39 € la session de 3 h",
+   "texte": "Un temps de partage en groupe, ouvert à tous."
+  },
+  {
+   "titre": "Espace en duo",
+   "prix": "55 € par binôme, 3 h",
+   "texte": "Espace couple sacré ou espace mère-fille."
+  }
+ ]
+}

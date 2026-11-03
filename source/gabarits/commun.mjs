@@ -141,7 +141,7 @@ function pied(c) {
     </div>
     <nav aria-label="${c.s('commun.sommaire')}">
       <p class="pied-titre">${c.t('commun.sommaire')}</p>
-      <ul>${navigation(c).map((k) => html`<li>${c.lien(k)}</li>`)}<li>${c.lien('mentions-legales')}</li></ul>
+      <ul>${navigation(c).map((k) => html`<li>${c.lien(k)}</li>`)}<li>${c.lien('mentions-legales')}</li><li>${c.lien('confidentialite')}</li></ul>
     </nav>
     <div>
       <p class="pied-titre">${c.t('commun.confort')}</p>

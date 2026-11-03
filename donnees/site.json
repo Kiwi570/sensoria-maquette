@@ -2,7 +2,7 @@
   "nom": "SENSORIA",
   "adresse": "https://sensoria-maquette.vercel.app",
   "siteActuel": "www.formations-sensoria.fr",
-  "version": 1,
+  "version": 2,
   "langues": [
     "fr"
   ],
@@ -11,6 +11,8 @@
     "accueil",
     "ecole",
     "formations",
+    "seances",
+    "ateliers",
     "agenda",
     "infos-pratiques",
     "temoignages",

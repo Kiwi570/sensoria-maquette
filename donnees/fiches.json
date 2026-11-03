@@ -1,0 +1,1475 @@
+{
+ "liste": [
+  {
+   "cle": "massages",
+   "page": "fiche-massages",
+   "fichier": "formation-praticien-massages-bien-etre",
+   "titre1": "Praticien en",
+   "titre2": "massages bien-être",
+   "cadrage": "55% 55%",
+   "alt": "Table de massage dressée de linge crème près d’une fenêtre",
+   "altPortrait": "Table de massage et serviettes pliées dans une pièce lumineuse",
+   "cles": [
+    [
+     "2 990 €",
+     "en 1 à 4 fois sans frais"
+    ],
+    [
+     "270 h",
+     "sur 6 à 10 mois"
+    ],
+    [
+     "160 h",
+     "de présentiel, 20 jours"
+    ],
+    [
+     "8 élèves",
+     "au plus par groupe"
+    ]
+   ],
+   "approche": {
+    "titre": "Un métier du toucher conscient",
+    "textes": [
+     "Le massage bien-être s’invite aujourd’hui partout où le besoin de déconnexion est essentiel : centres de bien-être, milieux sportifs, entreprises, spas, cabinets indépendants, hôtellerie ou accompagnement à domicile.",
+     "La formation se déroule sous la yourte de Blois, en petits groupes, dans une atmosphère conviviale et cocooning. Tout le matériel est fourni : huiles biologiques certifiées, tables ergonomiques, plaids, serviettes et pauses tisane."
+    ],
+    "atouts": [
+     "Tronc commun : anatomie, physiologie et dermatologie",
+     "110 h de préparation en ligne, accès illimité 24 h/24",
+     "Retour gratuit aux sessions pratiques, autant que nécessaire",
+     "Sète et Briord sur demande"
+    ]
+   },
+   "programme": {
+    "titre": "10 modules pratiques à choisir",
+    "texte": "Un tronc commun théorique, puis vos 10 massages, choisis parmi six familles.",
+    "groupes": [
+     {
+      "titre": "Publics spécifiques",
+      "points": [
+       "Massage prénatal pour la femme enceinte",
+       "Géronto-relaxation : personnes âgées, alitées ou à mobilité réduite",
+       "Massage sportif de préparation et de récupération"
+      ]
+     },
+     {
+      "titre": "Détox & silhouette",
+      "points": [
+       "Méthode LHOVE®",
+       "Massage silhouette, jambes lourdes"
+      ]
+     },
+     {
+      "titre": "Réflexologies",
+      "points": [
+       "Réflexologie plantaire",
+       "Réflexologie palmaire",
+       "Réflexologie faciale globale"
+      ]
+     },
+     {
+      "titre": "Techniques traditionnelles",
+      "points": [
+       "Amma, shiatsu assis sur chaise",
+       "Shiatsu corps, shiatsu visage et crâne",
+       "Tuina, massage traditionnel chinois",
+       "Auto-massage Do In"
+      ]
+     },
+     {
+      "titre": "Massages avec outils",
+      "points": [
+       "Pochons d’herbes (Herbal Siam)",
+       "Pierres chaudes",
+       "Bain sonore et massage aux bols chantants"
+      ]
+     },
+     {
+      "titre": "Grands classiques",
+      "points": [
+       "Californien et suédois « le toucher du cœur »",
+       "Ayurvédique abhyanga",
+       "Massage détente bras-mains, jambes-pieds"
+      ]
+     }
+    ]
+   },
+   "competences": [
+    {
+     "titre": "Une présence juste",
+     "texte": "Écouter finement les tissus, respecter le rythme du souffle et accueillir la sensibilité de chacun sans forcer."
+    },
+    {
+     "titre": "Des séances sur mesure",
+     "texte": "Concevoir des protocoles de relaxation adaptés à la demande et au confort de chaque personne."
+    },
+    {
+     "titre": "Un cadre professionnel",
+     "texte": "Installer un espace sécurisant et cocooning, conforme aux règles d’hygiène et de déontologie."
+    }
+   ],
+   "modalites": [
+    {
+     "titre": "Format",
+     "texte": "Hybride : 160 h de pratique sur 20 jours sous la yourte, 110 h de préparation en ligne."
+    },
+    {
+     "titre": "Durée",
+     "texte": "270 h réparties sur 6 à 10 mois, à votre rythme."
+    },
+    {
+     "titre": "Ressources",
+     "texte": "Vidéos des gestes, audios des protocoles, fiches PDF, visioconférences et forum privé."
+    },
+    {
+     "titre": "Validation",
+     "texte": "Attestation de fin de formation et certificat d’école (pas de diplôme d’État)."
+    }
+   ],
+   "paiement": {
+    "total": 2990,
+    "fois": 4
+   },
+   "dates": {
+    "formations": [
+     "massages-carte",
+     "reflexologie",
+     "amma",
+     "tuina",
+     "do-in",
+     "lhove"
+    ],
+    "max": 6,
+    "texte": "Le cursus se compose des modules ci-dessous : vous y choisissez vos 10 massages."
+   },
+   "avis": [
+    "Morgane",
+    "Virginie L.",
+    "Vanessa"
+   ],
+   "description": "Cursus complet de 270 h sur 6 à 10 mois : 10 massages au choix, 160 h de pratique sous la yourte de Blois, 110 h en ligne. 2 990 € en 1 à 4 fois sans frais.",
+   "accroche": "270 h pour devenir praticien en massages"
+  },
+  {
+   "cle": "massages-carte",
+   "page": "fiche-massages-carte",
+   "fichier": "formation-massages-a-la-carte",
+   "titre1": "Massages",
+   "titre2": "à la carte",
+   "cadrage": "60% 55%",
+   "alt": "Pierres chaudes, pochons d’herbes et huiles sur un linge",
+   "altPortrait": "Pierres chaudes et pochons d’herbes posés sur un linge",
+   "cles": [
+    [
+     "350 €",
+     "le module, en 1 ou 2 fois"
+    ],
+    [
+     "35 h",
+     "minimum par module"
+    ],
+    [
+     "2 jours",
+     "de pratique à Blois"
+    ],
+    [
+     "7 familles",
+     "de massages"
+    ]
+   ],
+   "approche": {
+    "titre": "Un massage, à votre rythme",
+    "textes": [
+     "Pratique ancestrale partagée à travers le monde, le massage bien-être s’inspire des grandes traditions d’Asie et de l’Ayurvéda. Il aide à apaiser les tensions et à reconnecter le corps et l’esprit.",
+     "Chaque module se suit seul, pour votre épanouissement personnel ou pour devenir praticien : la théorie en ligne en amont, puis deux jours de pratique sous la yourte."
+    ],
+    "atouts": [
+     "Vidéos et supports d’étude en ligne inclus",
+     "Suivi personnalisé",
+     "Retour gratuit aux sessions pratiques",
+     "Sète et Briord sur demande"
+    ]
+   },
+   "programme": {
+    "titre": "Les modules",
+    "texte": "Choisissez un module, ou composez votre parcours.",
+    "groupes": [
+     {
+      "titre": "Publics spécifiques",
+      "points": [
+       "Maternité et gestion du stress",
+       "Sportifs et sédentaires",
+       "Seniors et mobilité réduite"
+      ]
+     },
+     {
+      "titre": "Réflexologies",
+      "points": [
+       "Plantaire, adaptée des bébés aux adultes",
+       "Palmaire (mains)",
+       "Faciale et crânienne"
+      ]
+     },
+     {
+      "titre": "Techniques traditionnelles",
+      "points": [
+       "Amma",
+       "Shiatsu",
+       "Tuina",
+       "Do In"
+      ]
+     },
+     {
+      "titre": "Massages détox",
+      "points": [
+       "Minceur : cellulite et jambes lourdes",
+       "Méthode LHOVE®"
+      ]
+     },
+     {
+      "titre": "Massages avec outils",
+      "points": [
+       "Massage et bain sonore aux bols chantants",
+       "Pierres chaudes",
+       "Pochons d’herbes Herbal Siam"
+      ]
+     },
+     {
+      "titre": "Grands classiques",
+      "points": [
+       "Suédois et californien « le toucher du cœur »",
+       "Ayurvédique abhyanga"
+      ]
+     },
+     {
+      "titre": "Toucher en douceur",
+      "points": [
+       "Massage relaxant pieds-jambes et mains-bras, pour s’initier pas à pas",
+       "Massage et réflexologie pédiatriques"
+      ]
+     }
+    ]
+   },
+   "competences": [],
+   "modalites": [
+    {
+     "titre": "Format",
+     "texte": "Théorie en ligne en amont, puis 2 jours de pratique en présentiel, de 9 h à 18 h."
+    },
+    {
+     "titre": "Durée",
+     "texte": "35 h minimum par module."
+    },
+    {
+     "titre": "Lieu",
+     "texte": "Blois, sous la yourte ; Sète et Briord sur demande."
+    },
+    {
+     "titre": "Validation",
+     "texte": "Attestation de fin de formation et certificat d’école (pas de diplôme d’État)."
+    }
+   ],
+   "paiement": {
+    "total": 350,
+    "fois": 2
+   },
+   "dates": {
+    "formations": [
+     "massages-carte"
+    ],
+    "max": 8
+   },
+   "avis": [
+    "Virginie L.",
+    "Morgane"
+   ],
+   "description": "Suédois, abhyanga, pierres chaudes, bols chantants, shiatsu… Chaque massage se suit seul : 35 h minimum dont 2 jours à Blois, 350 € le module.",
+   "accroche": "Un massage, un module, à votre rythme"
+  },
+  {
+   "cle": "reflexologie",
+   "page": "fiche-reflexologie",
+   "fichier": "formation-reflexologie",
+   "titre1": "Réflexologie plantaire,",
+   "titre2": "palmaire & faciale",
+   "cadrage": "50% 50%",
+   "alt": "Mains exerçant une pression douce sur la plante d’un pied",
+   "altPortrait": "Mains sur un pied posé sur une serviette",
+   "cles": [
+    [
+     "350 €",
+     "la formation, en 1 ou 2 fois"
+    ],
+    [
+     "35 h",
+     "minimum, dont 2 jours à Blois"
+    ],
+    [
+     "3 approches",
+     "plantaire, palmaire, faciale"
+    ],
+    [
+     "Aucun",
+     "prérequis"
+    ]
+   ],
+   "approche": {
+    "titre": "Trois réflexologies de relaxation",
+    "textes": [
+     "Trois formations pour devenir praticien en réflexologie de relaxation, sans visée thérapeutique : plantaire, palmaire, et faciale et crânienne.",
+     "La réflexologie faciale propose un protocole anti-âge qui travaille sur les muscles antagonistes et les points d’acupuncture. Un entretien préalable permet de construire votre projet."
+    ],
+    "atouts": [
+     "Vidéos des gestes en virtuel et sur modèle",
+     "Audio et vidéo du protocole complet",
+     "Regroupement à Blois pour la validation"
+    ]
+   },
+   "programme": {
+    "titre": "Le programme",
+    "texte": "Commun aux trois réflexologies.",
+    "groupes": [
+     {
+      "titre": "Les fondements",
+      "points": [
+       "Historique et définition de la réflexologie",
+       "Code de déontologie",
+       "Mise en condition du praticien et principes"
+      ]
+     },
+     {
+      "titre": "Le corps",
+      "points": [
+       "Anatomie, physiologie et dermatologie",
+       "Cartographie des zones et des points réflexes",
+       "Précautions à prendre"
+      ]
+     },
+     {
+      "titre": "La pratique",
+      "points": [
+       "Matériel, entretien et organisation",
+       "Accueil et installation",
+       "Gestes et techniques, en vidéo et sur modèle",
+       "Apprentissage des zones réflexes"
+      ]
+     },
+     {
+      "titre": "La validation",
+      "points": [
+       "Audio du protocole",
+       "Vidéo du protocole complet en situation",
+       "Regroupement en présentiel à Blois"
+      ]
+     }
+    ]
+   },
+   "competences": [
+    {
+     "titre": "S’adapter",
+     "texte": "Adapter la séance à chaque public et à chaque demande."
+    },
+    {
+     "titre": "Réajuster",
+     "texte": "Faire évoluer le protocole quand c’est utile."
+    },
+    {
+     "titre": "Rassurer",
+     "texte": "Créer une atmosphère calme et rassurante."
+    }
+   ],
+   "modalites": [
+    {
+     "titre": "Format",
+     "texte": "Vidéos et audios en ligne, puis regroupement en présentiel à Blois."
+    },
+    {
+     "titre": "Durée",
+     "texte": "35 h minimum, dont 2 jours de présentiel."
+    },
+    {
+     "titre": "Prérequis",
+     "texte": "Aucun ; un entretien préalable est demandé."
+    },
+    {
+     "titre": "Validation",
+     "texte": "Attestation de fin de formation et certificat d’école (pas de diplôme d’État)."
+    }
+   ],
+   "paiement": {
+    "total": 350,
+    "fois": 2
+   },
+   "dates": {
+    "formations": [
+     "reflexologie"
+    ]
+   },
+   "avis": [
+    "Émilie"
+   ],
+   "description": "Réflexologies plantaire, palmaire et faciale de relaxation : vidéos en ligne puis 2 jours de pratique à Blois. 350 € la formation, en 1 ou 2 fois.",
+   "accroche": "Plantaire, palmaire & faciale"
+  },
+  {
+   "cle": "amma",
+   "page": "fiche-amma",
+   "fichier": "formation-amma-shiatsu-assis",
+   "titre1": "Amma,",
+   "titre2": "shiatsu assis",
+   "cadrage": "58% 50%",
+   "alt": "Chaise de massage ergonomique en bois dans une pièce ensoleillée",
+   "altPortrait": "Chaise de massage ergonomique près d’une plante",
+   "cles": [
+    [
+     "350 €",
+     "le module, en 1 ou 2 fois"
+    ],
+    [
+     "35 h",
+     "minimum"
+    ],
+    [
+     "Habillé",
+     "sur chaise ergonomique"
+    ],
+    [
+     "Accessible",
+     "à tous"
+    ]
+   ],
+   "approche": {
+    "titre": "Une relaxation rythmée, idéale en entreprise",
+    "textes": [
+     "Ancêtre du shiatsu japonais, le Amma se pratique habillé, sur une chaise ergonomique. Un enchaînement précis de pressions, de lissages, d’étirements et de percussions légères relâche les tensions du haut du corps en peu de temps.",
+     "Il s’intègre parfaitement aux espaces de travail, aux salons professionnels et aux cabinets de bien-être."
+    ],
+    "atouts": [
+     "Sensation immédiate de dynamisme",
+     "Détente du dos, des épaules, de la nuque et des bras",
+     "Relaxation globale du corps et de l’esprit"
+    ]
+   },
+   "programme": {
+    "titre": "Le programme, pas à pas",
+    "groupes": [
+     {
+      "titre": "Théorie & environnement",
+      "points": [
+       "Fondements, historique et philosophie du Amma",
+       "Notions d’anatomie, de physiologie et de la peau",
+       "Déontologie, charte éthique et précautions",
+       "Principes des méridiens et du Qi"
+      ]
+     },
+     {
+      "titre": "Matériel & posture",
+      "points": [
+       "Réglages de la chaise et installation du participant",
+       "Échauffements du praticien (Makko Ho)",
+       "Pressions des pouces, balancements et percussions rythmées",
+       "Entretien du matériel et hygiène"
+      ]
+     },
+     {
+      "titre": "Préparation & ressources",
+      "points": [
+       "Plateforme en ligne en accès illimité, en amont du présentiel",
+       "Audios du protocole, fiches PDF et visioconférences",
+       "Vidéos des gestes en virtuel et sur modèle",
+       "Forum privé d’échange entre élèves et avec Sandrine"
+      ]
+     }
+    ]
+   },
+   "competences": [
+    {
+     "titre": "Posture d’accueil",
+     "texte": "Accueillir chaleureusement et régler la chaise selon la morphologie de chacun."
+    },
+    {
+     "titre": "Maîtrise du kata",
+     "texte": "Enchaîner avec fluidité pressions et étirements sur le dos, les bras, les mains, la nuque et la tête."
+    },
+    {
+     "titre": "Sécurité",
+     "texte": "Connaître les contre-indications, les règles d’hygiène et l’éthique professionnelle."
+    },
+    {
+     "titre": "Suivi de la pratique",
+     "texte": "Consigner ses heures d’intégration dans un carnet de bord."
+    }
+   ],
+   "modalites": [
+    {
+     "titre": "Format",
+     "texte": "35 h minimum : préparation théorique en ligne et pratique intensive en présentiel."
+    },
+    {
+     "titre": "Évaluation",
+     "texte": "Étude de cas pratique sur modèle."
+    },
+    {
+     "titre": "Prérequis",
+     "texte": "Accessible à tous."
+    },
+    {
+     "titre": "Validation",
+     "texte": "Attestation de fin de formation et certificat d’école (pas de diplôme d’État)."
+    }
+   ],
+   "paiement": {
+    "total": 350,
+    "fois": 2
+   },
+   "dates": {
+    "formations": [
+     "amma"
+    ]
+   },
+   "avis": [],
+   "description": "Amma, shiatsu assis sur chaise ergonomique : 35 h minimum, théorie en ligne et pratique à Blois. Idéal en entreprise. 350 € le module.",
+   "accroche": "Le shiatsu assis, idéal en entreprise"
+  },
+  {
+   "cle": "tuina",
+   "page": "fiche-tuina",
+   "fichier": "formation-tuina",
+   "titre1": "Tuina,",
+   "titre2": "massage chinois",
+   "cadrage": "50% 45%",
+   "alt": "Mains massant le haut du dos d’une personne vêtue de lin",
+   "altPortrait": "Mains posées sur le dos d’une personne allongée",
+   "cles": [
+    [
+     "350 €",
+     "le module, en 1 ou 2 fois"
+    ],
+    [
+     "35 h",
+     "minimum"
+    ],
+    [
+     "Méridiens",
+     "pressions, frictions, étirements"
+    ],
+    [
+     "Accessible",
+     "à tous"
+    ]
+   ],
+   "approche": {
+    "titre": "Un art corporel énergétique",
+    "textes": [
+     "Pilier des approches corporelles traditionnelles chinoises, le Tuina est un massage rythmé qui mêle pressions, frictions, étirements et mobilisations le long des méridiens, pour favoriser la libre circulation du Qi.",
+     "Vous apprenez à dénouer les tensions et à offrir un véritable regain de dynamisme, en respectant la sensibilité de chacun."
+    ],
+    "atouts": [
+     "Circulation de l’énergie vitale",
+     "Relâchement des tensions musculaires",
+     "Sensation de légèreté et de vitalité"
+    ]
+   },
+   "programme": {
+    "titre": "Le programme",
+    "groupes": [
+     {
+      "titre": "Théorie & fondements",
+      "points": [
+       "Historique, origines et philosophie du Tuina",
+       "Notions d’anatomie, de physiologie et de la peau",
+       "Approche énergétique chinoise et méridiens principaux",
+       "Déontologie et charte éthique"
+      ]
+     },
+     {
+      "titre": "Pratique en présentiel",
+      "points": [
+       "Accueil et installation du participant",
+       "Centrage et posture du masseur (Makko Ho)",
+       "Pressions, lissages rythmés et frictions",
+       "Précautions pour un protocole sécurisant"
+      ]
+     },
+     {
+      "titre": "Préparation & ressources",
+      "points": [
+       "Plateforme en ligne en accès illimité, en amont du présentiel",
+       "Audios du protocole, fiches PDF et visioconférences",
+       "Vidéos des gestes en virtuel et sur modèle",
+       "Forum privé d’échange entre élèves et avec Sandrine"
+      ]
+     }
+    ]
+   },
+   "competences": [
+    {
+     "titre": "Posture d’accueil",
+     "texte": "Installer un espace chaleureux et sécurisant, adapté à chacun."
+    },
+    {
+     "titre": "Toucher adapté",
+     "texte": "Ajuster les zones, l’intensité et le rythme à la demande de la personne."
+    },
+    {
+     "titre": "Maîtrise technique",
+     "texte": "Appliquer avec précision les gestes du Tuina sur les zones clés du corps."
+    },
+    {
+     "titre": "Sécurité",
+     "texte": "Connaître les bienfaits, les limites et les contre-indications de la méthode."
+    }
+   ],
+   "modalites": [
+    {
+     "titre": "Format",
+     "texte": "35 h minimum : préparation théorique en ligne et pratique intensive en présentiel."
+    },
+    {
+     "titre": "Évaluation",
+     "texte": "Étude de cas pratique sur modèle, puis entretien de fin de cursus."
+    },
+    {
+     "titre": "Prérequis",
+     "texte": "Accessible à tous ; entretien préalable."
+    },
+    {
+     "titre": "Validation",
+     "texte": "Attestation de fin de formation et certificat d’école (pas de diplôme d’État)."
+    }
+   ],
+   "paiement": {
+    "total": 350,
+    "fois": 2
+   },
+   "dates": {
+    "formations": [
+     "tuina"
+    ]
+   },
+   "avis": [],
+   "description": "Tuina, massage traditionnel chinois : pressions, frictions et étirements le long des méridiens. 35 h minimum, pratique à Blois, 350 € le module.",
+   "accroche": "Le massage traditionnel chinois"
+  },
+  {
+   "cle": "do-in",
+   "page": "fiche-do-in",
+   "fichier": "formation-do-in",
+   "titre1": "Animateur",
+   "titre2": "en Do In",
+   "cadrage": "45% 50%",
+   "alt": "Personne assise en tailleur se tapotant l’avant-bras",
+   "altPortrait": "Personne en tailleur pratiquant l’auto-massage",
+   "cles": [
+    [
+     "99 €",
+     "la formation"
+    ],
+    [
+     "E-learning",
+     "en accès illimité"
+    ],
+    [
+     "De la tête",
+     "jusqu’aux pieds"
+    ],
+    [
+     "Accessible",
+     "à tous"
+    ]
+   ],
+   "approche": {
+    "titre": "L’auto-massage, pour soi et pour les autres",
+    "textes": [
+     "Devenez praticien en Do In pour vous-même ou pour animer des ateliers : un protocole complet, de la tête jusqu’aux pieds, avec les bienfaits de chaque geste.",
+     "Respiration, mudras, méditation du silence et étirements préparent chaque séance, en cabinet, en structure ou en entreprise."
+    ],
+    "atouts": [
+     "Protocole en audio et en vidéo",
+     "Forum d’échange avec la formatrice",
+     "Animation d’ateliers incluse"
+    ]
+   },
+   "programme": {
+    "titre": "Le programme",
+    "groupes": [
+     {
+      "titre": "Préparer",
+      "points": [
+       "Historique du Do In, origines et cultures",
+       "Bienfaits pour le praticien et pour le public",
+       "Respiration Ujjayi, mudras, méditation du silence, étirements"
+      ]
+     },
+     {
+      "titre": "Pratiquer",
+      "points": [
+       "Protocole par étapes, de la tête jusqu’aux pieds",
+       "Pressions, étirements, lissages, frictions, pétrissages, tapotages, acupressions",
+       "Yoga des yeux"
+      ]
+     },
+     {
+      "titre": "Transmettre",
+      "points": [
+       "Mettre en place un atelier Do In en cabinet ou en structure",
+       "Précautions et code de déontologie",
+       "Audio et vidéo complète du protocole"
+      ]
+     }
+    ]
+   },
+   "competences": [
+    {
+     "titre": "Animer",
+     "texte": "Mettre en place des ateliers de Do In."
+    },
+    {
+     "titre": "Accueillir",
+     "texte": "Proposer un accueil adapté à chaque public."
+    },
+    {
+     "titre": "Adapter",
+     "texte": "Choisir le massage adapté à chaque zone."
+    },
+    {
+     "titre": "Maîtriser",
+     "texte": "Pratiquer les techniques spécifiques avec justesse."
+    }
+   ],
+   "modalites": [
+    {
+     "titre": "Format",
+     "texte": "E-learning en accès illimité ; journée de pratique à Blois selon les dates."
+    },
+    {
+     "titre": "Prérequis",
+     "texte": "Accessible à tous."
+    },
+    {
+     "titre": "Validation",
+     "texte": "Attestation de fin de formation et certificat d’école (pas de diplôme d’État)."
+    }
+   ],
+   "paiement": {
+    "total": 99,
+    "fois": 1
+   },
+   "dates": {
+    "formations": [
+     "do-in"
+    ]
+   },
+   "avis": [],
+   "description": "Do In, l’auto-massage de la tête aux pieds : e-learning illimité et journée de pratique à Blois, pour soi ou pour animer des ateliers. 99 €.",
+   "accroche": "L’auto-massage pour soi et pour les autres"
+  },
+  {
+   "cle": "lhove",
+   "page": "fiche-lhove",
+   "fichier": "formation-methode-lhove",
+   "titre1": "Méthode",
+   "titre2": "LHOVE®",
+   "cadrage": "45% 55%",
+   "alt": "Deux mains posées sur un ventre recouvert d’un linge crème",
+   "altPortrait": "Mains posées sur un ventre recouvert de lin",
+   "cles": [
+    [
+     "450 €",
+     "en 1 ou 2 fois (à confirmer)"
+    ],
+    [
+     "2 jours",
+     "de présentiel à Blois"
+    ],
+    [
+     "Le Hara",
+     "massage du ventre"
+    ],
+    [
+     "Méthode",
+     "créée par Sandrine"
+    ]
+   ],
+   "approche": {
+    "titre": "Le massage du Hara",
+    "textes": [
+     "Méthode protégée créée par Sandrine, LHOVE® (Libération Holistique des Organes du Ventre et des Émotions liées) accompagne la détente physique, émotionnelle et énergétique de la sphère abdominale.",
+     "Le Hara est le centre de gravité de l’être humain. Vous apprenez à travailler en douceur pour relâcher les tensions, retrouver de la fluidité et inviter à un profond lâcher-prise."
+    ],
+    "atouts": [
+     "Méthode exclusive, unique en France",
+     "Respiration, mouvement et magnétisme du ventre",
+     "Fiches, vidéos, visioconférences et forum"
+    ]
+   },
+   "programme": {
+    "titre": "Le programme",
+    "groupes": [
+     {
+      "titre": "Anatomie & posture",
+      "points": [
+       "Tronc commun : anatomie, physiologie et dermatologie",
+       "Origines, philosophie du Hara et principes du protocole",
+       "Choix des supports et installation des personnes"
+      ]
+     },
+     {
+      "titre": "Techniques de relaxation",
+      "points": [
+       "Le souffle du ventre : respiration traditionnelle et pranayama",
+       "Mouvements de vitalité inspirés du yoga",
+       "Magnétisme du ventre : pratiques énergétiques douces"
+      ]
+     },
+     {
+      "titre": "Pratique & conseils",
+      "points": [
+       "Protocole de massage à l’huile du ventre, pas à pas",
+       "Quelques conseils d’hygiène de vie en naturopathie",
+       "Code de déontologie et précautions",
+       "Vidéos de révision, visioconférences et forum"
+      ]
+     }
+    ]
+   },
+   "competences": [
+    {
+     "titre": "Accueillir",
+     "texte": "Installer un cadre sécurisant, bienveillant et cocooning, dans le respect des règles d’hygiène."
+    },
+    {
+     "titre": "Maîtriser",
+     "texte": "Réaliser avec fluidité le protocole complet de la méthode."
+    },
+    {
+     "titre": "Adapter",
+     "texte": "Ajuster l’intensité et l’enchaînement à la sensibilité de chacun."
+    },
+    {
+     "titre": "Connaître",
+     "texte": "Identifier les bienfaits et les contre-indications de la méthode."
+    }
+   ],
+   "modalites": [
+    {
+     "titre": "Format",
+     "texte": "2 jours de présentiel à Blois, avec vidéos de révision en amont."
+    },
+    {
+     "titre": "Prérequis",
+     "texte": "Accessible à tous."
+    },
+    {
+     "titre": "Validation",
+     "texte": "Validation pratique et théorique en fin de cursus ; attestation de formation professionnelle."
+    }
+   ],
+   "paiement": {
+    "total": 450,
+    "fois": 2,
+    "note": "à confirmer : 3 fois sur la fiche actuelle"
+   },
+   "dates": {
+    "formations": [
+     "lhove"
+    ]
+   },
+   "avis": [],
+   "description": "LHOVE®, la méthode de massage du ventre créée par Sandrine : souffle, mouvement, magnétisme et protocole à l’huile. 2 jours à Blois, 450 €.",
+   "accroche": "Le massage du Hara, méthode exclusive"
+  },
+  {
+   "cle": "escale",
+   "page": "fiche-escale",
+   "fichier": "formation-methode-escale",
+   "titre1": "Méthode",
+   "titre2": "ESCALE®",
+   "cadrage": "55% 50%",
+   "alt": "Mains peignant des formes douces à l’aquarelle",
+   "altPortrait": "Main peignant à l’aquarelle sur un grand papier",
+   "cles": [
+    [
+     "1 990 €",
+     "en 1 à 4 fois (à confirmer)"
+    ],
+    [
+     "5 sens",
+     "art, son, souffle, mouvement"
+    ],
+    [
+     "Hybride",
+     "Blois + e-learning"
+    ],
+    [
+     "Méthode",
+     "créée par Sandrine"
+    ]
+   ],
+   "approche": {
+    "titre": "L’éveil des sens par la créativité et l’art",
+    "textes": [
+     "Conçue par Sandrine, la méthode ESCALE® réunit plusieurs univers complémentaires : la relaxation par l’hypnose, l’expression artistique, la vibration des sons, le mouvement et l’approche neuro-émotionnelle.",
+     "Une méthode structurée, éthique et fluide, pour accompagner la détente et l’expression des émotions, en atelier ou en séance individuelle."
+    ],
+    "atouts": [
+     "L’odorat et le souffle : autohypnose, pranayamas, olfactologie",
+     "La vue et la créativité : méditation, mandalas, couleurs",
+     "L’audition : relaxation sonore et musique",
+     "Le mouvement : danse libre, ancrage, body painting"
+    ]
+   },
+   "programme": {
+    "titre": "Le programme",
+    "groupes": [
+     {
+      "titre": "Anatomie & neurosciences",
+      "points": [
+       "Les 11 systèmes du corps humain",
+       "Mécanismes du stress et surcharges neuro-émotionnelles",
+       "Le mental, le conscient et le subconscient"
+      ]
+     },
+     {
+      "titre": "Le souffle & l’art",
+      "points": [
+       "Autohypnose, relaxation et méditation",
+       "Olfactologie : odeurs et huiles essentielles",
+       "Dessin, mandala, couleur et maquillage corporel"
+      ]
+     },
+     {
+      "titre": "Vibrations & mouvement",
+      "points": [
+       "Bases sonores pour accompagner les méditations",
+       "Mantras, danse intuitive et yoga",
+       "Articuler vos techniques dans vos propres séances"
+      ]
+     }
+    ]
+   },
+   "competences": [
+    {
+     "titre": "Accueillir",
+     "texte": "Installer un cadre sécurisant et cocooning, adapté à chacun."
+    },
+    {
+     "titre": "Maîtriser",
+     "texte": "Pratiquer les outils sensoriels, artistiques et corporels de la méthode."
+    },
+    {
+     "titre": "Animer",
+     "texte": "Concevoir et adapter un atelier collectif ou un accompagnement individuel."
+    },
+    {
+     "titre": "Connaître",
+     "texte": "Identifier les bienfaits et les contre-indications des techniques."
+    }
+   ],
+   "modalites": [
+    {
+     "titre": "Format",
+     "texte": "Pratique à Blois, théorie en e-learning illimité, visioconférences régulières."
+    },
+    {
+     "titre": "Évaluations",
+     "texte": "Contrôles de connaissances en anatomie-physiologie et sur les modules."
+    },
+    {
+     "titre": "Validation",
+     "texte": "Évaluation théorique finale, entretien individuel, certificat d’école."
+    },
+    {
+     "titre": "Durée",
+     "texte": "à compléter"
+    }
+   ],
+   "paiement": {
+    "total": 1990,
+    "fois": 4,
+    "note": "prix à confirmer : 990 € sur la boutique actuelle"
+   },
+   "dates": {
+    "formations": [
+     "escale"
+    ]
+   },
+   "avis": [],
+   "description": "ESCALE®, la méthode de libération émotionnelle par l’art, le son, le souffle et le mouvement, créée par Sandrine. Pratique à Blois et e-learning illimité.",
+   "accroche": "L’éveil des sens par la créativité"
+  },
+  {
+   "cle": "naturopathe",
+   "page": "fiche-naturopathe",
+   "fichier": "formation-naturopathe-holistique",
+   "titre1": "Naturopathe",
+   "titre2": "holistique",
+   "cadrage": "50% 55%",
+   "alt": "Table de cuisine avec légumes de saison, herbes et carafe d’eau",
+   "altPortrait": "Légumes, herbes et carafe sur une table en bois",
+   "cles": [
+    [
+     "3 990 €",
+     "en 1 à 4 fois sans frais"
+    ],
+    [
+     "18 à 36 mois",
+     "à votre rythme"
+    ],
+    [
+     "8 modules",
+     "+ 4 massages"
+    ],
+    [
+     "Blois · Sète",
+     "regroupements"
+    ]
+   ],
+   "approche": {
+    "titre": "Une approche globale de l’être",
+    "textes": [
+     "La naturopathie considère la personne dans sa globalité : physique, émotionnelle et énergétique. Une philosophie de vie fondée sur le respect du vivant, l’écoute et l’accompagnement vers le changement.",
+     "Le cursus allie l’e-learning et des ateliers pratiques en présentiel à Blois ou à Sète, pour un projet de reconversion comme pour enrichir vos accompagnements."
+    ],
+    "atouts": [
+     "Phyto-aromatologie et gestion du stress incluses",
+     "4 massages : réflexologie plantaire, Do In, LHOVE®, silhouette",
+     "Mémoire professionnel accompagné",
+     "Retour gratuit aux sessions pratiques"
+    ]
+   },
+   "programme": {
+    "titre": "8 modules",
+    "texte": "Après une introduction à la naturopathie, à son histoire et à ses précautions d’usage.",
+    "groupes": [
+     {
+      "titre": "Biologie de confort",
+      "points": [
+       "Anatomie, physiologie, dermatologie"
+      ]
+     },
+     {
+      "titre": "Nutrition & hygiène alimentaire",
+      "points": [
+       "Nutriments, index glycémique, équilibre de l’assiette",
+       "Initiation à la micronutrition"
+      ]
+     },
+     {
+      "titre": "L’analyse du terrain",
+      "points": [
+       "Bilan de vitalité, équilibre acido-basique",
+       "Psychomorphologie"
+      ]
+     },
+     {
+      "titre": "Les approches traditionnelles",
+      "points": [
+       "Principes des traditions asiatiques et ayurvédiques"
+      ]
+     },
+     {
+      "titre": "Les cures saisonnières",
+      "points": [
+       "Revitalisation, monodiètes",
+       "Hydrothérapie de bien-être"
+      ]
+     },
+     {
+      "titre": "Les techniques d’accompagnement",
+      "points": [
+       "Aromatologie familiale, phytologie, fleurs de Bach, argile",
+       "Relaxation, gestion du stress, sophrologie"
+      ]
+     },
+     {
+      "titre": "L’accompagnement des publics",
+      "points": [
+       "Enfants, adolescents, femmes enceintes, sportifs, seniors"
+      ]
+     },
+     {
+      "titre": "La vitalité par le mouvement",
+      "points": [
+       "Activité physique douce et ergonomie au quotidien"
+      ]
+     }
+    ]
+   },
+   "competences": [
+    {
+     "titre": "Écoute",
+     "texte": "Installer un accueil sécurisant et mener une écoute personnalisée."
+    },
+    {
+     "titre": "Hygiène de vie",
+     "texte": "Concevoir des programmes d’alimentation et de revitalisation sur mesure."
+    },
+    {
+     "titre": "Bilan de vitalité",
+     "texte": "Réaliser un bilan non médical pour cibler les besoins de détente ou de dynamisation."
+    },
+    {
+     "titre": "Ateliers",
+     "texte": "Animer des ateliers collectifs ou des séances individuelles de conseil."
+    },
+    {
+     "titre": "Sécurité",
+     "texte": "Connaître les contre-indications et les limites de la pratique."
+    }
+   ],
+   "modalites": [
+    {
+     "titre": "Durée",
+     "texte": "18 à 36 mois, environ 10 h de travail personnel par semaine."
+    },
+    {
+     "titre": "Format",
+     "texte": "E-learning et ateliers pratiques en présentiel ou en visioconférence."
+    },
+    {
+     "titre": "Évaluation",
+     "texte": "Études de cas pratiques et mémoire professionnel."
+    },
+    {
+     "titre": "Validation",
+     "texte": "Attestation de fin de formation et certificat d’école (pas de diplôme d’État)."
+    }
+   ],
+   "paiement": {
+    "total": 3990,
+    "fois": 4
+   },
+   "dates": {
+    "formations": [
+     "naturopathe"
+    ]
+   },
+   "avis": [
+    "Esmeralda P.",
+    "Émilie"
+   ],
+   "description": "Cursus de naturopathe holistique en 8 modules, avec phyto-aromatologie, gestion du stress et 4 massages. 18 à 36 mois, e-learning et pratique à Blois ou Sète.",
+   "accroche": "Le cursus complet de naturopathe"
+  },
+  {
+   "cle": "phyto",
+   "page": "fiche-phyto",
+   "fichier": "formation-phyto-aromatologie",
+   "titre1": "Phyto-aromatologie",
+   "titre2": "familiale",
+   "cadrage": "55% 50%",
+   "alt": "Flacons ambrés, lavande et romarin sur un linge",
+   "altPortrait": "Flacons ambrés et brins de lavande",
+   "cles": [
+    [
+     "595 €",
+     "en 1 à 3 fois sans frais"
+    ],
+    [
+     "37 huiles",
+     "essentielles étudiées"
+    ],
+    [
+     "Plantes",
+     "teintures, argile, bourgeons"
+    ],
+    [
+     "En ligne",
+     "à votre rythme"
+    ]
+   ],
+   "approche": {
+    "titre": "Les huiles essentielles et les plantes au quotidien",
+    "textes": [
+     "Ce cursus vous apprend à utiliser les huiles essentielles et les plantes de manière holistique, sûre et autonome, pour votre cercle familial ou pour enrichir un parcours professionnel.",
+     "Il réunit l’aromatologie et la phytologie familiales sans coût supplémentaire. Il fait partie du cursus de naturopathe et peut se suivre seul."
+    ],
+    "atouts": [
+     "37 huiles essentielles, 10 huiles végétales et hydrolats",
+     "Précautions, dosages et contre-indications",
+     "Module compté dans le cursus de naturopathe"
+    ]
+   },
+   "programme": {
+    "titre": "Le programme",
+    "groupes": [
+     {
+      "titre": "Le corps humain",
+      "points": [
+       "Les 11 systèmes du corps",
+       "La peau et ses spécificités",
+       "Repérer les besoins du corps"
+      ]
+     },
+     {
+      "titre": "Aromatologie pratique",
+      "points": [
+       "Histoire, qualité et fabrication des huiles essentielles",
+       "Précautions, réglementation, dosages, contre-indications",
+       "37 huiles essentielles, chémotypes, huiles végétales et hydrolats",
+       "Apaisement, relaxation, cuisine et trousse familiale"
+      ]
+     },
+     {
+      "titre": "Phytologie traditionnelle",
+      "points": [
+       "Histoire, réglementation et mises en garde",
+       "Récolte, principes actifs et composition des plantes",
+       "Teintures mères, argiles, aloe vera, gemmothérapie",
+       "Fleurs de Bach, compléments alimentaires, oligothérapie"
+      ]
+     }
+    ]
+   },
+   "competences": [
+    {
+     "titre": "Accueil",
+     "texte": "Installer une écoute bienveillante et personnalisée."
+    },
+    {
+     "titre": "Accompagnement",
+     "texte": "Adapter les conseils aux besoins de vitalité de chacun."
+    },
+    {
+     "titre": "Sécurité",
+     "texte": "Maîtriser les dosages et les contre-indications des huiles, des plantes et des compléments."
+    },
+    {
+     "titre": "Ateliers",
+     "texte": "Concevoir et animer des ateliers thématiques, collectifs ou individuels."
+    }
+   ],
+   "modalites": [
+    {
+     "titre": "Format",
+     "texte": "En ligne, à votre rythme (bientôt aussi en présentiel)."
+    },
+    {
+     "titre": "Prérequis",
+     "texte": "Accessible à tous."
+    },
+    {
+     "titre": "Durée",
+     "texte": "à compléter"
+    },
+    {
+     "titre": "Validation",
+     "texte": "Attestation de fin de formation et certificat d’école (pas de diplôme d’État)."
+    }
+   ],
+   "paiement": {
+    "total": 595,
+    "fois": 3
+   },
+   "dates": {
+    "formations": [
+     "phyto"
+    ]
+   },
+   "avis": [
+    "Esmeralda P."
+   ],
+   "description": "Conseiller en phyto-aromatologie familiale : 37 huiles essentielles, plantes, précautions et dosages, en ligne. 595 € en 1 à 3 fois sans frais.",
+   "accroche": "Huiles essentielles & plantes au quotidien"
+  },
+  {
+   "cle": "stress",
+   "page": "fiche-stress",
+   "fichier": "formation-gestion-du-stress",
+   "titre1": "Coach en mieux-être,",
+   "titre2": "gestion du stress",
+   "cadrage": "60% 50%",
+   "alt": "Silhouette assise de dos face à des collines au lever du soleil",
+   "altPortrait": "Silhouette de dos au lever du soleil",
+   "cles": [
+    [
+     "595 €",
+     "en 1 ou 3 fois sans frais"
+    ],
+    [
+     "Neurosciences",
+     "du stress"
+    ],
+    [
+     "Cohérence",
+     "cardiaque, sophrologie"
+    ],
+    [
+     "En ligne",
+     "à votre rythme"
+    ]
+   ],
+   "approche": {
+    "titre": "Accompagner les surcharges du quotidien",
+    "textes": [
+     "Une formation pour devenir accompagnant du bien-être mental, physique et émotionnel : des outils concrets pour aider chacun à mieux vivre les périodes de stress et de fatigue.",
+     "Vous apprenez à intervenir en rendez-vous individuel ou en atelier collectif, dans votre structure, en association ou en entreprise."
+    ],
+    "atouts": [
+     "Approche neuro-émotionnelle accessible à tous",
+     "Supervisions individuelles ou en groupe",
+     "Veille métier et réglementaire"
+    ]
+   },
+   "programme": {
+    "titre": "Le programme",
+    "groupes": [
+     {
+      "titre": "Introduction & biologie",
+      "points": [
+       "Évolution de la pratique et apport des neurosciences",
+       "Les 11 systèmes du corps (tronc commun)",
+       "Notions de dermatologie"
+      ]
+     },
+     {
+      "titre": "Les neurosciences du stress",
+      "points": [
+       "Mécanismes du stress aigu et des tensions chroniques",
+       "Système nerveux autonome et nerf vague",
+       "Adaptation et rebond émotionnel"
+      ]
+     },
+     {
+      "titre": "La boîte à outils",
+      "points": [
+       "Cohérence cardiaque, sophrologie, régulation neurophysiologique",
+       "Rituels du matin inspirés de l’ayurvéda et de la naturopathie",
+       "Fleurs de Bach, olfaction et méditations guidées"
+      ]
+     },
+     {
+      "titre": "Le public & les ressources",
+      "points": [
+       "Psychomorphologie et temps d’échange",
+       "Articles, visioconférences et veille métier"
+      ]
+     }
+    ]
+   },
+   "competences": [
+    {
+     "titre": "Accueillir",
+     "texte": "Installer un cadre d’écoute bienveillant et sécurisant."
+    },
+    {
+     "titre": "Repérer",
+     "texte": "Identifier les signes de surcharge et adapter les rituels de relaxation."
+    },
+    {
+     "titre": "Transmettre",
+     "texte": "Maîtriser et transmettre la cohérence cardiaque, l’olfaction, les fleurs de Bach."
+    },
+    {
+     "titre": "Animer",
+     "texte": "Concevoir et animer un atelier de gestion du stress en structure ou en entreprise."
+    }
+   ],
+   "modalites": [
+    {
+     "titre": "Format",
+     "texte": "En ligne, à votre rythme (bientôt aussi en présentiel)."
+    },
+    {
+     "titre": "Évaluation",
+     "texte": "Suivi des heures d’intégration, étude de cas et entretien de fin de cursus."
+    },
+    {
+     "titre": "Prérequis",
+     "texte": "Accessible à tous."
+    },
+    {
+     "titre": "Validation",
+     "texte": "Attestation de fin de formation et attestation d’école."
+    }
+   ],
+   "paiement": {
+    "total": 595,
+    "fois": 3
+   },
+   "dates": {
+    "formations": [
+     "stress"
+    ]
+   },
+   "avis": [],
+   "description": "Coach en mieux-être : neurosciences du stress, cohérence cardiaque, sophrologie, rituels et ateliers. En ligne, 595 € en 1 ou 3 fois sans frais.",
+   "accroche": "Les outils du mieux-être au quotidien"
+  },
+  {
+   "cle": "sonotherapie",
+   "page": "fiche-sonotherapie",
+   "fichier": "formation-sonotherapie",
+   "titre1": "Sonothérapie &",
+   "titre2": "relaxation sonore",
+   "cadrage": "55% 50%",
+   "alt": "Bols chantants, gong et bols de cristal sur un tapis",
+   "altPortrait": "Bols chantants et gong dans une pièce chaleureuse",
+   "cles": [
+    [
+     "Bientôt",
+     "programme en préparation"
+    ],
+    [
+     "Le son",
+     "bols, gong, tambour"
+    ],
+    [
+     "Déjà possible",
+     "voyages sonores"
+    ]
+   ],
+   "approche": {
+    "titre": "Le son, chemin de détente",
+    "textes": [
+     "Une future formation pour accompagner la détente par le son : bols chantants, gong, tambour et autres instruments. Sandrine s’est formée à l’accompagnement par le son auprès de l’école l’Art du son.",
+     "En attendant l’ouverture, vous pouvez vivre un voyage sonore ou suivre le module de massage et bain sonore aux bols chantants."
+    ],
+    "atouts": [
+     "Formation en préparation",
+     "Être prévenu(e) de l’ouverture sur simple demande"
+    ]
+   },
+   "programme": {
+    "titre": "Déjà possible",
+    "texte": "Trois façons de découvrir le travail du son avec Sandrine.",
+    "groupes": [
+     {
+      "titre": "Voyage sonore en séance individuelle",
+      "points": [
+       "Associé à la photostimulation",
+       "65 € (à confirmer : 55 € sur la page des séances)"
+      ]
+     },
+     {
+      "titre": "Voyage sonore en groupe",
+      "points": [
+       "Une immersion dans les vibrations des bols et du gong",
+       "39 € l’immersion"
+      ]
+     },
+     {
+      "titre": "Module massage & bain sonore",
+      "points": [
+       "Massage et bain sonore aux bols chantants",
+       "350 € le module"
+      ]
+     }
+    ]
+   },
+   "competences": [],
+   "modalites": [],
+   "paiement": null,
+   "dates": {
+    "formations": [
+     "massages-carte"
+    ],
+    "contient": "bols"
+   },
+   "avis": [],
+   "description": "Formation en sonothérapie et relaxation sonore en préparation. Déjà possible : voyages sonores et module de massage aux bols chantants.",
+   "accroche": "Bientôt : la formation au son"
+  }
+ ]
+}

@@ -117,6 +117,111 @@
       "nav": "Page introuvable",
       "partageAlt": "Page introuvable",
       "accroche": "Page introuvable"
+    },
+    "fiche-massages": {
+      "titre": "Praticien en massages bien-être : SENSORIA",
+      "description": "Cursus complet de 270 h sur 6 à 10 mois : 10 massages au choix, 160 h de pratique sous la yourte de Blois, 110 h en ligne. 2 990 € en 1 à 4 fois sans frais.",
+      "nav": "Praticien en massages bien-être",
+      "partageAlt": "Table de massage dressée de linge crème près d’une fenêtre",
+      "accroche": "270 h pour devenir praticien en massages"
+    },
+    "fiche-massages-carte": {
+      "titre": "Massages à la carte : SENSORIA",
+      "description": "Suédois, abhyanga, pierres chaudes, bols chantants, shiatsu… Chaque massage se suit seul : 35 h minimum dont 2 jours à Blois, 350 € le module.",
+      "nav": "Massages à la carte",
+      "partageAlt": "Pierres chaudes, pochons d’herbes et huiles sur un linge",
+      "accroche": "Un massage, un module, à votre rythme"
+    },
+    "fiche-reflexologie": {
+      "titre": "Réflexologie plantaire, palmaire & faciale : SENSORIA",
+      "description": "Réflexologies plantaire, palmaire et faciale de relaxation : vidéos en ligne puis 2 jours de pratique à Blois. 350 € la formation, en 1 ou 2 fois.",
+      "nav": "Réflexologie plantaire, palmaire & faciale",
+      "partageAlt": "Mains exerçant une pression douce sur la plante d’un pied",
+      "accroche": "Plantaire, palmaire & faciale"
+    },
+    "fiche-amma": {
+      "titre": "Amma, shiatsu assis sur chaise : SENSORIA",
+      "description": "Amma, shiatsu assis sur chaise ergonomique : 35 h minimum, théorie en ligne et pratique à Blois. Idéal en entreprise. 350 € le module.",
+      "nav": "Amma, shiatsu assis sur chaise",
+      "partageAlt": "Chaise de massage ergonomique en bois dans une pièce ensoleillée",
+      "accroche": "Le shiatsu assis, idéal en entreprise"
+    },
+    "fiche-tuina": {
+      "titre": "Tuina, massage traditionnel chinois : SENSORIA",
+      "description": "Tuina, massage traditionnel chinois : pressions, frictions et étirements le long des méridiens. 35 h minimum, pratique à Blois, 350 € le module.",
+      "nav": "Tuina, massage traditionnel chinois",
+      "partageAlt": "Mains massant le haut du dos d’une personne vêtue de lin",
+      "accroche": "Le massage traditionnel chinois"
+    },
+    "fiche-do-in": {
+      "titre": "Animateur en Do In & auto-rééquilibrage : SENSORIA",
+      "description": "Do In, l’auto-massage de la tête aux pieds : e-learning illimité et journée de pratique à Blois, pour soi ou pour animer des ateliers. 99 €.",
+      "nav": "Animateur en Do In & auto-rééquilibrage",
+      "partageAlt": "Personne assise en tailleur se tapotant l’avant-bras",
+      "accroche": "L’auto-massage pour soi et pour les autres"
+    },
+    "fiche-lhove": {
+      "titre": "Méthode LHOVE® : SENSORIA",
+      "description": "LHOVE®, la méthode de massage du ventre créée par Sandrine : souffle, mouvement, magnétisme et protocole à l’huile. 2 jours à Blois, 450 €.",
+      "nav": "Méthode LHOVE®",
+      "partageAlt": "Deux mains posées sur un ventre recouvert d’un linge crème",
+      "accroche": "Le massage du Hara, méthode exclusive"
+    },
+    "fiche-escale": {
+      "titre": "Méthode ESCALE® : SENSORIA",
+      "description": "ESCALE®, la méthode de libération émotionnelle par l’art, le son, le souffle et le mouvement, créée par Sandrine. Pratique à Blois et e-learning illimité.",
+      "nav": "Méthode ESCALE®",
+      "partageAlt": "Mains peignant des formes douces à l’aquarelle",
+      "accroche": "L’éveil des sens par la créativité"
+    },
+    "fiche-naturopathe": {
+      "titre": "Naturopathe holistique : SENSORIA",
+      "description": "Cursus de naturopathe holistique en 8 modules, avec phyto-aromatologie, gestion du stress et 4 massages. 18 à 36 mois, e-learning et pratique à Blois ou Sète.",
+      "nav": "Naturopathe holistique",
+      "partageAlt": "Table de cuisine avec légumes de saison, herbes et carafe d’eau",
+      "accroche": "Le cursus complet de naturopathe"
+    },
+    "fiche-phyto": {
+      "titre": "Conseiller en phyto-aromatologie familiale : SENSORIA",
+      "description": "Conseiller en phyto-aromatologie familiale : 37 huiles essentielles, plantes, précautions et dosages, en ligne. 595 € en 1 à 3 fois sans frais.",
+      "nav": "Conseiller en phyto-aromatologie familiale",
+      "partageAlt": "Flacons ambrés, lavande et romarin sur un linge",
+      "accroche": "Huiles essentielles & plantes au quotidien"
+    },
+    "fiche-stress": {
+      "titre": "Coach en mieux-être, gestion du stress : SENSORIA",
+      "description": "Coach en mieux-être : neurosciences du stress, cohérence cardiaque, sophrologie, rituels et ateliers. En ligne, 595 € en 1 ou 3 fois sans frais.",
+      "nav": "Coach en mieux-être, gestion du stress",
+      "partageAlt": "Silhouette assise de dos face à des collines au lever du soleil",
+      "accroche": "Les outils du mieux-être au quotidien"
+    },
+    "fiche-sonotherapie": {
+      "titre": "Praticien en sonothérapie & relaxation sonore : SENSORIA",
+      "description": "Formation en sonothérapie et relaxation sonore en préparation. Déjà possible : voyages sonores et module de massage aux bols chantants.",
+      "nav": "Praticien en sonothérapie & relaxation sonore",
+      "partageAlt": "Bols chantants, gong et bols de cristal sur un tapis",
+      "accroche": "Bientôt : la formation au son"
+    },
+    "seances": {
+      "titre": "Séances individuelles : ORIÂ®, LHOVE®, ACT®, cocooning, voyage sonore : SENSORIA",
+      "description": "Séances individuelles sur mesure avec Sandrine Sansano : soins signatures ORIÂ® et LHOVE®, séance chamanique ACT®, cocooning énergétique, voyage sonore. De 65 à 85 €.",
+      "nav": "Séances",
+      "partageAlt": "Plaid de laine, bougie et tasse de tisane",
+      "accroche": "Des séances sur mesure, en douceur"
+    },
+    "ateliers": {
+      "titre": "Ateliers & parcours : découvertes, constellations, ressourcement : SENSORIA",
+      "description": "Ateliers-découvertes à 99 €, constellations du vivant, journées et retraites de ressourcement, ateliers co-créatifs et parcours, à Blois et Sète.",
+      "nav": "Ateliers",
+      "partageAlt": "Table d’atelier avec pendule, flacons et carnet",
+      "accroche": "Apprendre, partager, se ressourcer"
+    },
+    "confidentialite": {
+      "titre": "Politique de confidentialité : SENSORIA",
+      "description": "Données recueillies par le site de Sensoria, leur usage, leur protection et vos droits.",
+      "nav": "Confidentialité",
+      "partageAlt": "Papier artisanal aux fibres végétales",
+      "accroche": "Vos données, vos droits"
     }
   },
   "accueil": {
@@ -154,14 +259,14 @@
         "titre": "Séances individuelles",
         "texte": "Soins signatures ORIÂ®, LHOVE® et ACT®, voyages sonores, à Blois et Sète.",
         "prix": "de 65 € à 85 €",
-        "lien": "Voir les tarifs",
+        "lien": "Découvrir les séances",
         "alt": "Sandrine assise parmi les bols chantants et le gong, dans la yourte"
       },
       "ateliers": {
         "titre": "Ateliers",
         "texte": "Ateliers découverte pour s’initier, ateliers co-créatifs avec d’autres professionnels.",
         "prix": "dès 39 €",
-        "lien": "Voir les dates",
+        "lien": "Découvrir les ateliers",
         "alt": "Un groupe assis dans la yourte de Blois pendant un atelier"
       },
       "formations": {
@@ -625,5 +730,144 @@
     "retour": "Revenir à l’accueil",
     "formations": "Voir les formations",
     "alt": "Sentier qui se perd dans la brume du matin"
+  },
+  "fiche": {
+    "tete": {
+      "action": "Demander mon entretien",
+      "prevenir": "Être prévenu(e) de l’ouverture",
+      "programme": "Voir le programme",
+      "dates": "Voir les dates",
+      "prochaine": "Prochaine date"
+    },
+    "tarif": {
+      "legende": "{total} réglés en {n} fois sans frais : {part} par échéance",
+      "legendeUne": "{total} réglés en une fois",
+      "fois": "en {n} fois sans frais",
+      "une": "en une fois"
+    },
+    "competences": {
+      "titre": "Compétences visées"
+    },
+    "modalites": {
+      "titre": "Modalités & tarif",
+      "inscrire": "Demander une inscription",
+      "tarifs": "Tous les tarifs"
+    },
+    "dates": {
+      "titre": "Prochaines dates",
+      "texte": "Les statuts se mettent à jour chaque jour. Sessions possibles sur demande à Sète et Briord.",
+      "vide": "Pas de date publiée pour l’instant : les sessions s’organisent sur demande, à Blois, Sète ou Briord.",
+      "demander": "Demander une date",
+      "agenda": "Tout l’agenda"
+    },
+    "avis": {
+      "titre": "Ils l’ont suivie"
+    },
+    "fin": {
+      "titre": "Construisons votre projet",
+      "texte": "Chaque formation commence par un échange avec Sandrine : vos envies, votre rythme, la bonne formule.",
+      "domaine": "Dans le même domaine ({domaine})"
+    }
+  },
+  "seances": {
+    "tete": {
+      "surtitre": "Séances",
+      "titre1": "Séances",
+      "titre2": "individuelles",
+      "texte": "Chaque séance est unique et s’adapte à vos besoins du moment : un temps pour vous, en douceur, avec Sandrine.",
+      "action": "Prendre rendez-vous",
+      "info": "De 65 à 85 € · sur rendez-vous",
+      "alt": "Plaid de laine, bougie et tasse de tisane sur un tapis de lin"
+    },
+    "approche": {
+      "titre": "Une séance sur mesure",
+      "texte": "Ensemble, vous choisissez parmi les outils de Sandrine : soins signatures, magnétisme, chamanisme, son et lumière."
+    },
+    "liste": {
+      "titre": "Les séances",
+      "texte": "Cinq façons de prendre soin de vous, en douceur.",
+      "methode": "La méthode en formation",
+      "note": "Tarifs à la séance, réglés sur place.",
+      "tarifs": "Tous les tarifs"
+    },
+    "fin": {
+      "titre": "Réserver votre séance",
+      "texte": "Un message ou un appel suffit : Sandrine vous propose un créneau et répond à vos questions."
+    }
+  },
+  "ateliers": {
+    "tete": {
+      "surtitre": "Ateliers & parcours",
+      "titre1": "Ateliers",
+      "titre2": "& parcours",
+      "texte": "Des espaces de pratique et de partage : faire vos premiers pas, prendre soin de vous ensemble, avancer sur plusieurs mois.",
+      "action": "Voir les prochains ateliers",
+      "info": "Dès 39 € · sans prérequis",
+      "alt": "Table d’atelier avec pendule, flacons ambrés et carnet"
+    },
+    "decouvertes": {
+      "titre": "Les ateliers-découvertes",
+      "texte": "Une journée, sans prérequis, dans un cadre doux à Blois ou à Sète, pour repartir avec des outils concrets.",
+      "action": "Demander une inscription"
+    },
+    "groupe": {
+      "surtitre": "En groupe"
+    },
+    "cocreatifs": {
+      "titre": "Les ateliers co-créatifs",
+      "texte": "Des rendez-vous uniques, imaginés avec d’autres professionnels du mieux-être."
+    },
+    "parcours": {
+      "titre": "Les parcours",
+      "texte": "Pour avancer sur la durée, en groupe ou à deux.",
+      "action": "Rejoindre un parcours"
+    },
+    "dates": {
+      "titre": "Prochains ateliers",
+      "texte": "Les statuts se mettent à jour chaque jour.",
+      "agenda": "Tous les ateliers dans l’agenda"
+    },
+    "fin": {
+      "titre": "Une question sur un atelier ?",
+      "texte": "Sandrine vous aide à choisir l’atelier ou le parcours qui vous correspond.",
+      "action": "Demander une inscription"
+    }
+  },
+  "confidentialite": {
+    "titre": "Politique de confidentialité",
+    "intro": "Cette politique reprend celle du site actuel de Sensoria et la complète pour le nouveau site. Elle sera validée par Sensoria avant la mise en ligne définitive.",
+    "responsable": {
+      "titre": "Responsable",
+      "texte": "Sandrine Sansano, entreprise individuelle SENSORIA, 51 rue de Villiersfins, 41000 Blois. Contact : contact@formations-sensoria.fr, 06 73 41 80 05."
+    },
+    "donnees": {
+      "titre": "Données recueillies",
+      "texte": "Le formulaire recueille les informations que vous choisissez de donner : nom, adresse e-mail, téléphone, sujet et message. L’hébergeur enregistre aussi des données techniques de connexion (adresse IP, navigateur, page demandée)."
+    },
+    "usage": {
+      "titre": "Utilisation",
+      "texte": "Ces informations servent uniquement à répondre à votre demande et à organiser votre formation, votre atelier ou votre séance. Avec votre accord, votre adresse e-mail peut recevoir des nouvelles de Sensoria de façon occasionnelle ; chaque e-mail contient un lien de désinscription."
+    },
+    "partage": {
+      "titre": "Partage",
+      "texte": "Vos informations ne sont ni vendues, ni échangées, ni transférées à des tiers. Seule Sandrine Sansano y a accès."
+    },
+    "securite": {
+      "titre": "Protection",
+      "texte": "Les échanges avec le site sont chiffrés (HTTPS) et les informations sont conservées dans un environnement sécurisé."
+    },
+    "cookies": {
+      "titre": "Cookies",
+      "texte": "Le site ne dépose aucun cookie publicitaire ni de mesure d’audience. Votre navigateur garde seulement vos préférences d’affichage, comme la réduction des animations."
+    },
+    "conservation": {
+      "titre": "Durée de conservation",
+      "texte": "Durée pendant laquelle les demandes et les dossiers d’inscription sont gardés."
+    },
+    "droits": {
+      "titre": "Vos droits",
+      "texte": "Vous pouvez accéder à vos données, les faire rectifier ou effacer, ou vous opposer à leur utilisation, en écrivant à <a href=\"mailto:contact@formations-sensoria.fr\">contact@formations-sensoria.fr</a>. Vous pouvez aussi adresser une réclamation à la CNIL."
+    },
+    "maj": "Dernière mise à jour : 3 novembre 2026."
   }
 }
